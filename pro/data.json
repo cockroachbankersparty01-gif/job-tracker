@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "jobs": [
   {
    "t": "Software Development Engineer I",
@@ -2811,6 +2811,843 @@
    "sal": "",
    "batch": "",
    "note": ""
+  },
+  {
+   "t": "Associate Developer – Software Development",
+   "co": "TransUnion",
+   "loc": "Hyderabad",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://transunion.wd5.myworkdayjobs.com/TransUnion/job/Hyderabad/Assoc-Developer--Software-Development_19043115-1",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Remote Support Engineer – Digital Services",
+   "co": "Schneider Electric",
+   "loc": "Bengaluru",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "support"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://careers.se.com/jobs/145678?lang=en-us",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Trainee – Chemist (Beverage QA)",
+   "co": "RJ Corp",
+   "loc": "Nuh (Haryana)",
+   "q": [
+    "civil",
+    "core",
+    "ece",
+    "mech"
+   ],
+   "s": [
+    "core"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://rjcorphcm-iacbiz.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4350",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "ASIC CAD Intern (Master's Degree)",
+   "co": "Marvell",
+   "loc": "Bengaluru",
+   "q": [
+    "civil",
+    "core",
+    "cse",
+    "ece",
+    "mca",
+    "mech"
+   ],
+   "s": [
+    "core",
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Bangalore/ASIC-CAD-Intern---Master-s-Degree_2604151",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Intern – Chemical Engineering (Bachelor's)",
+   "co": "Honeywell",
+   "loc": "Bengaluru",
+   "q": [
+    "civil",
+    "core",
+    "ece",
+    "mech"
+   ],
+   "s": [
+    "core"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx/job/162781",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Apprentice – CA (Articleship)",
+   "co": "MUFG Pension & Market Services",
+   "loc": "India",
+   "q": [
+    "com",
+    "mba"
+   ],
+   "s": [
+    "finance"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "apprentice",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://hcmn.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/16422",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Associate Fraud & Claims Operations Representative (Freshers only)",
+   "co": "Wells Fargo",
+   "loc": "Bengaluru",
+   "q": [
+    "com",
+    "mba"
+   ],
+   "s": [
+    "consult"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Bengaluru-India/Associate-Fraud---Claims-Operations-Representative-only-freshers_R-587953",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Finance Analyst",
+   "co": "ABB",
+   "loc": "Bengaluru",
+   "q": [
+    "com",
+    "mba"
+   ],
+   "s": [
+    "consult",
+    "finance"
+   ],
+   "exp": [
+    0,
+    2
+   ],
+   "kind": "job",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://careers.abb/global/en/job/ABB1GLOBALJR00053896EXTERNALENGLOBAL",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Operations Analysis Analyst",
+   "co": "S&P Global",
+   "loc": "Gurugram",
+   "q": [
+    "com",
+    "mba"
+   ],
+   "s": [
+    "consult"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Gurugram-Haryana/Operations-Analysis-Analyst_332998-1",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Trainee – Associate (Beverage Processing)",
+   "co": "RJ Corp",
+   "loc": "Nuh (Haryana)",
+   "q": [
+    "com",
+    "mba"
+   ],
+   "s": [
+    "consult"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://rjcorphcm-iacbiz.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4351",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Customer Service Representative",
+   "co": "Sensata",
+   "loc": "Pune",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "support"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://sensata.wd1.myworkdayjobs.com/Sensata-Careers/job/Pune-India/Customer-Service-Representative_IRC98775",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "AR Caller – International Voice (Freshers)",
+   "co": "HCLTech",
+   "loc": "Chennai",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "support"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://www.linkedin.com/jobs/view/4493635332/",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Aviation Intern",
+   "co": "ICF",
+   "loc": "Delhi",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://icf.wd5.myworkdayjobs.com/ICFExternal_Career_Site/job/New-Delhi-India/Aviation-Intern_R2603907",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Motion Design Intern",
+   "co": "Team Pumpkin",
+   "loc": "Noida",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "design"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://teampumpkin.keka.com/careers/jobdetails/147997",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Apprentice",
+   "co": "Baxter",
+   "loc": "Bengaluru",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    2
+   ],
+   "kind": "apprentice",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://baxter.wd1.myworkdayjobs.com/baxter/job/Bangalore-Karnataka/Apprentice_JR-213466",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Concierge Executive",
+   "co": "Accor",
+   "loc": "Hyderabad",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://jobs.smartrecruiters.com/AccorHotel/744000162723739-concierge-executive",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Guest Service Associate – Front Office",
+   "co": "Accor",
+   "loc": "Coimbatore",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "support"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://jobs.smartrecruiters.com/AccorHotel/744000162952459-gsa-front-office-",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Business Development Executive – Gold Loan",
+   "co": "CSB Bank",
+   "loc": "Ghaziabad (UP)",
+   "q": [
+    "any",
+    "com",
+    "mba"
+   ],
+   "s": [
+    "finance",
+    "sales"
+   ],
+   "exp": [
+    0,
+    3
+   ],
+   "kind": "job",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://iaamcp.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CSB/job/1133478",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Front Office Associate",
+   "co": "Marriott",
+   "loc": "Amritsar",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "support"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://ejwl.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/MI_CS_1/job/26152399",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Field Sales Executive (Bajaj Pay Metro Card)",
+   "co": "2COMS",
+   "loc": "Delhi",
+   "q": [
+    "any",
+    "civil",
+    "core",
+    "ece",
+    "mba",
+    "mech"
+   ],
+   "s": [
+    "core",
+    "sales"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://2coms.zohorecruit.in/jobs/Careers/25955002912243418",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Customer Sales Executive – New Car Loans",
+   "co": "Tata Capital",
+   "loc": "Bhubaneswar (Odisha)",
+   "q": [
+    "any",
+    "com",
+    "mba"
+   ],
+   "s": [
+    "finance",
+    "sales",
+    "support"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://eofh.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/57613",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Customer Service Executive – Two Wheeler Loans",
+   "co": "Tata Capital",
+   "loc": "Ajmer (Rajasthan)",
+   "q": [
+    "any",
+    "com",
+    "mba"
+   ],
+   "s": [
+    "finance",
+    "support"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://eofh.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/57592",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Customer Service Executive – Two Wheeler Loans",
+   "co": "Tata Capital",
+   "loc": "Bhimavaram (AP)",
+   "q": [
+    "any",
+    "com",
+    "mba"
+   ],
+   "s": [
+    "finance",
+    "support"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://eofh.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/57607",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Customer Service Executive – Motor Finance",
+   "co": "Tata Capital",
+   "loc": "Begusarai (Bihar)",
+   "q": [
+    "any",
+    "com",
+    "mba"
+   ],
+   "s": [
+    "finance",
+    "support"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://eofh.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/57605",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Customer Service Executive – UCV Finance",
+   "co": "Tata Capital",
+   "loc": "Hosur (Tamil Nadu)",
+   "q": [
+    "any",
+    "com",
+    "mba"
+   ],
+   "s": [
+    "finance",
+    "support"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://eofh.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/57604",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Loan Officer – Microfinance",
+   "co": "Tata Capital",
+   "loc": "Wyra, Khammam (Telangana)",
+   "q": [
+    "com",
+    "mba"
+   ],
+   "s": [
+    "finance"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://eofh.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/48031",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Customer Service Executive – Commercial Vehicle Loans",
+   "co": "Tata Capital",
+   "loc": "Delhi",
+   "q": [
+    "any",
+    "com",
+    "mba"
+   ],
+   "s": [
+    "finance",
+    "support"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://eofh.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/57694",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Customer Service Executive – Commercial Vehicle Loans",
+   "co": "Tata Capital",
+   "loc": "Faridabad (Haryana)",
+   "q": [
+    "any",
+    "com",
+    "mba"
+   ],
+   "s": [
+    "finance",
+    "support"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://eofh.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/57699",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Customer Service Executive – New Car Loans",
+   "co": "Tata Capital",
+   "loc": "Bengaluru",
+   "q": [
+    "any",
+    "com",
+    "mba"
+   ],
+   "s": [
+    "finance",
+    "support"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://eofh.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/57732",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Customer Service Executive – Used Commercial Vehicle Loans",
+   "co": "Tata Capital",
+   "loc": "Nagpur",
+   "q": [
+    "any",
+    "com",
+    "mba"
+   ],
+   "s": [
+    "finance",
+    "support"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://eofh.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/57696",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Customer Service Executive – Used Commercial Vehicle Loans",
+   "co": "Tata Capital",
+   "loc": "Manjeri (Kerala)",
+   "q": [
+    "any",
+    "com",
+    "mba"
+   ],
+   "s": [
+    "finance",
+    "support"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://eofh.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/57719",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "MS Engineer – L1 (Collaboration)",
+   "co": "NTT DATA",
+   "loc": "Mumbai",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "data"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://nttlimited.wd3.myworkdayjobs.com/NTT_Careers/job/Mumbai-India/MS-Engineer-L1_R-152766",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
   }
  ],
  "calendar": [
