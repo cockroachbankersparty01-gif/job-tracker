@@ -62,38 +62,40 @@ def rows(soup, need="Last Date"):
 
 def quals(text):
     t = text.lower()
+    def has(words):
+        return re.search(r"(?<![a-z])(?:" + words + r")(?![a-z])", t)
     q = set()
-    if re.search(r"10th|matric|sslc|class 10|8th", t): q.add("10")
-    if re.search(r"12th|inter|hsc|puc|class 12", t): q.add("12")
-    if "iti" in t: q.add("iti")
-    if "diploma" in t: q.add("diploma")
-    if re.search(r"b\.?tech|b\.?e\b|engineering|m\.?tech|m\.?e\b", t): q.add("engg")
-    if re.search(r"b\.?ed|d\.?el\.?ed|tet\b", t): q.add("bed")
-    if re.search(r"mbbs|nursing|gnm|anm|pharm|bds|bams|bhms|md\b|ms\b|dnb|mlt|bpt", t): q.add("medical")
-    if re.search(r"post graduate|\bpg\b|m\.?a\b|m\.?sc|m\.?com|mba|mca|llm|ph\.?d|m\.?phil", t): q.add("pg")
-    if re.search(r"graduate|degree|bachelor|b\.?a\b|b\.?sc|b\.?com|bca|bba|llb|ca\b|cma|cs\b", t): q.add("grad")
+    if has(r"10th|matric(?:ulation)?|sslc|class 10|8th"): q.add("10")
+    if has(r"12th|intermediate|hsc|puc|class 12"): q.add("12")
+    if has(r"iti"): q.add("iti")
+    if has(r"diploma"): q.add("diploma")
+    if has(r"b\.?tech|b\.?e|engineering|m\.?tech|m\.?e"): q.add("engg")
+    if has(r"b\.?ed|d\.?el\.?ed|tet|ctet"): q.add("bed")
+    if has(r"mbbs|nursing|gnm|anm|b\.?pharm|d\.?pharm|pharmacy|bds|bams|bhms|bums|md|ms/md|ms|dnb|mlt|dmlt|bmlt|bpt|b\.?sc nursing"): q.add("medical")
+    if has(r"post graduate|pg|m\.?a|m\.?sc|m\.?com|mba|pgdm|mca|llm|ph\.?d|m\.?phil"): q.add("pg")
+    if has(r"any graduate|graduate|degree|bachelors?|b\.?a|b\.?sc|b\.?com|bca|bba|llb|ca|cma|icwa|cs"): q.add("grad")
     return sorted(q) or ["grad"]
 
 
 def sectors(board, title, heading):
-    t = f"{board} {title} {heading}".lower()
+    t = f"{board} {title}".lower()
+    def has(words):  # whole words only, so "Karbi" never matches "rbi"
+        return re.search(r"\b(?:" + words + r")\b", t)
     s = set()
-    if re.search(r"\bbank|ibps|sbi|rbi|nabard|sidbi|exim|financial", t): s.add("bank")
-    if re.search(r"rail|rrb|rrc|metro", t): s.add("railway")
-    if re.search(r"\bssc\b|staff selection commission", t): s.add("ssc")
-    if "upsc" in t: s.add("upsc")
-    if re.search(r"police|constable|home guard|fire|army|navy|air force|iaf|bsf|crpf|cisf|itbp|assam rifles|"
-                 r"coast guard|defence|territorial|agniveer", t): s.add("police")
-    if re.search(r"teacher|tgt|pgt|prt|lecturer|kvs|nvs|school|education", t): s.add("teaching")
-    if re.search(r"nurs|medical|hospital|aiims|esic|health|nhm|pharmac|doctor|resident", t): s.add("medical")
-    if re.search(r"ltd|limited|corporation|ongc|ntpc|bhel|iocl|gail|sail|coal|powergrid|nlc|bel\b|hal\b|"
-                 r"bdl|beml|shipyard|port|psu|apprentice", t): s.add("psu")
-    if re.search(r"psc|sssb|ssb|state|district|collectorate|high court|vidhan|panchayat|anganwadi", t) or \
-            heading != "All India":
+    if has(r"bank|banking|ibps|sbi|rbi|nabard|sidbi|exim|nhb|financial institutions?"): s.add("bank")
+    if has(r"railways?|rrb|rrc|metro|rail"): s.add("railway")
+    if has(r"ssc|staff selection commission"): s.add("ssc")
+    if has(r"upsc"): s.add("upsc")
+    if has(r"police|constable|home guards?|fire ?(?:fighter|man|men|service)|army|navy|air force|iaf|bsf|crpf|"
+           r"cisf|itbp|ssb|assam rifles|coast guard|defence|territorial army|agniveer|sub inspector|si"): s.add("police")
+    if has(r"teachers?|tgt|pgt|prt|lecturers?|kvs|nvs|schools?|teaching|faculty|professors?"): s.add("teaching")
+    if has(r"nurs(?:e|es|ing)|medical|hospital|aiims|esic|health|nhm|pharmacists?|doctors?|residents?|"
+           r"paramedics?|lab(?:oratory)? technicians?|mbbs"): s.add("medical")
+    if has(r"ltd|limited|corporation|psu|ongc|ntpc|bhel|iocl|gail|sail|coal india|ncl|wcl|secl|mcl|powergrid|"
+           r"nlc|bel|hal|bdl|beml|shipyard|port authority|apprentices?|nsic|recpdcl|rites|ircon|wapcos|nbcc"): s.add("psu")
+    if has(r"psc|sssb|osssc|ossc|ssb|high court|district|collectorate|vidhan sabha|panchayat|anganwadi|dlsa|"
+           r"civil court|judiciary") or heading != "All India":
         s.add("state")
-    if re.search(r"\b(ltd|limited|ncl|wcl|secl|mcl|nsic|recpdcl|rec\b|pfc|irctc|rites|ircon|wapcos|nbcc|engineers india|"
-                 r"hindustan|bharat|national\b.*corporation)", t):
-        s.add("psu")
     return sorted(s) or ["psu"]
 
 
