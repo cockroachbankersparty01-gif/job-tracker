@@ -1,0 +1,66 @@
+name: Build PRO Job Alert APK
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'android-pro/**'
+      - 'pro/index.html'
+      - '.github/workflows/android-pro.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: apk-releases
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
+
+      - name: Bundle the web app into the APK (offline fallback)
+        run: |
+          mkdir -p android-pro/app/src/main/assets
+          cp pro/index.html pro/icon.svg android-pro/app/src/main/assets/
+
+      - name: Build APK
+        working-directory: android-pro
+        run: gradle assembleDebug --no-daemon
+
+      - name: Rename APK
+        run: cp android-pro/app/build/outputs/apk/debug/app-debug.apk PROJobAlert.apk
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: PROJobAlert-apk
+          path: PROJobAlert.apk
+
+      - name: Publish to the "pro-apk-latest" release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          NOTES="PRO Job Alert: private jobs, off-campus drives and internships for B.Tech, MCA, MBA and other professional degrees. Download PROJobAlert.apk below and open it on your Android phone (allow 'Install unknown apps' when asked). Jobs update automatically every time the app opens."
+          if gh release view pro-apk-latest >/dev/null 2>&1; then
+            gh release upload pro-apk-latest PROJobAlert.apk --clobber
+            gh release edit pro-apk-latest --draft=false --notes "$NOTES"
+          else
+            gh release create pro-apk-latest PROJobAlert.apk \
+              --target "${{ github.sha }}" \
+              --title "PRO Job Alert for Android" \
+              --notes "$NOTES"
+          fi
+          sleep 5
+          curl -sfIL "https://github.com/${{ github.repository }}/releases/download/pro-apk-latest/PROJobAlert.apk" > /dev/null

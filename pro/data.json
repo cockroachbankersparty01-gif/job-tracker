@@ -1,0 +1,3025 @@
+{
+ "updated": "2026-11-23",
+ "jobs": [
+  {
+   "t": "Software Development Engineer I",
+   "co": "Amazon",
+   "loc": "Bengaluru, Hyderabad, Chennai",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-11",
+   "last": "2026-11-30",
+   "url": "https://www.amazon.jobs/en/",
+   "src": 0,
+   "sal": "",
+   "batch": "2025–2026",
+   "note": "Listed as an off-campus drive open 3–30 Nov."
+  },
+  {
+   "t": "Software Engineer Trainee",
+   "co": "Cisco",
+   "loc": "Bengaluru",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-03",
+   "last": "2026-11-30",
+   "url": "https://jobs.cisco.com/",
+   "src": 0,
+   "sal": "",
+   "batch": "2026",
+   "note": ""
+  },
+  {
+   "t": "GenC Off-Campus Drive (Programmer Analyst Trainee)",
+   "co": "Cognizant",
+   "loc": "Pan India",
+   "q": [
+    "cse",
+    "ece",
+    "mech",
+    "civil",
+    "core",
+    "mca",
+    "sci"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-03",
+   "last": "2026-11-30",
+   "url": "https://careers.cognizant.com/in/en",
+   "src": 0,
+   "sal": "",
+   "batch": "2025–2026",
+   "note": ""
+  },
+  {
+   "t": "Systems Engineer",
+   "co": "Infosys EdgeVerve",
+   "loc": "Bengaluru + 4 cities",
+   "q": [
+    "cse",
+    "ece",
+    "mech",
+    "civil",
+    "core",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-03",
+   "last": "2026-11-30",
+   "url": "https://www.edgeverve.com/careers/",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Analyst",
+   "co": "HCLTech",
+   "loc": "Bengaluru, Noida, Pune, Chennai, Lucknow",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "it",
+    "support"
+   ],
+   "exp": [
+    0,
+    3
+   ],
+   "kind": "job",
+   "posted": "2026-11-03",
+   "last": "2026-11-30",
+   "url": "https://www.hcltech.com/careers",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Analyst – Generative AI",
+   "co": "HCLTech",
+   "loc": "Noida, Bengaluru, Pune",
+   "q": [
+    "cse",
+    "ece",
+    "mca",
+    "sci"
+   ],
+   "s": [
+    "data",
+    "it"
+   ],
+   "exp": [
+    0,
+    3
+   ],
+   "kind": "job",
+   "posted": "2026-11-11",
+   "last": "",
+   "url": "https://www.hcltech.com/careers",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Associate Software Engineer",
+   "co": "Capgemini",
+   "loc": "Pan India",
+   "q": [
+    "cse",
+    "ece",
+    "mech",
+    "civil",
+    "core",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-09",
+   "last": "",
+   "url": "https://www.capgemini.com/in-en/careers/",
+   "src": 0,
+   "sal": "",
+   "batch": "2022–2026",
+   "note": ""
+  },
+  {
+   "t": "Network Engineer (Exceller)",
+   "co": "Capgemini",
+   "loc": "Pan India",
+   "q": [
+    "cse",
+    "ece",
+    "mech",
+    "civil",
+    "core",
+    "mca"
+   ],
+   "s": [
+    "it",
+    "support"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-13",
+   "last": "",
+   "url": "https://www.capgemini.com/in-en/careers/",
+   "src": 0,
+   "sal": "",
+   "batch": "2026",
+   "note": ""
+  },
+  {
+   "t": "Associate Quality Engineer",
+   "co": "Capgemini",
+   "loc": "Pan India",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    5
+   ],
+   "kind": "job",
+   "posted": "2026-11-09",
+   "last": "",
+   "url": "https://www.capgemini.com/in-en/careers/",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Associate Analyst (Technical Support)",
+   "co": "Wipro",
+   "loc": "Pune, Mumbai",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "support",
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-22",
+   "last": "",
+   "url": "https://careers.wipro.com/",
+   "src": 0,
+   "sal": "",
+   "batch": "2024–2026",
+   "note": ""
+  },
+  {
+   "t": "Analyst",
+   "co": "Wipro",
+   "loc": "Bengaluru, Gurugram, Pune, Hyderabad",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "it",
+    "support"
+   ],
+   "exp": [
+    0,
+    2
+   ],
+   "kind": "job",
+   "posted": "2026-11-11",
+   "last": "",
+   "url": "https://careers.wipro.com/",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Developer L1",
+   "co": "Wipro",
+   "loc": "Hyderabad",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-10",
+   "last": "",
+   "url": "https://careers.wipro.com/",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Web Developer",
+   "co": "Accenture",
+   "loc": "Pan India",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    2
+   ],
+   "kind": "job",
+   "posted": "2026-11-09",
+   "last": "",
+   "url": "https://www.accenture.com/in-en/careers",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Record to Report Ops New Associate",
+   "co": "Accenture",
+   "loc": "Gurugram",
+   "q": [
+    "com",
+    "mba",
+    "any"
+   ],
+   "s": [
+    "finance"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Gurugram/Record-to-Report-Ops-Associate_AIOC-S01673886-1",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Process Executive",
+   "co": "Infosys",
+   "loc": "Pan India",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "support"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-13",
+   "last": "",
+   "url": "https://www.infosys.com/careers/",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Systems Engineer – 2027 batch registration",
+   "co": "Infosys",
+   "loc": "Pan India",
+   "q": [
+    "cse",
+    "ece",
+    "mech",
+    "civil",
+    "core",
+    "mca",
+    "sci"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-15",
+   "last": "",
+   "url": "https://www.infosys.com/careers/",
+   "src": 0,
+   "sal": "",
+   "batch": "2027",
+   "note": "No deadline published; register early."
+  },
+  {
+   "t": "Software Engineer I – Full Stack (Java & React)",
+   "co": "Deloitte Consulting",
+   "loc": "Pune, Bengaluru, Hyderabad",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    2
+   ],
+   "kind": "job",
+   "posted": "2026-11-22",
+   "last": "",
+   "url": "https://www2.deloitte.com/in/en/careers.html",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Quality Engineer (Data Analytics)",
+   "co": "Deloitte",
+   "loc": "Pan India",
+   "q": [
+    "cse",
+    "ece",
+    "mca",
+    "sci"
+   ],
+   "s": [
+    "data"
+   ],
+   "exp": [
+    0,
+    2
+   ],
+   "kind": "job",
+   "posted": "2026-11-22",
+   "last": "",
+   "url": "https://www2.deloitte.com/in/en/careers.html",
+   "src": 0,
+   "sal": "",
+   "batch": "2027",
+   "note": ""
+  },
+  {
+   "t": "Associate Analyst",
+   "co": "Deloitte",
+   "loc": "Pan India",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "consult"
+   ],
+   "exp": [
+    0,
+    3
+   ],
+   "kind": "job",
+   "posted": "2026-11-13",
+   "last": "",
+   "url": "https://www2.deloitte.com/in/en/careers.html",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Analyst",
+   "co": "KPMG",
+   "loc": "Gurugram",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "consult"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-23",
+   "last": "2026-11-30",
+   "url": "https://kpmg.com/in/en/careers.html",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Associate Consultant – ServiceNow",
+   "co": "KPMG Global Services",
+   "loc": "Bengaluru",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it",
+    "consult"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30052243",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Analyst",
+   "co": "EY",
+   "loc": "Bengaluru",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "consult"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-03",
+   "last": "2026-11-30",
+   "url": "https://careers.ey.com/",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Software Engineer / Associate Technical Support Engineer",
+   "co": "Salesforce",
+   "loc": "Hyderabad",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it",
+    "support"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-16",
+   "last": "2026-11-30",
+   "url": "https://careers.salesforce.com/",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Systems Engineering Associate",
+   "co": "Salesforce",
+   "loc": "Hyderabad",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-16",
+   "last": "",
+   "url": "https://careers.salesforce.com/",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Associate Software Engineer",
+   "co": "Sandisk",
+   "loc": "Bengaluru",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-03",
+   "last": "2026-11-30",
+   "url": "https://jobs.sandisk.com/",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Junior Software Developer",
+   "co": "Infineon",
+   "loc": "Bengaluru",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-03",
+   "last": "2026-11-30",
+   "url": "https://www.infineon.com/careers",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Engineer – Software Test & Release",
+   "co": "Sasken",
+   "loc": "Bengaluru",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-03",
+   "last": "2026-11-30",
+   "url": "https://www.sasken.com/careers",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Associate Software Engineer",
+   "co": "Heizen",
+   "loc": "Hyderabad",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-03",
+   "last": "2026-11-30",
+   "url": "https://joinsaarthi.com/drives/2e66ad8b-524b-496a-b3d0-5791055fb1bc",
+   "src": 1,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Multiple roles (freshers)",
+   "co": "Zycus",
+   "loc": "Bengaluru",
+   "q": [
+    "cse",
+    "ece",
+    "mech",
+    "civil",
+    "core",
+    "mca",
+    "mba"
+   ],
+   "s": [
+    "it",
+    "sales"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-03",
+   "last": "2026-11-30",
+   "url": "https://www.zycus.com/careers",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Software Engineer",
+   "co": "Caterpillar",
+   "loc": "Chennai, Bengaluru",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    3
+   ],
+   "kind": "job",
+   "posted": "2026-11-21",
+   "last": "",
+   "url": "https://careers.caterpillar.com/",
+   "src": 0,
+   "sal": "",
+   "batch": "2023–2026",
+   "note": ""
+  },
+  {
+   "t": "Software Engineer",
+   "co": "Ford",
+   "loc": "Chennai",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-12",
+   "last": "",
+   "url": "https://corporate.ford.com/careers.html",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Associate Engineer – Software (Hybrid)",
+   "co": "Eaton",
+   "loc": "Pune",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-06",
+   "last": "",
+   "url": "https://www.eaton.com/in/en-gb/company/careers.html",
+   "src": 0,
+   "sal": "",
+   "batch": "2024–2026",
+   "note": ""
+  },
+  {
+   "t": "Web Developer (Early Professional)",
+   "co": "Mouser Electronics",
+   "loc": "Bengaluru",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    2
+   ],
+   "kind": "job",
+   "posted": "2026-11-18",
+   "last": "",
+   "url": "https://www.mouser.in/careers/",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Associate Application Developer – Salesforce",
+   "co": "Genesys",
+   "loc": "Chennai",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-21",
+   "last": "",
+   "url": "https://www.genesys.com/careers",
+   "src": 0,
+   "sal": "",
+   "batch": "2027",
+   "note": ""
+  },
+  {
+   "t": "Associate Software Engineer",
+   "co": "CDK Global",
+   "loc": "Hyderabad",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-21",
+   "last": "",
+   "url": "https://www.cdkglobal.com/careers",
+   "src": 0,
+   "sal": "",
+   "batch": "2027",
+   "note": ""
+  },
+  {
+   "t": "Associate Product Manager",
+   "co": "Google",
+   "loc": "Bengaluru",
+   "q": [
+    "cse",
+    "ece",
+    "mech",
+    "civil",
+    "core",
+    "mca",
+    "mba"
+   ],
+   "s": [
+    "it",
+    "consult"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-22",
+   "last": "",
+   "url": "https://www.google.com/about/careers/applications/",
+   "src": 0,
+   "sal": "",
+   "batch": "2027",
+   "note": ""
+  },
+  {
+   "t": "Software Engineer Consultant I",
+   "co": "Allstate",
+   "loc": "Bengaluru, Pune",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://allstate.wd5.myworkdayjobs.com/sourcing_event/job/Ind--Blr-Sez-1-3Rd-6Th--7Th-Floor/Software-Engineer-Consultant-I_R36696",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Software Engineer I – Murex",
+   "co": "FC Global Services (First Citizens)",
+   "loc": "Bengaluru",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it",
+    "finance"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://svb.wd5.myworkdayjobs.com/firstcitizensindia/job/Bangalore-India/Software-Engineer-I---Murex_25001",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Trainee Software Engineer",
+   "co": "Digitide Solutions",
+   "loc": "Chennai",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://iaceiz.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/272779",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Technical Graduate Trainee",
+   "co": "BIG OH TECH",
+   "loc": "Noida",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://bigohtech.keka.com/careers/jobdetails/147956",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Associate – LCNC Engineer",
+   "co": "EXL",
+   "loc": "Noida",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    2
+   ],
+   "kind": "job",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/22896",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Software Developer",
+   "co": "Jansoft Global",
+   "loc": "Ahmedabad / Remote",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    2
+   ],
+   "kind": "job",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://jansoftglobal.zohorecruit.in/jobs/Careers/201027000004121577",
+   "src": 0,
+   "sal": "₹2.4–5 LPA",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Cloud NOC Analyst (L1)",
+   "co": "SRM Technologies",
+   "loc": "Chennai",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "support",
+    "it"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://srmtech.zohorecruit.com/jobs/Careers/664168000024769133",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Junior Database Administrator",
+   "co": "SRM Technologies",
+   "loc": "Chennai",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://srmtech.zohorecruit.com/jobs/Careers/664168000026718399",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Monitoring Engineer – L1",
+   "co": "NTT DATA",
+   "loc": "Mumbai",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "support",
+    "it"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://nttlimited.wd3.myworkdayjobs.com/NTT_Careers/job/Mumbai-India/Monitoring-Engineer---L1_R-152764",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Networking Managed Services Engineer (L1)",
+   "co": "NTT DATA",
+   "loc": "Mangaluru",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "support",
+    "it"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://nttlimited.wd3.myworkdayjobs.com/NTT_Careers/job/Mangalore-India/Networking-Managed-Services-Engineer--L1--4_R-152809",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Desktop / Technical Support Engineer",
+   "co": "ITC Infotech",
+   "loc": "Kolkata",
+   "q": [
+    "cse",
+    "ece",
+    "mech",
+    "civil",
+    "core",
+    "mca"
+   ],
+   "s": [
+    "support"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-03",
+   "last": "2026-11-30",
+   "url": "https://www.itcinfotech.com/careers/",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Jr Engineer – Cybersecurity Operations",
+   "co": "Tata Communications",
+   "loc": "Chennai",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-03",
+   "last": "2026-11-30",
+   "url": "https://www.tatacommunications.com/careers/",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Generative AI Engineer (Freshers)",
+   "co": "Digitals AI",
+   "loc": "Hyderabad",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "data",
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-10",
+   "last": "",
+   "url": "https://hirastra.com/off-campus-drives",
+   "src": 1,
+   "sal": "",
+   "batch": "2026–2027",
+   "note": ""
+  },
+  {
+   "t": "Formal Verification Engineer (New Grad)",
+   "co": "NVIDIA",
+   "loc": "Gurugram",
+   "q": [
+    "ece",
+    "cse"
+   ],
+   "s": [
+    "it",
+    "core"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-10",
+   "last": "",
+   "url": "https://www.nvidia.com/en-in/about-nvidia/careers/",
+   "src": 0,
+   "sal": "",
+   "batch": "2026",
+   "note": ""
+  },
+  {
+   "t": "Trainee Data Scientist",
+   "co": "Equifax",
+   "loc": "Mumbai",
+   "q": [
+    "cse",
+    "ece",
+    "mca",
+    "sci"
+   ],
+   "s": [
+    "data"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://equifax.wd5.myworkdayjobs.com/External/job/IND-Mumbai-Equifax-Analytics/Trainee-Data-Scientist_J00180405",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Data Analyst",
+   "co": "JPMorgan Chase",
+   "loc": "Pan India",
+   "q": [
+    "cse",
+    "ece",
+    "mca",
+    "sci",
+    "com"
+   ],
+   "s": [
+    "data",
+    "finance"
+   ],
+   "exp": [
+    0,
+    3
+   ],
+   "kind": "job",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://careers.jpmorgan.com/in/en/home",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Analyst",
+   "co": "IQVIA",
+   "loc": "Pan India",
+   "q": [
+    "any",
+    "pharm"
+   ],
+   "s": [
+    "data",
+    "health"
+   ],
+   "exp": [
+    0,
+    2
+   ],
+   "kind": "job",
+   "posted": "2026-11-21",
+   "last": "",
+   "url": "https://jobs.iqvia.com/",
+   "src": 0,
+   "sal": "Up to ₹8 LPA",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Associate Analyst – Advanced Analytics (Supply Chain)",
+   "co": "General Mills",
+   "loc": "Mumbai (Powai)",
+   "q": [
+    "cse",
+    "ece",
+    "mech",
+    "civil",
+    "core",
+    "sci",
+    "mba"
+   ],
+   "s": [
+    "data"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers/job/Powai-Mumbai-MH/Associate-Analyst---Advanced-Analytics--GIC-SC-Analytics_10131754",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Data Analyst (Hybrid)",
+   "co": "Cognizant",
+   "loc": "Pan India",
+   "q": [
+    "cse",
+    "ece",
+    "mca",
+    "sci"
+   ],
+   "s": [
+    "data"
+   ],
+   "exp": [
+    0,
+    2
+   ],
+   "kind": "job",
+   "posted": "2026-11-07",
+   "last": "",
+   "url": "https://careers.cognizant.com/in/en",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Associate Financial Analyst",
+   "co": "Maersk",
+   "loc": "Pune",
+   "q": [
+    "com",
+    "mba"
+   ],
+   "s": [
+    "finance"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://maersk.wd3.myworkdayjobs.com/Maersk_Careers/job/India-Pune-411014/XMLNAME--Associate-Financial-Analyst_R203454-1",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Market Risk Analyst",
+   "co": "Citco",
+   "loc": "Mumbai",
+   "q": [
+    "com",
+    "mba",
+    "sci"
+   ],
+   "s": [
+    "finance"
+   ],
+   "exp": [
+    0,
+    2
+   ],
+   "kind": "job",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/15988",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Analyst",
+   "co": "Societe Generale",
+   "loc": "Chennai",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "finance"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-03",
+   "last": "2026-11-30",
+   "url": "https://careers.societegenerale.com/",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Assistant Manager – Business Finance",
+   "co": "Meesho",
+   "loc": "Bengaluru",
+   "q": [
+    "mba",
+    "com"
+   ],
+   "s": [
+    "finance"
+   ],
+   "exp": [
+    1,
+    4
+   ],
+   "kind": "job",
+   "posted": "2026-11-03",
+   "last": "2026-11-30",
+   "url": "https://www.meesho.io/careers",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Junior Data Associate",
+   "co": "MediaRadar",
+   "loc": "Kolkata",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "data"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-22",
+   "last": "",
+   "url": "https://hiredoor.in/jobs/junior-data-associate-e09902",
+   "src": 1,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Associate – Branch Operations",
+   "co": "Tata Capital",
+   "loc": "Vapi (Gujarat)",
+   "q": [
+    "com",
+    "any"
+   ],
+   "s": [
+    "finance"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://eofh.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/56885",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Customer Service / Sales Executive – Loans (multiple cities)",
+   "co": "Tata Capital",
+   "loc": "Bhubaneswar, Ajmer, Hyderabad, Begusarai, Hosur, Bhimavaram",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "finance",
+    "sales"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://eofh.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/57606",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Relationship Officer – Kotak 811 Digital Sales",
+   "co": "Kotak Mahindra Bank",
+   "loc": "Hyderabad",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "finance",
+    "sales"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://hcbt.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx/job/276306",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Business Development Executive – Gold Loan",
+   "co": "CSB Bank",
+   "loc": "Davangere, Ghaziabad",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "finance",
+    "sales"
+   ],
+   "exp": [
+    0,
+    3
+   ],
+   "kind": "job",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://iaamcp.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CSB/job/1134433",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Process Associate",
+   "co": "First American (India)",
+   "loc": "Salem (Tamil Nadu)",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "support",
+    "finance"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://firstam.wd1.myworkdayjobs.com/faicareers/job/IND-Tamil-Nadu-Salem/Process-Associate_R059664",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Graduate Engineering Trainee / Associate Engineer",
+   "co": "L&T Technology Services",
+   "loc": "Pan India",
+   "q": [
+    "cse",
+    "ece",
+    "mech",
+    "civil",
+    "core"
+   ],
+   "s": [
+    "core",
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-06",
+   "last": "2026-11-30",
+   "url": "https://www.ltts.com/careers",
+   "src": 0,
+   "sal": "",
+   "batch": "2026",
+   "note": "Apply through the Superset portal."
+  },
+  {
+   "t": "Associate (freshers)",
+   "co": "Larsen & Toubro",
+   "loc": "Pan India",
+   "q": [
+    "cse",
+    "ece",
+    "mech",
+    "civil",
+    "core"
+   ],
+   "s": [
+    "core"
+   ],
+   "exp": [
+    0,
+    2
+   ],
+   "kind": "job",
+   "posted": "2026-11-21",
+   "last": "",
+   "url": "https://www.larsentoubro.com/corporate/careers/",
+   "src": 0,
+   "sal": "Up to ₹9 LPA",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Quality Engineer",
+   "co": "Larsen & Toubro",
+   "loc": "Pan India",
+   "q": [
+    "mech",
+    "ece",
+    "civil",
+    "core"
+   ],
+   "s": [
+    "core"
+   ],
+   "exp": [
+    0,
+    2
+   ],
+   "kind": "job",
+   "posted": "2026-11-18",
+   "last": "",
+   "url": "https://www.larsentoubro.com/corporate/careers/",
+   "src": 0,
+   "sal": "Up to ₹8.5 LPA",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Graduate Engineer Trainee",
+   "co": "Reliance Jio",
+   "loc": "Pan India",
+   "q": [
+    "ece",
+    "cse",
+    "mech",
+    "core"
+   ],
+   "s": [
+    "core",
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-12",
+   "last": "",
+   "url": "https://careers.jio.com/",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Graduate Engineer Trainee – Production (Mechanical)",
+   "co": "Bondada Group",
+   "loc": "Hyderabad",
+   "q": [
+    "mech"
+   ],
+   "s": [
+    "core"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-18",
+   "last": "",
+   "url": "https://beincareer.com/?p=9612",
+   "src": 1,
+   "sal": "",
+   "batch": "2026",
+   "note": ""
+  },
+  {
+   "t": "Graduate Apprentice Trainee",
+   "co": "Volvo",
+   "loc": "Hosakote (Bengaluru)",
+   "q": [
+    "cse",
+    "ece",
+    "mech",
+    "civil",
+    "core"
+   ],
+   "s": [
+    "core"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "apprentice",
+   "posted": "2026-11-03",
+   "last": "2026-11-30",
+   "url": "https://www.volvogroup.com/en/careers.html",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Field Specialist I – WLE",
+   "co": "Baker Hughes",
+   "loc": "Taloja (Raigad)",
+   "q": [
+    "mech",
+    "ece",
+    "core"
+   ],
+   "s": [
+    "core"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/IN-TALOJA-SRV-NO-991A3--991A2-PT-VILAGE-VAVANJE-RAIGAD-DIS/Field-Specialist-I-WLE_R170955",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Sourcing Analyst – Trainee Engineer",
+   "co": "GE HealthCare",
+   "loc": "Bengaluru",
+   "q": [
+    "cse",
+    "ece",
+    "mech",
+    "civil",
+    "core"
+   ],
+   "s": [
+    "core"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://careers.gehealthcare.com/global/en/job/GEVGHLGLOBALR4049575EXTERNALENGLOBAL",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Diploma Trainee",
+   "co": "Wabtec",
+   "loc": "Mysuru",
+   "q": [
+    "mech",
+    "ece"
+   ],
+   "s": [
+    "core"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-18",
+   "last": "",
+   "url": "https://hiredoor.in/reports/off-campus",
+   "src": 1,
+   "sal": "",
+   "batch": "",
+   "note": "Diploma holders."
+  },
+  {
+   "t": "Apprentice",
+   "co": "Itron",
+   "loc": "Bengaluru",
+   "q": [
+    "cse",
+    "ece",
+    "mech",
+    "civil",
+    "core"
+   ],
+   "s": [
+    "core",
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "apprentice",
+   "posted": "2026-11-03",
+   "last": "2026-11-30",
+   "url": "https://careers.itron.com/",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "CAD / Design Support Apprenticeship (12 months)",
+   "co": "Synopsys",
+   "loc": "Noida",
+   "q": [
+    "ece",
+    "cse"
+   ],
+   "s": [
+    "core",
+    "design"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "apprentice",
+   "posted": "2026-11-22",
+   "last": "",
+   "url": "https://hiredoor.in/jobs/cad-design-support-apprenticeship-12-months--f81ee6",
+   "src": 1,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Draftsman Apprentice (B.Arch, Revit/BIM)",
+   "co": "Getinge",
+   "loc": "Mumbai",
+   "q": [
+    "arch",
+    "civil"
+   ],
+   "s": [
+    "design",
+    "core"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "apprentice",
+   "posted": "2026-11-23",
+   "last": "",
+   "url": "https://hiredoor.in/jobs/draftsman-apprentice-b-arch-freshers-revit-bim-937b7f",
+   "src": 1,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Research Associate I – Formulation ARD",
+   "co": "Baxter",
+   "loc": "Ahmedabad",
+   "q": [
+    "pharm",
+    "sci"
+   ],
+   "s": [
+    "health"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://baxter.wd1.myworkdayjobs.com/baxter/job/Ahmedabad-Gujarat/Research-Associate-I_JR-207673",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Area Sales Officer",
+   "co": "Piramal Pharma",
+   "loc": "Uttar Pradesh",
+   "q": [
+    "pharm",
+    "sci",
+    "any"
+   ],
+   "s": [
+    "health",
+    "sales"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Uttar-Pradesh/Area-Sales-Officer_R00004745",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Associate / Sr. Associate",
+   "co": "Sutherland",
+   "loc": "Chennai",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "support"
+   ],
+   "exp": [
+    0,
+    2
+   ],
+   "kind": "job",
+   "posted": "2026-11-03",
+   "last": "2026-11-30",
+   "url": "https://www.sutherlandglobal.com/careers",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Customer Care Representative (US/UK Voice)",
+   "co": "HCLTech",
+   "loc": "Noida",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "support"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://www.linkedin.com/jobs/view/4471445491/",
+   "src": 1,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "International Voice Support Executive (UK)",
+   "co": "Firstsource",
+   "loc": "Bengaluru",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "support"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://www.linkedin.com/jobs/view/4492897201/",
+   "src": 1,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Customer Experience Executive",
+   "co": "slice",
+   "loc": "Bengaluru",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "support",
+    "finance"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://www.linkedin.com/jobs/view/4493287194/",
+   "src": 1,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Graduate Trainee",
+   "co": "Dentsu",
+   "loc": "Pan India",
+   "q": [
+    "any",
+    "mba"
+   ],
+   "s": [
+    "sales",
+    "consult"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-18",
+   "last": "",
+   "url": "https://www.dentsu.com/in/en/careers",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Process Associate, Analyst & Team Lead",
+   "co": "HCLTech",
+   "loc": "Pan India",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "support"
+   ],
+   "exp": [
+    0,
+    5
+   ],
+   "kind": "job",
+   "posted": "2026-11-16",
+   "last": "",
+   "url": "https://www.hcltech.com/careers",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Associate – HR Operations",
+   "co": "Waste Management (WM)",
+   "loc": "Indore",
+   "q": [
+    "mba",
+    "any"
+   ],
+   "s": [
+    "support"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://emcm.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/WMCareers/job/2355611",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Software Engineer Intern",
+   "co": "PayPal",
+   "loc": "Bengaluru, Chennai",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-12",
+   "last": "",
+   "url": "https://careers.pypl.com/",
+   "src": 0,
+   "sal": "₹1 lakh/month stipend",
+   "batch": "2027",
+   "note": ""
+  },
+  {
+   "t": "Software Engineer Intern",
+   "co": "Rubrik",
+   "loc": "Bengaluru",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-06",
+   "last": "",
+   "url": "https://www.rubrik.com/company/careers",
+   "src": 0,
+   "sal": "",
+   "batch": "2027",
+   "note": ""
+  },
+  {
+   "t": "Intern openings (3, remote/hybrid)",
+   "co": "HPE",
+   "loc": "Bengaluru",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-19",
+   "last": "",
+   "url": "https://careers.hpe.com/",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Intern – AI Engineering",
+   "co": "Icertis",
+   "loc": "Pune",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "data",
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-22",
+   "last": "",
+   "url": "https://iaaviz.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Jobs-at-Icertis/job/7861",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Intern – Bachelor's Software Engineering",
+   "co": "Honeywell",
+   "loc": "Bengaluru",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx/job/161638",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Intern – Master's Embedded Engineering",
+   "co": "Honeywell",
+   "loc": "Pune",
+   "q": [
+    "ece",
+    "cse"
+   ],
+   "s": [
+    "core",
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/162870",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "Master's students."
+  },
+  {
+   "t": "Intern / Co-op",
+   "co": "Emerson",
+   "loc": "Pune",
+   "q": [
+    "cse",
+    "ece",
+    "mech",
+    "civil",
+    "core"
+   ],
+   "s": [
+    "core",
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26014151",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Intern – Quality PTM",
+   "co": "Valeo",
+   "loc": "Chennai",
+   "q": [
+    "mech",
+    "ece",
+    "core"
+   ],
+   "s": [
+    "core"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Chennai/Intern---Quality-PTM_REQ2026082411",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Intern – Business Analytics",
+   "co": "Sabre",
+   "loc": "Bengaluru",
+   "q": [
+    "cse",
+    "ece",
+    "mca",
+    "mba",
+    "sci"
+   ],
+   "s": [
+    "data"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://sabre.wd1.myworkdayjobs.com/confidential/job/Bengaluru-Karnataka-India/Intern_JR108997",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Intern – Professional",
+   "co": "FedEx",
+   "loc": "Bengaluru",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "consult",
+    "data"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://fedex.wd1.myworkdayjobs.com/FXE-MEISA-External/job/FXE-MEISAINDBLRIPBLRIPBangalore/M00I0--Intern-Professional_RC789724",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Intern – Process Excellence",
+   "co": "TransUnion",
+   "loc": "Hyderabad",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "consult",
+    "data"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://transunion.wd5.myworkdayjobs.com/TransUnion/job/Hyderabad/Intern---Process-Excellence_19043345",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "F&A Automation Intern",
+   "co": "Teleperformance",
+   "loc": "Gurugram",
+   "q": [
+    "com",
+    "mca",
+    "cse"
+   ],
+   "s": [
+    "finance",
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://onetp.wd1.myworkdayjobs.com/Teleperformance/job/INT-408-Gurgaon/F-A-Automation-Intern_REQ-2026-61936",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Apprentice – Global Supply Management (Analytics)",
+   "co": "American Express",
+   "loc": "Gurugram (Hybrid)",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "data"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "apprentice",
+   "posted": "2026-11-22",
+   "last": "",
+   "url": "https://hiredoor.in/jobs/apprentice-global-supply-management-analytics--ad5789",
+   "src": 1,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Credit Support Apprentice (12 months)",
+   "co": "HSBC",
+   "loc": "Pune, Ahmedabad",
+   "q": [
+    "com",
+    "any"
+   ],
+   "s": [
+    "finance"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "apprentice",
+   "posted": "2026-11-23",
+   "last": "",
+   "url": "https://hiredoor.in/jobs/credit-support-apprentice-12-months-pune-a7cc91",
+   "src": 1,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "CA Intern / Industrial Trainee (12 months)",
+   "co": "HSBC",
+   "loc": "Mumbai, Hyderabad",
+   "q": [
+    "com"
+   ],
+   "s": [
+    "finance"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-23",
+   "last": "",
+   "url": "https://hiredoor.in/jobs/ca-intern-12-months-mumbai-69d7e0",
+   "src": 1,
+   "sal": "",
+   "batch": "",
+   "note": "CA articleship / industrial training."
+  },
+  {
+   "t": "Backend Developer Intern",
+   "co": "Foundryy",
+   "loc": "Remote",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-22",
+   "last": "",
+   "url": "https://hiredoor.in/jobs/backend-developer-intern-0eaf18",
+   "src": 1,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "AI Engineering Intern",
+   "co": "Trexo Global",
+   "loc": "Noida",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "data",
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-22",
+   "last": "",
+   "url": "https://hiredoor.in/jobs/ai-engineering-intern-0d39a1",
+   "src": 1,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Intern – Java",
+   "co": "RMgX Technologies",
+   "loc": "Gurugram",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://jobs.smartrecruiters.com/RMgXTechnologiesLLP/744000162453479-intern-java",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Product User Research Intern",
+   "co": "Sarvam AI",
+   "loc": "Bengaluru",
+   "q": [
+    "any",
+    "mba"
+   ],
+   "s": [
+    "design",
+    "data"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://jobs.ashbyhq.com/sarvam/0a5bf81d-3370-47e6-88f4-14aa5102ba72",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Project Management Intern",
+   "co": "Unbox Robotics",
+   "loc": "Pune",
+   "q": [
+    "cse",
+    "ece",
+    "mech",
+    "civil",
+    "core",
+    "mba"
+   ],
+   "s": [
+    "core",
+    "consult"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-20",
+   "last": "",
+   "url": "https://unboxrobotics.keka.com/careers/jobdetails/144800",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Business Analyst Intern",
+   "co": "Talakunchi Networks",
+   "loc": "Mumbai",
+   "q": [
+    "any",
+    "mba"
+   ],
+   "s": [
+    "consult"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-22",
+   "last": "",
+   "url": "https://hiredoor.in/jobs/business-analyst-intern-30833c",
+   "src": 1,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Operations Intern – Fund Operations",
+   "co": "Clearwater Analytics",
+   "loc": "Bengaluru",
+   "q": [
+    "com",
+    "mba"
+   ],
+   "s": [
+    "finance"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-22",
+   "last": "",
+   "url": "https://hiredoor.in/jobs/operations-intern-managed-services-fund-operations--05576a",
+   "src": 1,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  },
+  {
+   "t": "Experienced professionals (6–12 yrs) – mega face-to-face drive",
+   "co": "Cognizant",
+   "loc": "Bengaluru, Chennai, Hyderabad, Pune",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    6,
+    12
+   ],
+   "kind": "job",
+   "posted": "2026-11-15",
+   "last": "",
+   "url": "https://careers.cognizant.com/in/en",
+   "src": 0,
+   "sal": "₹10–35 LPA",
+   "batch": "",
+   "note": "Notice period up to 45 days. Check the careers site for the next drive date."
+  },
+  {
+   "t": "Walk-in drives for experienced IT, BPS & engineering roles",
+   "co": "Tech Mahindra",
+   "loc": "Pune, Bengaluru, Hyderabad, Chennai, Noida, Mumbai",
+   "q": [
+    "cse",
+    "ece",
+    "mech",
+    "civil",
+    "core",
+    "mca",
+    "any"
+   ],
+   "s": [
+    "it",
+    "support",
+    "core"
+   ],
+   "exp": [
+    1,
+    15
+   ],
+   "kind": "job",
+   "posted": "2026-11-15",
+   "last": "",
+   "url": "https://careers.techmahindra.com/",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "Recurring walk-ins; check dates for your city."
+  },
+  {
+   "t": "Walk-in drives (graduates & experienced)",
+   "co": "L&T Technology Services",
+   "loc": "Bengaluru, Chennai, Pune",
+   "q": [
+    "cse",
+    "ece",
+    "mech",
+    "civil",
+    "core"
+   ],
+   "s": [
+    "core",
+    "it"
+   ],
+   "exp": [
+    2,
+    15
+   ],
+   "kind": "job",
+   "posted": "2026-11-15",
+   "last": "",
+   "url": "https://www.ltts.com/careers",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": ""
+  }
+ ],
+ "calendar": [
+  {
+   "t": "TCS NQT (November cycle) – online test",
+   "type": "exam",
+   "start": "2026-11-24",
+   "url": "https://www.tcsion.com/hub/national-qualifier-test/",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "it"
+   ]
+  },
+  {
+   "t": "Off-campus drive windows close (Amazon, Cisco, Cognizant GenC, EY, KPMG, Salesforce & others)",
+   "type": "deadline",
+   "start": "2026-11-30",
+   "url": "https://joinsaarthi.com/drives/off-campus",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "it"
+   ]
+  },
+  {
+   "t": "LTTS Graduate Engineering Trainee – applications close",
+   "type": "deadline",
+   "start": "2026-11-30",
+   "url": "https://www.ltts.com/careers",
+   "q": [
+    "cse",
+    "ece",
+    "mech",
+    "civil",
+    "core"
+   ],
+   "s": [
+    "core"
+   ]
+  }
+ ],
+ "calendarTBA": [
+  {
+   "t": "TCS NQT – next cycle (registration)",
+   "when": "Next cycle expected Dec 2026 – Jan 2027",
+   "url": "https://www.tcsion.com/hub/national-qualifier-test/",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "it"
+   ]
+  },
+  {
+   "t": "Wipro Elite NTH – 2027 batch",
+   "when": "Awaited",
+   "url": "https://careers.wipro.com/",
+   "q": [
+    "cse",
+    "ece",
+    "mech",
+    "civil",
+    "core",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ]
+  },
+  {
+   "t": "Infosys Systems Engineer – 2027 batch assessment",
+   "when": "After registration; date not published",
+   "url": "https://www.infosys.com/careers/",
+   "q": [
+    "cse",
+    "ece",
+    "mech",
+    "civil",
+    "core",
+    "mca",
+    "sci"
+   ],
+   "s": [
+    "it"
+   ]
+  },
+  {
+   "t": "Accenture ASE – 2027 batch off-campus",
+   "when": "Typically Feb–Mar",
+   "url": "https://www.accenture.com/in-en/careers",
+   "q": [
+    "cse",
+    "ece",
+    "mech",
+    "civil",
+    "core",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ]
+  }
+ ],
+ "tracker": [
+  {
+   "t": "TCS NQT (Nov 2026 cycle)",
+   "co": "TCS",
+   "stages": [
+    "Registration (closed 12 Nov)",
+    "Online test (24 Nov)",
+    "Score & shortlist",
+    "Interviews",
+    "Offer"
+   ],
+   "now": 1,
+   "next": "Test on 24 Nov 2026. Shortlists and interviews follow over the next 4–12 weeks.",
+   "url": "https://www.tcsion.com/hub/national-qualifier-test/",
+   "s": [
+    "it"
+   ]
+  },
+  {
+   "t": "Infosys Systems Engineer – 2027 batch",
+   "co": "Infosys",
+   "stages": [
+    "Registration open",
+    "Assessment",
+    "Interview",
+    "Offer"
+   ],
+   "now": 0,
+   "next": "Registration form is live with no published deadline. Register early.",
+   "url": "https://www.infosys.com/careers/",
+   "s": [
+    "it"
+   ]
+  },
+  {
+   "t": "Cognizant GenC off-campus",
+   "co": "Cognizant",
+   "stages": [
+    "Applications (till 30 Nov)",
+    "Online assessment",
+    "Interview",
+    "Offer"
+   ],
+   "now": 0,
+   "next": "Applications listed as open until 30 Nov 2026.",
+   "url": "https://careers.cognizant.com/in/en",
+   "s": [
+    "it"
+   ]
+  },
+  {
+   "t": "Wipro Associate Analyst / Analyst drives",
+   "co": "Wipro",
+   "stages": [
+    "Rolling applications",
+    "Assessment",
+    "Interview",
+    "Offer"
+   ],
+   "now": 0,
+   "next": "Rolling city-wise openings for 2024–2026 batches. Elite NTH 2027 announcement awaited.",
+   "url": "https://careers.wipro.com/",
+   "s": [
+    "it",
+    "support"
+   ]
+  },
+  {
+   "t": "Capgemini ASE & Exceller drives",
+   "co": "Capgemini",
+   "stages": [
+    "Rolling applications",
+    "Game-based & technical test",
+    "Interview",
+    "Offer"
+   ],
+   "now": 0,
+   "next": "Associate Software Engineer (2022–26 batch) and Network Engineer (2026 batch) open.",
+   "url": "https://www.capgemini.com/in-en/careers/",
+   "s": [
+    "it"
+   ]
+  },
+  {
+   "t": "L&T Technology Services GET 2026",
+   "co": "LTTS",
+   "stages": [
+    "Applications (till 30 Nov)",
+    "Online test",
+    "Interview",
+    "Offer"
+   ],
+   "now": 0,
+   "next": "Apply via Superset before 30 Nov 2026.",
+   "url": "https://www.ltts.com/careers",
+   "s": [
+    "core",
+    "it"
+   ]
+  }
+ ]
+}
