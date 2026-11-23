@@ -1,5 +1,7 @@
 name: Probe job sites (temporary)
 on: workflow_dispatch
+permissions:
+  contents: write
 jobs:
   probe:
     runs-on: ubuntu-latest
@@ -21,7 +23,8 @@ jobs:
             f=$(echo "$u" | sed 's#https\?://##; s#[/?=&]#_#g').html
             code=$(curl -sL -A "$UA" -o "$f" -w '%{http_code}' "$u"); echo "$code $(wc -c <"$f") $u"
           done
-      - uses: actions/upload-artifact@v4
-        with:
-          name: pages
-          path: pages
+      - name: Save pages to the probe-pages branch
+        run: |
+          cd pages && git init -q && git checkout -q -b probe-pages && git add . \
+            && git -c user.name=bot -c user.email=bot@example.com commit -qm pages \
+            && git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" probe-pages
