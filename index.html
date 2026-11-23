@@ -222,7 +222,7 @@ footer{margin:22px 0 8px;font-size:.82rem;color:var(--muted);display:grid;gap:6p
 
   <footer>
     <p>Dates and vacancy counts are collected from public recruitment notices and job-news sites. Always confirm eligibility, age limits and dates in the official notification before you apply or pay any fee.</p>
-    <p>Status is recalculated every time you open this page, so "closing soon" and "closed" labels stay correct day to day. New notifications, admit cards, answer keys and results are added at each daily refresh; the date at the top shows the last one.</p>
+    <p>Status is recalculated every time you open this page, so "closing soon" and "closed" labels stay correct day to day. New notifications, admit cards, answer keys and results are published every morning, and the app loads the latest listings automatically each time you open it.</p>
   </footer>
 </div>
 
@@ -490,19 +490,22 @@ function lastCheck(){ try{ return Number(localStorage.getItem("sjt-lastcheck"))|
 function showStale(){
   const el=$("#stale"); if(!DATA_UPDATED){ el.classList.add("hidden"); return; }
   const age=Math.round((today()-parse(DATA_UPDATED))/DAY);
-  if(age>=2){ el.textContent=`Listings were last updated ${age} days ago. The app checks for new data automatically; you can also pull down to refresh.`; el.classList.remove("hidden"); }
+  if(age>=2){ el.textContent=`Listings were last updated ${age} days ago. The app checks for new data every time it opens.`; el.classList.remove("hidden"); }
   else el.classList.add("hidden");
 }
 // If the viewer hasn't refreshed for 2 days (or the data itself is 2+ days old), refresh on its own
+// Always fetch fresh data: on every open (see the end of this script), whenever the app/tab
+// comes back on screen, and every 15 minutes while it stays open. No manual refresh needed.
 function autoCheck(){
   if(loading || document.hidden) return;
-  const sinceCheck=Date.now()-lastCheck();
-  const dataAge=DATA_UPDATED ? (today()-parse(DATA_UPDATED))/DAY : 99;
-  if(sinceCheck>2*DAY) loadData(false,"Auto-refreshed: it had been over 2 days since the last refresh.");
-  else if(dataAge>=2 && sinceCheck>60*60*1000) loadData(false);
+  if(Date.now()-lastCheck() > 60*1000) loadData(false);
 }
 document.addEventListener("visibilitychange",()=>{ if(!document.hidden) autoCheck(); });
-setInterval(autoCheck, 30*60*1000);
+window.addEventListener("focus",autoCheck);
+window.addEventListener("pageshow",autoCheck);
+setInterval(autoCheck, 15*60*1000);
+// The Android app calls this when it is reopened from the background
+window.appResumed = function(){ loadData(false); };
 
 async function loadData(manual, autoMsg){
   if(loading) return; loading=true;
@@ -513,7 +516,7 @@ async function loadData(manual, autoMsg){
     // Inside the Android app the page runs from the APK, so it reads the daily data straight from the GitHub repo
     const DATA_URL = location.protocol==="file:"
       ? "https://raw.githubusercontent.com/cockroachbankersparty01-gif/job-tracker/main/data.json?t="+Date.now()
-      : "data.json";
+      : "data.json?t="+Date.now();   // skip cached copies so every open gets the newest data
     const r=await fetch(DATA_URL,{cache:"no-store"});
     if(!r.ok) throw new Error(r.status);
     const d=await r.json();
@@ -523,6 +526,7 @@ async function loadData(manual, autoMsg){
     showUpdated(); showStale();
     if(!$("#main").classList.contains("hidden")) render();
     if(manual) toast(prev && prev===DATA_UPDATED ? "Already up to date · deadlines recalculated" : "Updated with listings from " + fmt(DATA_UPDATED));
+    else if(prev && prev!==DATA_UPDATED) toast("New listings loaded · updated " + fmt(DATA_UPDATED));
     else if(autoMsg) toast(autoMsg);
   }catch(e){
     if(manual) toast("Couldn't refresh. Check your connection and try again.");
@@ -566,7 +570,7 @@ showUpdated();
 fillStates();
 renderChips();
 if(profile && profile.q && profile.q.length && profile.e) showMain();
-loadData(false, lastCheck() && Date.now()-lastCheck()>2*DAY ? "Auto-refreshed: it had been over 2 days since the last refresh." : undefined);
+loadData(false);
 </script>
 </body>
 </html>
