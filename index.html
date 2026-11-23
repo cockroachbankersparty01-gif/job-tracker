@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sarkari Job Tracker</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#1b2340">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="description" content="Daily Indian government job openings, admit cards, answer keys, results and exam calendar, filtered by your qualification.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Hind:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* Layout: a government notice board. Profile strip on top, tabs, then dated notice rows with a status stamp on the right. */
+:root{
+  --ink:#1b2340; --paper:#f6f6f3; --card:#ffffff; --line:#dcdfe6; --muted:#5d6478;
+  --accent:#c2410c; --accent-soft:#fff1e8;
+  --ok:#15803d; --ok-bg:#e8f6ec; --warn:#b45309; --warn-bg:#fff6e0; --bad:#b91c1c; --bad-bg:#fdecec; --info:#1d4ed8; --info-bg:#e9f0ff;
+  --display:"Archivo", "Segoe UI", system-ui, sans-serif; --body:"Hind", "Segoe UI", system-ui, sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --ink:#e8eaf2; --paper:#12151f; --card:#1a1f2d; --line:#2c3346; --muted:#9aa2b8;
+  --accent:#fb923c; --accent-soft:#2c1e14;
+  --ok:#4ade80; --ok-bg:#132a1c; --warn:#fbbf24; --warn-bg:#2b2412; --bad:#f87171; --bad-bg:#2e1616; --info:#93b4ff; --info-bg:#172040;
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --ink:#e8eaf2; --paper:#12151f; --card:#1a1f2d; --line:#2c3346; --muted:#9aa2b8;
+  --accent:#fb923c; --accent-soft:#2c1e14;
+  --ok:#4ade80; --ok-bg:#132a1c; --warn:#fbbf24; --warn-bg:#2b2412; --bad:#f87171; --bad-bg:#2e1616; --info:#93b4ff; --info-bg:#172040;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5}
+.wrap{max-width:860px;margin:0 auto;padding:16px}
+header{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap;border-bottom:3px double var(--line);padding-bottom:10px}
+h1{font-family:var(--display);font-weight:800;font-size:1.6rem;margin:0;letter-spacing:-.01em;text-wrap:balance}
+h1 span{color:var(--accent)}
+.updated{font-size:.85rem;color:var(--muted)}
+h2{font-family:var(--display);font-size:1.15rem;margin:0 0 6px;text-wrap:balance}
+p{margin:0}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* Onboarding */
+.panel{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;margin-top:16px;display:grid;gap:14px}
+.step-label{font-size:.8rem;font-weight:600;color:var(--accent);text-transform:uppercase;letter-spacing:.06em}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:6px 14px;cursor:pointer;font-size:.95rem}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.chip:hover{border-color:var(--ink)}
+.btn{background:var(--accent);color:#fff;border:0;border-radius:8px;padding:10px 18px;font-weight:600;cursor:pointer;justify-self:start}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.hint{font-size:.85rem;color:var(--muted)}
+
+/* Profile strip */
+.profile{display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap;background:var(--accent-soft);border-radius:10px;padding:10px 14px;margin-top:16px;font-size:.95rem}
+.profile b{font-weight:600}
+
+/* Summary */
+.summary{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:14px}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.tile .n{font-family:var(--display);font-size:1.5rem;font-weight:700;font-variant-numeric:tabular-nums}
+.tile .l{font-size:.8rem;color:var(--muted)}
+
+/* Tabs */
+.tabs{display:flex;gap:4px;margin-top:16px;border-bottom:1px solid var(--line);overflow-x:auto}
+.tab{background:none;border:0;padding:10px 14px;cursor:pointer;font-weight:600;color:var(--muted);border-bottom:3px solid transparent;white-space:nowrap}
+.tab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
+.toolbar{display:flex;gap:8px;margin:12px 0;flex-wrap:wrap}
+.toolbar input{flex:1;min-width:180px;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--card)}
+.toolbar select{padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card)}
+
+/* Rows */
+.list{display:grid;gap:10px}
+.row{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--line);border-radius:8px;padding:12px 14px;display:grid;grid-template-columns:1fr auto;gap:6px 12px}
+.row.s-open{border-left-color:var(--ok)} .row.s-soon{border-left-color:var(--warn)} .row.s-today{border-left-color:var(--bad)}
+.row.s-closed{border-left-color:var(--line);opacity:.75} .row.s-upcoming{border-left-color:var(--info)}
+.row h3{font-family:var(--display);font-size:1rem;margin:0;font-weight:700}
+.meta{font-size:.88rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 14px}
+.meta b{color:var(--ink);font-weight:600}
+.stamp{font-size:.78rem;font-weight:600;padding:3px 10px;border-radius:999px;white-space:nowrap;align-self:start;text-align:center}
+.st-open{background:var(--ok-bg);color:var(--ok)} .st-soon{background:var(--warn-bg);color:var(--warn)} .st-today{background:var(--bad-bg);color:var(--bad)}
+.st-closed{background:var(--line);color:var(--muted)} .st-upcoming{background:var(--info-bg);color:var(--info)} .st-result{background:var(--accent-soft);color:var(--accent)}
+.row .foot{grid-column:1/-1;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:.88rem;align-items:center}
+.row a{color:var(--accent);font-weight:600;text-decoration:none}
+.row a:hover{text-decoration:underline}
+.note{font-size:.86rem;color:var(--muted);grid-column:1/-1}
+.track{display:flex;gap:0;grid-column:1/-1;margin-top:4px;overflow-x:auto}
+.stage{flex:1;min-width:88px;font-size:.76rem;text-align:center;padding:6px 4px 0;border-top:4px solid var(--line);color:var(--muted)}
+.stage.done{border-top-color:var(--ok);color:var(--ink)}
+.stage.now{border-top-color:var(--accent);color:var(--accent);font-weight:600}
+body{overscroll-behavior-y:contain}
+#ptr{height:0;overflow:hidden;display:flex;align-items:center;justify-content:center;gap:8px;font-size:.9rem;font-weight:600;color:var(--muted);background:var(--accent-soft);transition:height .2s}
+#ptr[data-state="ready"],#ptr[data-state="loading"]{color:var(--accent)}
+#ptrIcon{display:inline-block;font-size:1.1rem;transition:transform .1s}
+#ptr[data-state="loading"] #ptrIcon{animation:spin .8s linear infinite}
+#ptr[data-state="loading"] #ptrIcon::before{content:""}
+@keyframes spin{to{transform:rotate(360deg)}}
+.updated{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.refresh{background:none;border:1px solid var(--line);border-radius:999px;padding:3px 12px;font-size:.82rem;cursor:pointer;color:var(--ink)}
+.refresh:hover{border-color:var(--accent);color:var(--accent)}
+.refresh:disabled{opacity:.5;cursor:wait}
+#toast{position:fixed;left:50%;bottom:20px;transform:translate(-50%,20px);background:var(--ink);color:var(--paper);padding:10px 16px;border-radius:8px;font-size:.9rem;opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;z-index:10;max-width:calc(100% - 32px);text-align:center}
+#toast.show{opacity:1;transform:translate(-50%,0)}
+@media (prefers-reduced-motion:reduce){#ptr,#toast{transition:none}#ptr[data-state="loading"] #ptrIcon{animation:none}}
+.stale{margin-top:12px;background:var(--warn-bg);color:var(--warn);border-radius:8px;padding:8px 12px;font-size:.88rem;font-weight:500}
+/* Calendar */
+.cal{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px}
+.cal-head{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:8px}
+.cal-head h2{margin:0;font-size:1.1rem}
+.cal-nav{background:none;border:1px solid var(--line);border-radius:8px;width:36px;height:36px;cursor:pointer;font-size:1.1rem;color:var(--ink)}
+.cal-nav:hover{border-color:var(--accent)}
+.legend{display:flex;gap:12px;flex-wrap:wrap;font-size:.8rem;color:var(--muted);margin-bottom:8px}
+.legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:4px;vertical-align:middle}
+.grid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}
+.dow{font-size:.72rem;font-weight:600;color:var(--muted);text-align:center;padding:4px 0;text-transform:uppercase;letter-spacing:.04em}
+.day{min-height:52px;border:1px solid transparent;border-radius:8px;background:var(--paper);padding:4px;display:flex;flex-direction:column;align-items:center;gap:3px;cursor:pointer;font-variant-numeric:tabular-nums;font-size:.9rem;color:var(--ink)}
+.day.out{visibility:hidden}
+.day.today{border-color:var(--accent)}
+.day[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.day:hover{border-color:var(--line)}
+.dots{display:flex;gap:3px;flex-wrap:wrap;justify-content:center}
+.dot{width:7px;height:7px;border-radius:50%}
+.c-exam{background:var(--accent)} .c-admit{background:var(--info)} .c-last{background:var(--warn)}
+.ev-type{font-size:.75rem;font-weight:600;padding:2px 8px;border-radius:999px}
+.t-exam{background:var(--accent-soft);color:var(--accent)} .t-admit{background:var(--info-bg);color:var(--info)} .t-last{background:var(--warn-bg);color:var(--warn)}
+.sec-title{font-family:var(--display);font-size:1rem;margin:16px 0 8px}
+@media (max-width:480px){.day{min-height:44px;font-size:.82rem}.cal{padding:8px}}
+.xp{font-weight:600}
+.xp-fresher{color:var(--ok)} .xp-exp{color:var(--bad)} .xp-mixed{color:var(--warn)}
+.empty{padding:24px;text-align:center;color:var(--muted);background:var(--card);border:1px dashed var(--line);border-radius:10px}
+footer{margin:22px 0 8px;font-size:.82rem;color:var(--muted);display:grid;gap:6px}
+.hidden{display:none !important}
+@media (max-width:480px){.summary{grid-template-columns:repeat(3,1fr);gap:6px}.tile{padding:8px}.tile .n{font-size:1.25rem}.row{grid-template-columns:1fr}.stamp{justify-self:start}}
+@media (prefers-reduced-motion:no-preference){.row{transition:transform .12s}.row:hover{transform:translateY(-1px)}}
+</style>
+</head>
+<body>
+<div id="ptr" aria-live="polite"><span id="ptrIcon" aria-hidden="true">↓</span><span id="ptrText">Pull down to refresh</span></div>
+<div id="toast" role="status" aria-live="polite"></div>
+<div class="wrap">
+  <header>
+    <h1>Sarkari Job <span>Tracker</span></h1>
+    <div class="updated" id="updated"><span id="updatedDate">Loading…</span><button class="refresh" id="refreshBtn" aria-label="Refresh listings">↻ Refresh</button></div>
+  </header>
+  <div class="stale hidden" id="stale" role="status"></div>
+
+  <!-- Step 1: ask the candidate -->
+  <section class="panel" id="onboard" aria-labelledby="ob-title">
+    <div>
+      <div class="step-label">Step 1 of 3</div>
+      <h2 id="ob-title">What is your qualification?</h2>
+      <p class="hint">Pick everything you hold. Higher degrees automatically include jobs open to lower ones (a graduate also sees 10th and 12th pass jobs).</p>
+    </div>
+    <div class="chips" id="qualChips" role="group" aria-label="Qualifications"></div>
+    <div>
+      <div class="step-label">Step 2 of 3</div>
+      <h2>What kind of job do you want?</h2>
+      <p class="hint">Optional. Leave blank to see every sector.</p>
+    </div>
+    <div class="chips" id="sectorChips" role="group" aria-label="Job sectors"></div>
+    <div>
+      <div class="step-label">Step 3 of 3</div>
+      <h2>Are you a fresher or experienced?</h2>
+      <p class="hint">Freshers see only posts that need no work experience. Experienced candidates see both.</p>
+    </div>
+    <div class="chips" id="expChips" role="radiogroup" aria-label="Experience"></div>
+    <button class="btn" id="saveBtn" disabled>Show my job openings</button>
+  </section>
+
+  <!-- Main dashboard -->
+  <section id="main" class="hidden">
+    <div class="profile">
+      <div id="profileText"></div>
+      <button class="btn ghost" id="editBtn">Change profile</button>
+    </div>
+    <div class="summary">
+      <div class="tile"><div class="n" id="nOpen">0</div><div class="l">Openings for you</div></div>
+      <div class="tile"><div class="n" id="nSoon">0</div><div class="l">Closing in 7 days</div></div>
+      <div class="tile"><div class="n" id="nResults">0</div><div class="l">Recent results</div></div>
+    </div>
+
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" id="tab-jobs" aria-selected="true" data-tab="jobs">Latest jobs</button>
+      <button class="tab" role="tab" id="tab-calendar" aria-selected="false" data-tab="calendar">Exam calendar</button>
+      <button class="tab" role="tab" id="tab-admit" aria-selected="false" data-tab="admit">Admit card</button>
+      <button class="tab" role="tab" id="tab-key" aria-selected="false" data-tab="key">Answer key</button>
+      <button class="tab" role="tab" id="tab-results" aria-selected="false" data-tab="results">Result</button>
+      <button class="tab" role="tab" id="tab-status" aria-selected="false" data-tab="status">Exam status</button>
+    </div>
+    <div class="toolbar">
+      <label for="q" class="hidden">Search</label>
+      <input id="q" type="search" placeholder="Search by post, organisation or state">
+      <label for="scope" class="hidden">Show</label>
+      <select id="scope">
+        <option value="mine">Matching my profile</option>
+        <option value="all">All listings</option>
+      </select>
+      <label for="showClosed" class="hidden">Closed</label>
+      <select id="showClosed">
+        <option value="hide">Hide closed</option>
+        <option value="show">Show closed</option>
+      </select>
+    </div>
+    <div class="list" id="list"></div>
+  </section>
+
+  <footer>
+    <p>Dates and vacancy counts are collected from public recruitment notices and job-news sites. Always confirm eligibility, age limits and dates in the official notification before you apply or pay any fee.</p>
+    <p>Status is recalculated every time you open this page, so "closing soon" and "closed" labels stay correct day to day. New notifications, admit cards, answer keys and results are added at each daily refresh; the date at the top shows the last one.</p>
+  </footer>
+</div>
+
+<script>
+/* ---------- Data (last refreshed below) ---------- */
+let DATA_UPDATED="", JOBS=[], RESULTS=[], ADMIT=[], KEYS=[], STATUS=[], CAL=[], CALTBA=[];
+
+const QUALS = [
+  {id:"10",  label:"10th pass"},
+  {id:"12",  label:"12th pass"},
+  {id:"iti", label:"ITI"},
+  {id:"diploma", label:"Diploma (Engg.)"},
+  {id:"grad", label:"Graduate (any)"},
+  {id:"engg", label:"B.E. / B.Tech"},
+  {id:"bed",  label:"B.Ed / Teaching"},
+  {id:"medical", label:"Nursing / Pharmacy / Medical"},
+  {id:"pg",  label:"Post-grad / MBA / CA"},
+  {id:"serving", label:"Serving govt. employee"}
+];
+// What each qualification also unlocks
+const IMPLIES = {
+  "10":["10"], "12":["12","10"], "iti":["iti","10"], "diploma":["diploma","12","10"],
+  "grad":["grad","12","10"], "engg":["engg","grad","diploma","12","10"],
+  "bed":["bed","grad","12","10"], "medical":["medical","12","10"],
+  "pg":["pg","grad","12","10"], "serving":["serving"]
+};
+const SECTORS = [
+  {id:"bank",label:"Banking"},{id:"railway",label:"Railway"},{id:"ssc",label:"SSC / Central govt."},
+  {id:"upsc",label:"UPSC"},{id:"state",label:"State govt."},{id:"police",label:"Police / Defence"},
+  {id:"teaching",label:"Teaching"},{id:"psu",label:"PSU / Engineering"},{id:"medical",label:"Medical / Health"}
+];
+
+const EXPS = [
+  {id:"fresher", label:"Fresher (no work experience)"},
+  {id:"exp", label:"Experienced"}
+];
+// exp on a job: "fresher" = no experience needed (default), "exp" = experience required, "mixed" = some posts need it
+const EXP_LABEL = {fresher:"Freshers can apply", exp:"Experience required", mixed:"Some posts need experience"};
+
+/* ---------- Helpers ---------- */
+const $ = s => document.querySelector(s);
+const DAY = 86400000;
+function today(){ const d=new Date(); return new Date(d.getFullYear(),d.getMonth(),d.getDate()); }
+function parse(s){ const [y,m,d]=s.split("-").map(Number); return new Date(y,m-1,d); }
+function fmt(s){ return parse(s).toLocaleDateString("en-IN",{day:"numeric",month:"short",year:"numeric"}); }
+function esc(s){ return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+function jobStatus(j){
+  const t=today();
+  if(j.start && parse(j.start)>t){ const d=Math.round((parse(j.start)-t)/DAY); return {k:"upcoming",label:`Opens in ${d} day${d>1?"s":""}`}; }
+  const left=Math.round((parse(j.last)-t)/DAY);
+  if(left<0) return {k:"closed",label:"Closed"};
+  if(left===0) return {k:"today",label:"Last day today"};
+  if(left<=7) return {k:"soon",label:`${left} day${left>1?"s":""} left`};
+  return {k:"open",label:`Open · ${left} days left`};
+}
+
+/* ---------- Profile ---------- */
+let profile = null;
+try{ profile = JSON.parse(localStorage.getItem("sjt-profile")||"null"); }catch(e){}
+const sel = {q:new Set(profile?.q||[]), s:new Set(profile?.s||[]), e:profile?.e||""};
+function canSave(){ return sel.q.size>0 && !!sel.e; }
+
+function renderChips(){
+  $("#qualChips").innerHTML = QUALS.map(x=>`<button class="chip" data-g="q" data-id="${x.id}" aria-pressed="${sel.q.has(x.id)}">${x.label}</button>`).join("");
+  $("#sectorChips").innerHTML = SECTORS.map(x=>`<button class="chip" data-g="s" data-id="${x.id}" aria-pressed="${sel.s.has(x.id)}">${x.label}</button>`).join("");
+  $("#expChips").innerHTML = EXPS.map(x=>`<button class="chip" data-g="e" data-id="${x.id}" role="radio" aria-pressed="${sel.e===x.id}" aria-checked="${sel.e===x.id}">${x.label}</button>`).join("");
+  $("#saveBtn").disabled = !canSave();
+}
+document.addEventListener("click",e=>{
+  const c=e.target.closest(".chip"); if(!c) return;
+  const id=c.dataset.id;
+  if(c.dataset.g==="e"){
+    sel.e=id;
+    document.querySelectorAll('#expChips .chip').forEach(b=>{const on=b.dataset.id===id;b.setAttribute("aria-pressed",on);b.setAttribute("aria-checked",on);});
+  } else {
+    const set=sel[c.dataset.g];
+    set.has(id)?set.delete(id):set.add(id);
+    c.setAttribute("aria-pressed",set.has(id));
+  }
+  $("#saveBtn").disabled = !canSave();
+});
+$("#saveBtn").addEventListener("click",()=>{
+  profile={q:[...sel.q], s:[...sel.s], e:sel.e};
+  try{ localStorage.setItem("sjt-profile",JSON.stringify(profile)); }catch(e){}
+  showMain();
+});
+$("#editBtn").addEventListener("click",()=>{ $("#main").classList.add("hidden"); $("#onboard").classList.remove("hidden"); renderChips(); });
+
+function unlocked(){ const u=new Set(); profile.q.forEach(q=>(IMPLIES[q]||[q]).forEach(x=>u.add(x))); return u; }
+function matches(item){
+  const u=unlocked();
+  const qOk=item.q.some(x=>u.has(x));
+  const sOk=!profile.s.length || item.s.some(x=>profile.s.includes(x));
+  // freshers don't see posts that require experience; "mixed" stays visible with a warning
+  const eOk=!(profile.e==="fresher" && item.exp==="exp");
+  return qOk && sOk && eOk;
+}
+
+/* ---------- Main view ---------- */
+let tab="jobs";
+document.querySelectorAll(".tab").forEach(b=>b.addEventListener("click",()=>{
+  tab=b.dataset.tab;
+  document.querySelectorAll(".tab").forEach(x=>x.setAttribute("aria-selected",x===b));
+  $("#showClosed").classList.toggle("hidden",tab!=="jobs");
+  $("#list").classList.toggle("list",tab!=="calendar");
+  render();
+}));
+["#q","#scope","#showClosed"].forEach(id=>$(id).addEventListener("input",render));
+
+function showMain(){
+  $("#onboard").classList.add("hidden"); $("#main").classList.remove("hidden");
+  const qs=profile.q.map(id=>QUALS.find(x=>x.id===id).label).join(", ");
+  const ss=profile.s.length?profile.s.map(id=>SECTORS.find(x=>x.id===id).label).join(", "):"All sectors";
+  const es=EXPS.find(x=>x.id===profile.e)?.label||"";
+  $("#profileText").innerHTML=`<b>Qualification:</b> ${esc(qs)}<br><b>Interested in:</b> ${esc(ss)}<br><b>Experience:</b> ${esc(es)}`;
+  render();
+}
+
+function textHit(item){ const s=$("#q").value.trim().toLowerCase(); if(!s) return true; return (item.t+" "+item.org+" "+(item.loc||"")).toLowerCase().includes(s); }
+
+function render(){
+  const mine=$("#scope").value==="mine";
+  const pool = arr => arr.filter(x=>(!mine||matches(x)) && textHit(x));
+  // summary tiles always reflect the profile
+  const myJobs=JOBS.filter(matches);
+  const live=myJobs.filter(j=>jobStatus(j).k!=="closed");
+  $("#nOpen").textContent=live.length;
+  $("#nSoon").textContent=live.filter(j=>["soon","today"].includes(jobStatus(j).k)).length;
+  $("#nResults").textContent=RESULTS.filter(matches).length;
+
+  let html="";
+  if(tab==="jobs"){
+    const order={today:0,soon:1,open:2,upcoming:3,closed:4};
+    let rows=pool(JOBS).map(j=>({j,st:jobStatus(j)}));
+    if($("#showClosed").value==="hide") rows=rows.filter(r=>r.st.k!=="closed");
+    rows.sort((a,b)=>order[a.st.k]-order[b.st.k] || parse(a.j.last)-parse(b.j.last));
+    html=rows.map(({j,st})=>`
+      <article class="row s-${st.k}">
+        <div><h3>${esc(j.t)}</h3><div class="meta"><span>${esc(j.org)}</span><span>${esc(j.loc)}</span></div></div>
+        <span class="stamp st-${st.k}">${st.label}</span>
+        <div class="foot">
+          <div class="meta"><span>Posts: <b>${j.posts.toLocaleString("en-IN")}</b></span>${j.start?`<span>Opens: <b>${fmt(j.start)}</b></span>`:""}<span>Last date: <b>${fmt(j.last)}</b></span><span>Eligibility: <b>${j.q.map(id=>QUALS.find(x=>x.id===id).label).join(" / ")}</b></span><span class="xp xp-${j.exp||"fresher"}">${EXP_LABEL[j.exp||"fresher"]}</span></div>
+          <a href="${j.url}" target="_blank" rel="noopener">Official site ↗</a>
+        </div>
+        ${j.note?`<p class="note">${esc(j.note)}</p>`:""}
+      </article>`).join("");
+  } else if(tab==="calendar"){
+    html=renderCalendar(mine);
+  } else if(tab==="admit" || tab==="key"){
+    const src = tab==="admit"?ADMIT:KEYS;
+    html=pool(src).map(r=>`
+      <article class="row">
+        <div><h3>${esc(r.t)}</h3><div class="meta"><span>${esc(r.org)}</span></div></div>
+        <span class="stamp st-result">${esc(r.tag)}</span>
+        <div class="foot"><span class="hint">Listed as of ${fmt(DATA_UPDATED)}</span><a href="${r.url}" target="_blank" rel="noopener">${tab==="admit"?"Download admit card":"Check answer key"} ↗</a></div>
+      </article>`).join("");
+  } else if(tab==="results"){
+    const rows=pool(RESULTS).sort((a,b)=>parse(b.date)-parse(a.date));
+    html=rows.map(r=>`
+      <article class="row">
+        <div><h3>${esc(r.t)}</h3><div class="meta"><span>${esc(r.org)}</span></div></div>
+        <span class="stamp st-result">Declared ${fmt(r.date)}</span>
+        ${r.note?`<p class="note">${esc(r.note)}</p>`:""}
+        <div class="foot"><span></span><a href="${r.url}" target="_blank" rel="noopener">Check result ↗</a></div>
+      </article>`).join("");
+  } else {
+    html=pool(STATUS).map(x=>`
+      <article class="row">
+        <div><h3>${esc(x.t)}</h3><div class="meta"><span>${esc(x.org)}</span>${x.posts?`<span>Posts: <b>${x.posts.toLocaleString("en-IN")}</b></span>`:""}</div></div>
+        <span class="stamp st-upcoming">Stage ${x.now+1} of ${x.stages.length}</span>
+        <div class="track">${x.stages.map((s,i)=>`<div class="stage ${i<x.now?"done":i===x.now?"now":""}">${esc(s)}</div>`).join("")}</div>
+        <div class="foot"><span><b>Next:</b> ${esc(x.next)}</span><a href="${x.url}" target="_blank" rel="noopener">Official site ↗</a></div>
+      </article>`).join("");
+  }
+  $("#list").innerHTML = html || `<div class="empty">Nothing here for your profile right now. Switch to "All listings" or change your profile.</div>`;
+}
+
+/* ---------- Exam calendar ---------- */
+let calMonth=null, calSel=null;
+const TYPE_LABEL={exam:"Exam",admit:"Admit card / city slip",last:"Last date to apply"};
+function iso(d){ return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0"); }
+function calEvents(mine){
+  const s=$("#q").value.trim().toLowerCase();
+  const ok=x=>(!mine||matches(x)) && (!s || (x.t+" "+(x.org||"")).toLowerCase().includes(s));
+  const out=[];
+  CAL.filter(ok).forEach(e=>{
+    let days=e.dates?e.dates.slice():[];
+    if(!e.dates){ let d=parse(e.start); const end=parse(e.end||e.start); while(d<=end){ days.push(iso(d)); d=new Date(d.getFullYear(),d.getMonth(),d.getDate()+1); } }
+    days.forEach(day=>out.push({day,t:e.t,type:e.type,url:e.url,tentative:e.tentative,span:days.length>1?`${fmt(days[0])} – ${fmt(days[days.length-1])}`:""}));
+  });
+  JOBS.filter(ok).forEach(j=>out.push({day:j.last,t:j.t,type:"last",url:j.url,org:j.org}));
+  return out;
+}
+function renderCalendar(mine){
+  const t=today();
+  if(!calMonth) calMonth=new Date(t.getFullYear(),t.getMonth(),1);
+  const evs=calEvents(mine);
+  const byDay={}; evs.forEach(e=>(byDay[e.day]=byDay[e.day]||[]).push(e));
+  const y=calMonth.getFullYear(), m=calMonth.getMonth();
+  const first=(new Date(y,m,1).getDay()+6)%7; // Monday first
+  const nDays=new Date(y,m+1,0).getDate();
+  let cells=["Mon","Tue","Wed","Thu","Fri","Sat","Sun"].map(d=>`<div class="dow">${d}</div>`).join("");
+  for(let i=0;i<first;i++) cells+=`<div class="day out" aria-hidden="true"></div>`;
+  for(let d=1; d<=nDays; d++){
+    const key=iso(new Date(y,m,d)); const list=byDay[key]||[];
+    const types=[...new Set(list.map(e=>e.type))];
+    cells+=`<button class="day${key===iso(t)?" today":""}" data-day="${key}" aria-pressed="${calSel===key}" aria-label="${fmt(key)}, ${list.length} event${list.length===1?"":"s"}">
+      <span>${d}</span><span class="dots">${types.map(ty=>`<span class="dot c-${ty}"></span>`).join("")}</span></button>`;
+  }
+  const monthName=calMonth.toLocaleDateString("en-IN",{month:"long",year:"numeric"});
+  const inMonth=evs.filter(e=>e.day.startsWith(`${y}-${String(m+1).padStart(2,"0")}`));
+  const shown=(calSel ? (byDay[calSel]||[]) : inMonth).slice().sort((a,b)=>a.day.localeCompare(b.day));
+  // collapse multi-day exams in the month list
+  const seen=new Set(); const listItems=calSel?shown:shown.filter(e=>{const k=e.t+e.type; if(e.span&&seen.has(k)) return false; seen.add(k); return true;});
+  const rows=listItems.map(e=>`
+    <article class="row">
+      <div><h3>${esc(e.t)}</h3><div class="meta"><span>${e.span?esc(e.span):fmt(e.day)}</span>${e.tentative?"<span>Tentative</span>":""}</div></div>
+      <span class="ev-type t-${e.type}">${TYPE_LABEL[e.type]}</span>
+      <div class="foot"><span></span><a href="${e.url}" target="_blank" rel="noopener">Official site ↗</a></div>
+    </article>`).join("") || `<div class="empty">${calSel?"Nothing scheduled on this day.":"Nothing scheduled this month for your profile."}</div>`;
+  const tba=CALTBA.filter(x=>(!mine||matches(x))).map(x=>`
+    <article class="row"><div><h3>${esc(x.t)}</h3><div class="meta"><span>${esc(x.when)}</span></div></div>
+    <span class="ev-type t-exam">Date awaited</span>
+    <div class="foot"><span></span><a href="${x.url}" target="_blank" rel="noopener">Official site ↗</a></div></article>`).join("");
+  return `<div class="cal">
+      <div class="cal-head"><button class="cal-nav" data-cal="-1" aria-label="Previous month">‹</button><h2>${monthName}</h2><button class="cal-nav" data-cal="1" aria-label="Next month">›</button></div>
+      <div class="legend"><span><i class="c-exam"></i>Exam</span><span><i class="c-admit"></i>Admit card</span><span><i class="c-last"></i>Last date to apply</span></div>
+      <div class="grid">${cells}</div>
+    </div>
+    <h3 class="sec-title">${calSel?"On "+fmt(calSel)+` <button class="refresh" data-cal="clear">Show whole month</button>`:"This month"}</h3>
+    <div class="list">${rows}</div>
+    ${tba?`<h3 class="sec-title">Exam date not fixed yet</h3><div class="list">${tba}</div>`:""}`;
+}
+document.addEventListener("click",e=>{
+  const nav=e.target.closest("[data-cal]");
+  if(nav){
+    if(nav.dataset.cal==="clear") calSel=null;
+    else { calMonth=new Date(calMonth.getFullYear(),calMonth.getMonth()+Number(nav.dataset.cal),1); calSel=null; }
+    render(); return;
+  }
+  const day=e.target.closest(".day[data-day]");
+  if(day){ calSel = calSel===day.dataset.day ? null : day.dataset.day; render(); }
+});
+
+/* ---------- Data loading & pull-to-refresh ---------- */
+let loading=false;
+function showUpdated(){ $("#updatedDate").textContent = DATA_UPDATED ? "Data updated " + fmt(DATA_UPDATED) : "Loading…"; }
+function toast(msg){
+  const t=$("#toast"); t.textContent=msg; t.classList.add("show");
+  clearTimeout(toast._t); toast._t=setTimeout(()=>t.classList.remove("show"),2600);
+}
+function lastCheck(){ try{ return Number(localStorage.getItem("sjt-lastcheck"))||0; }catch(e){ return 0; } }
+function showStale(){
+  const el=$("#stale"); if(!DATA_UPDATED){ el.classList.add("hidden"); return; }
+  const age=Math.round((today()-parse(DATA_UPDATED))/DAY);
+  if(age>=2){ el.textContent=`Listings were last updated ${age} days ago. The app checks for new data automatically; you can also pull down to refresh.`; el.classList.remove("hidden"); }
+  else el.classList.add("hidden");
+}
+// If the viewer hasn't refreshed for 2 days (or the data itself is 2+ days old), refresh on its own
+function autoCheck(){
+  if(loading || document.hidden) return;
+  const sinceCheck=Date.now()-lastCheck();
+  const dataAge=DATA_UPDATED ? (today()-parse(DATA_UPDATED))/DAY : 99;
+  if(sinceCheck>2*DAY) loadData(false,"Auto-refreshed: it had been over 2 days since the last refresh.");
+  else if(dataAge>=2 && sinceCheck>60*60*1000) loadData(false);
+}
+document.addEventListener("visibilitychange",()=>{ if(!document.hidden) autoCheck(); });
+setInterval(autoCheck, 30*60*1000);
+
+async function loadData(manual, autoMsg){
+  if(loading) return; loading=true;
+  const prev=DATA_UPDATED;
+  $("#ptr").dataset.state="loading"; $("#ptrText").textContent="Checking for new updates…";
+  $("#refreshBtn").disabled=true;
+  try{
+    const r=await fetch("data.json",{cache:"no-store"});
+    if(!r.ok) throw new Error(r.status);
+    const d=await r.json();
+    DATA_UPDATED=d.updated; JOBS=d.jobs; RESULTS=d.results; ADMIT=d.admit; KEYS=d.keys; STATUS=d.status;
+    CAL=d.calendar||[]; CALTBA=d.calendarTBA||[];
+    try{ localStorage.setItem("sjt-lastcheck", String(Date.now())); }catch(e){}
+    showUpdated(); showStale();
+    if(!$("#main").classList.contains("hidden")) render();
+    if(manual) toast(prev && prev===DATA_UPDATED ? "Already up to date · deadlines recalculated" : "Updated with listings from " + fmt(DATA_UPDATED));
+    else if(autoMsg) toast(autoMsg);
+  }catch(e){
+    if(manual) toast("Couldn't refresh. Check your connection and try again.");
+    else $("#updatedDate").textContent="Couldn't load listings. Pull down to retry.";
+  }finally{
+    loading=false; $("#refreshBtn").disabled=false;
+    $("#ptr").style.height="0px"; $("#ptr").dataset.state="";
+  }
+}
+$("#refreshBtn").addEventListener("click",()=>loadData(true));
+
+// Drag down from the top of the page to refresh
+(function(){
+  const ptr=$("#ptr"), txt=$("#ptrText"), TRIGGER=70, MAX=110;
+  let startY=null, dist=0;
+  window.addEventListener("touchstart",e=>{
+    if(loading || window.scrollY>0 || e.touches.length>1){ startY=null; return; }
+    startY=e.touches[0].clientY; dist=0;
+  },{passive:true});
+  window.addEventListener("touchmove",e=>{
+    if(startY===null) return;
+    dist=e.touches[0].clientY-startY;
+    if(dist<=0 || window.scrollY>0){ ptr.style.height="0px"; return; }
+    if(e.cancelable) e.preventDefault();
+    const h=Math.min(MAX, dist*0.5);
+    ptr.style.transition="none"; ptr.style.height=h+"px";
+    ptr.dataset.state = h>=TRIGGER*0.5+20 ? "ready" : "pull";
+    txt.textContent = ptr.dataset.state==="ready" ? "Release to refresh" : "Pull down to refresh";
+    $("#ptrIcon").style.transform=`rotate(${Math.min(180,h*2.4)}deg)`;
+  },{passive:false});
+  window.addEventListener("touchend",()=>{
+    if(startY===null) return;
+    ptr.style.transition="";
+    if(ptr.dataset.state==="ready"){ ptr.style.height="48px"; loadData(true); }
+    else { ptr.style.height="0px"; ptr.dataset.state=""; }
+    startY=null;
+  });
+})();
+
+showUpdated();
+renderChips();
+if(profile && profile.q && profile.q.length && profile.e) showMain();
+loadData(false, lastCheck() && Date.now()-lastCheck()>2*DAY ? "Auto-refreshed: it had been over 2 days since the last refresh." : undefined);
+</script>
+</body>
+</html>

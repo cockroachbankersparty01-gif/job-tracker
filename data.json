@@ -1,0 +1,1563 @@
+{
+ "updated": "2026-11-23",
+ "jobs": [
+  {
+   "t": "SBI Specialist Cadre Officer: Chief Manager & Manager",
+   "org": "State Bank of India",
+   "posts": 7,
+   "q": [
+    "pg"
+   ],
+   "s": [
+    "bank"
+   ],
+   "loc": "Mumbai",
+   "start": "2026-11-02",
+   "last": "2026-11-23",
+   "exp": "exp",
+   "url": "https://sbi.bank.in/web/careers/current-openings",
+   "note": "MBA/PGDM with 3–7 years' experience depending on post."
+  },
+  {
+   "t": "Supreme Court Court Assistant (Technical Assistant-cum-Programmer)",
+   "org": "Supreme Court of India",
+   "posts": 15,
+   "q": [
+    "engg",
+    "pg"
+   ],
+   "s": [
+    "ssc"
+   ],
+   "loc": "New Delhi",
+   "start": "2026-11-03",
+   "last": "2026-11-24",
+   "exp": "mixed",
+   "url": "https://www.sci.gov.in/recruitment/",
+   "note": "Objective & technical aptitude test tentatively 22 Dec 2026."
+  },
+  {
+   "t": "RRB Station Master (CEN 08/2026)",
+   "org": "Railway Recruitment Boards",
+   "posts": 1265,
+   "q": [
+    "grad"
+   ],
+   "s": [
+    "railway"
+   ],
+   "loc": "All India",
+   "start": "2026-10-27",
+   "last": "2026-11-25",
+   "url": "https://www.rrbapply.gov.in/",
+   "note": "Fee payment till 27 Nov; correction window 28 Nov – 7 Dec."
+  },
+  {
+   "t": "SBI Specialist Officer (Security): Manager & Deputy Manager",
+   "org": "State Bank of India",
+   "posts": 60,
+   "q": [
+    "grad"
+   ],
+   "s": [
+    "bank",
+    "police"
+   ],
+   "loc": "All India",
+   "start": "2026-11-04",
+   "last": "2026-11-25",
+   "exp": "exp",
+   "url": "https://sbi.bank.in/web/careers/current-openings",
+   "note": "Graduates with prescribed military or paramilitary officer experience."
+  },
+  {
+   "t": "UPPSC RO / ARO (Samiksha Adhikari)",
+   "org": "UP Public Service Commission",
+   "posts": 501,
+   "q": [
+    "grad"
+   ],
+   "s": [
+    "state"
+   ],
+   "loc": "Uttar Pradesh",
+   "start": "2026-10-26",
+   "last": "2026-11-26",
+   "url": "https://uppsc.up.nic.in/",
+   "note": "Age 21–40. Correction till 3 Dec 2026."
+  },
+  {
+   "t": "RRC Northern Railway Act Apprentice",
+   "org": "RRC Northern Railway",
+   "posts": 4651,
+   "q": [
+    "iti"
+   ],
+   "s": [
+    "railway"
+   ],
+   "loc": "Lucknow, Delhi, Firozpur, Ambala, Moradabad, Jammu",
+   "start": "2026-11-11",
+   "last": "2026-12-11",
+   "url": "https://www.rrcnr.org/",
+   "note": "Age 15–24. Merit list expected Feb 2027."
+  },
+  {
+   "t": "AFCAT 01/2027 (IAF Flying & Ground Duty officers)",
+   "org": "Indian Air Force",
+   "posts": 284,
+   "q": [
+    "grad",
+    "engg"
+   ],
+   "s": [
+    "police"
+   ],
+   "loc": "All India",
+   "start": "2026-11-12",
+   "last": "2026-12-11",
+   "url": "https://afcat.edcil.co.in/",
+   "note": "Online exam 31 Jan 2027. Posts are tentative."
+  },
+  {
+   "t": "UPESSC TGT (Assistant Teacher, aided schools)",
+   "org": "UP Education Service Selection Commission",
+   "posts": 17735,
+   "q": [
+    "bed"
+   ],
+   "s": [
+    "teaching",
+    "state"
+   ],
+   "loc": "Uttar Pradesh",
+   "start": "",
+   "last": "2026-11-23",
+   "url": "https://upessc.up.gov.in/"
+  },
+  {
+   "t": "Goa Police Constable",
+   "org": "Goa Police",
+   "posts": 52,
+   "q": [
+    "10"
+   ],
+   "s": [
+    "police",
+    "state"
+   ],
+   "loc": "Goa",
+   "start": "",
+   "last": "2026-11-23",
+   "url": "https://citizen.goapolice.gov.in/"
+  },
+  {
+   "t": "Indian Bank Apprentices 2026-27",
+   "org": "Indian Bank",
+   "posts": 1500,
+   "q": [
+    "grad"
+   ],
+   "s": [
+    "bank"
+   ],
+   "loc": "All India (state-wise)",
+   "start": "2026-11-05",
+   "last": "2026-11-25",
+   "url": "https://indianbank.in/career/"
+  },
+  {
+   "t": "JKSSB Multi Tasking Staff (Class IV)",
+   "org": "J&K Services Selection Board",
+   "posts": 2863,
+   "q": [
+    "10"
+   ],
+   "s": [
+    "state"
+   ],
+   "loc": "Jammu & Kashmir",
+   "start": "",
+   "last": "2026-11-27",
+   "url": "https://jkssb.nic.in/"
+  },
+  {
+   "t": "UPSSSC Junior Engineer",
+   "org": "UP Subordinate Services Selection Commission",
+   "posts": 1536,
+   "q": [
+    "diploma",
+    "engg"
+   ],
+   "s": [
+    "state",
+    "psu"
+   ],
+   "loc": "Uttar Pradesh",
+   "start": "",
+   "last": "2026-11-27",
+   "url": "https://upsssc.gov.in/"
+  },
+  {
+   "t": "POWERGRID Trainee Engineer (Electronics)",
+   "org": "Power Grid Corporation of India",
+   "posts": 33,
+   "q": [
+    "engg"
+   ],
+   "s": [
+    "psu"
+   ],
+   "loc": "All India",
+   "start": "",
+   "last": "2026-11-27",
+   "url": "https://www.powergrid.in/en/job-opportunities"
+  },
+  {
+   "t": "BPCL SRD Recruitment",
+   "org": "Bharat Petroleum Corporation Ltd",
+   "posts": 49,
+   "q": [
+    "grad"
+   ],
+   "s": [
+    "psu"
+   ],
+   "loc": "All India",
+   "start": "",
+   "last": "2026-11-29",
+   "url": "https://www.bharatpetroleum.in/careers/current-openings.aspx"
+  },
+  {
+   "t": "SCL Technician, Technical Assistant & other posts",
+   "org": "Semi-Conductor Laboratory, Mohali",
+   "posts": 83,
+   "q": [
+    "iti",
+    "diploma",
+    "grad"
+   ],
+   "s": [
+    "psu"
+   ],
+   "loc": "Mohali, Punjab",
+   "start": "",
+   "last": "2026-11-30",
+   "url": "https://www.scl.gov.in/"
+  },
+  {
+   "t": "AAI Senior Assistant (Operational), Eastern Region",
+   "org": "Airports Authority of India",
+   "posts": 23,
+   "q": [
+    "diploma",
+    "grad"
+   ],
+   "s": [
+    "psu"
+   ],
+   "loc": "Eastern Region",
+   "start": "",
+   "last": "2026-11-30",
+   "url": "https://www.aai.aero/en/careers/recruitment"
+  },
+  {
+   "t": "UPSSSC Inter (12th) Level posts",
+   "org": "UP Subordinate Services Selection Commission",
+   "posts": 1784,
+   "q": [
+    "12"
+   ],
+   "s": [
+    "state"
+   ],
+   "loc": "Uttar Pradesh",
+   "start": "2026-11-10",
+   "last": "2026-12-01",
+   "url": "https://upsssc.gov.in/"
+  },
+  {
+   "t": "Central Railway Apprentice",
+   "org": "RRC Central Railway",
+   "posts": 2861,
+   "q": [
+    "iti"
+   ],
+   "s": [
+    "railway"
+   ],
+   "loc": "Central Railway units",
+   "start": "",
+   "last": "2026-12-02",
+   "url": "https://rrccr.com/"
+  },
+  {
+   "t": "GBPNIHE Nursing Assistant / Pharmacist (walk-in 4 Dec)",
+   "org": "G.B. Pant National Institute of Himalayan Environment",
+   "posts": 1,
+   "q": [
+    "medical"
+   ],
+   "s": [
+    "medical"
+   ],
+   "loc": "Almora, Uttarakhand",
+   "start": "",
+   "last": "2026-12-02",
+   "url": "https://gbpihed.gov.in/"
+  },
+  {
+   "t": "UPSC Advt 13/2026: Dental Surgeon, Ayurveda & Homeopathic Physician, Scientist B",
+   "org": "Union Public Service Commission",
+   "posts": 13,
+   "q": [
+    "medical",
+    "pg"
+   ],
+   "s": [
+    "upsc",
+    "medical"
+   ],
+   "loc": "Central govt.",
+   "start": "2026-11-14",
+   "last": "2026-12-04",
+   "exp": "mixed",
+   "url": "https://upsconline.nic.in/"
+  },
+  {
+   "t": "RRB Ministerial & Isolated Categories (CEN 09/2026)",
+   "org": "Railway Recruitment Boards",
+   "posts": 191,
+   "q": [
+    "grad",
+    "pg"
+   ],
+   "s": [
+    "railway"
+   ],
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-04",
+   "url": "https://www.rrbapply.gov.in/"
+  },
+  {
+   "t": "Chandigarh Veterinary Inspector",
+   "org": "Chandigarh Administration",
+   "posts": 5,
+   "q": [
+    "10",
+    "12",
+    "diploma"
+   ],
+   "s": [
+    "state"
+   ],
+   "loc": "Chandigarh",
+   "start": "",
+   "last": "2026-12-04",
+   "url": "https://chandigarh.gov.in/"
+  },
+  {
+   "t": "DSSSB Multi Tasking Staff",
+   "org": "Delhi Subordinate Services Selection Board",
+   "posts": 1075,
+   "q": [
+    "10"
+   ],
+   "s": [
+    "state"
+   ],
+   "loc": "Delhi",
+   "start": "2026-11-12",
+   "last": "2026-12-11",
+   "url": "https://dsssb.delhi.gov.in/"
+  },
+  {
+   "t": "DSSSB Junior Engineer",
+   "org": "Delhi Subordinate Services Selection Board",
+   "posts": 185,
+   "q": [
+    "diploma",
+    "engg"
+   ],
+   "s": [
+    "state",
+    "psu"
+   ],
+   "loc": "Delhi",
+   "start": "2026-11-12",
+   "last": "2026-12-11",
+   "url": "https://dsssb.delhi.gov.in/"
+  },
+  {
+   "t": "SIDBI Grade A & B Officers",
+   "org": "Small Industries Development Bank of India",
+   "posts": 68,
+   "q": [
+    "grad",
+    "pg"
+   ],
+   "s": [
+    "bank"
+   ],
+   "loc": "All India",
+   "start": "2026-11-21",
+   "last": "2026-12-11",
+   "exp": "mixed",
+   "url": "https://www.sidbi.in/en/careers",
+   "note": "Phase I & II exam tentatively 27 Dec 2026."
+  },
+  {
+   "t": "EXIM Bank Management Trainee & Manager",
+   "org": "Export-Import Bank of India",
+   "posts": 120,
+   "q": [
+    "grad",
+    "pg"
+   ],
+   "s": [
+    "bank"
+   ],
+   "loc": "All India",
+   "start": "2026-11-27",
+   "last": "2026-12-11",
+   "exp": "mixed",
+   "url": "https://www.eximbankindia.in/careers",
+   "note": "Written exam planned for December 2026."
+  },
+  {
+   "t": "ICAR Technical Assistant T-3 & T-4",
+   "org": "ASRB, Indian Council of Agricultural Research",
+   "posts": 1393,
+   "q": [
+    "grad",
+    "diploma"
+   ],
+   "s": [
+    "psu"
+   ],
+   "loc": "ICAR institutes, All India",
+   "start": "2026-11-18",
+   "last": "2026-12-17",
+   "url": "https://www.asrb.org.in/"
+  },
+  {
+   "t": "BSF LDCE Sub-Inspector (departmental)",
+   "org": "Border Security Force",
+   "posts": 1167,
+   "q": [
+    "serving"
+   ],
+   "s": [
+    "police"
+   ],
+   "loc": "BSF units",
+   "start": "2026-11-12",
+   "last": "2026-12-31",
+   "exp": "exp",
+   "url": "https://rectt.bsf.gov.in/",
+   "note": "Only for serving BSF personnel."
+  },
+  {
+   "t": "APPSC Assistant Executive Engineer",
+   "org": "Andhra Pradesh PSC",
+   "posts": 503,
+   "q": [
+    "engg"
+   ],
+   "s": [
+    "state",
+    "psu"
+   ],
+   "loc": "Andhra Pradesh",
+   "start": "",
+   "last": "2026-11-22",
+   "url": "https://psc.ap.gov.in/"
+  },
+  {
+   "t": "UPESSC Principal & Headmaster (aided schools)",
+   "org": "UP Education Service Selection Commission",
+   "posts": 2647,
+   "q": [
+    "bed"
+   ],
+   "s": [
+    "teaching",
+    "state"
+   ],
+   "loc": "Uttar Pradesh",
+   "start": "",
+   "last": "2026-11-22",
+   "url": "https://upessc.up.gov.in/"
+  },
+  {
+   "t": "Punjab & Haryana High Court Chowkidar",
+   "org": "Punjab & Haryana High Court",
+   "posts": 22,
+   "q": [
+    "10"
+   ],
+   "s": [
+    "state"
+   ],
+   "loc": "Chandigarh",
+   "start": "",
+   "last": "2026-11-21",
+   "url": "https://highcourtchd.gov.in/"
+  }
+ ],
+ "results": [
+  {
+   "t": "UP Special TET Result",
+   "org": "UP Basic Education",
+   "date": "2026-11-21",
+   "s": [
+    "teaching",
+    "state"
+   ],
+   "q": [
+    "bed"
+   ],
+   "url": "https://upsssc.gov.in/"
+  },
+  {
+   "t": "OSSSC RI / ARI Result",
+   "org": "Odisha SSSC",
+   "date": "2026-11-21",
+   "s": [
+    "state"
+   ],
+   "q": [
+    "grad"
+   ],
+   "url": "https://osssc.gov.in/"
+  },
+  {
+   "t": "OSSSC Nursing Officer Result",
+   "org": "Odisha SSSC",
+   "date": "2026-11-21",
+   "s": [
+    "state",
+    "medical"
+   ],
+   "q": [
+    "medical"
+   ],
+   "url": "https://osssc.gov.in/"
+  },
+  {
+   "t": "IBPS PO (CRP PO/MT-XVI) Mains Result",
+   "org": "IBPS",
+   "date": "2026-11-20",
+   "s": [
+    "bank"
+   ],
+   "q": [
+    "grad"
+   ],
+   "url": "https://www.ibps.in/",
+   "note": "Qualified candidates move to the interview round."
+  },
+  {
+   "t": "SBI Clerk 2026 Preliminary Result",
+   "org": "State Bank of India",
+   "date": "2026-11-18",
+   "s": [
+    "bank"
+   ],
+   "q": [
+    "grad"
+   ],
+   "url": "https://sbi.co.in/web/careers"
+  },
+  {
+   "t": "SSC CHSL 2025 Final Result & Tier-II marks",
+   "org": "Staff Selection Commission",
+   "date": "2026-11-18",
+   "s": [
+    "ssc"
+   ],
+   "q": [
+    "12"
+   ],
+   "url": "https://ssc.gov.in/"
+  },
+  {
+   "t": "UPSSSC Auditor & Assistant Accountant eligibility result",
+   "org": "UPSSSC",
+   "date": "2026-11-18",
+   "s": [
+    "state"
+   ],
+   "q": [
+    "grad"
+   ],
+   "url": "https://upsssc.gov.in/"
+  },
+  {
+   "t": "RRB Group D Result (PET shortlist & cut-off)",
+   "org": "Railway Recruitment Boards",
+   "date": "2026-11-16",
+   "s": [
+    "railway"
+   ],
+   "q": [
+    "10",
+    "iti"
+   ],
+   "url": "https://www.rrbapply.gov.in/"
+  },
+  {
+   "t": "Uttarakhand TET (UTET) Paper 1 & 2 Result",
+   "org": "Uttarakhand Board",
+   "date": "2026-11-13",
+   "s": [
+    "teaching",
+    "state"
+   ],
+   "q": [
+    "bed"
+   ],
+   "url": "https://ukutet.com/"
+  },
+  {
+   "t": "PNB Local Bank Officer Result",
+   "org": "Punjab National Bank",
+   "date": "2026-11-11",
+   "s": [
+    "bank"
+   ],
+   "q": [
+    "grad"
+   ],
+   "url": "https://www.pnbindia.in/Recruitments.aspx",
+   "note": "594 candidates qualified."
+  },
+  {
+   "t": "UIIC AO Phase-I Result",
+   "org": "United India Insurance",
+   "date": "2026-11-11",
+   "s": [
+    "psu"
+   ],
+   "q": [
+    "grad",
+    "pg"
+   ],
+   "url": "https://uiic.co.in/recruitment/details",
+   "note": "5,806 shortlisted for the Mains on 30 Nov."
+  },
+  {
+   "t": "DRDO CEPTAM-11 Tier-II Result",
+   "org": "DRDO",
+   "date": "2026-11-11",
+   "s": [
+    "psu"
+   ],
+   "q": [
+    "diploma",
+    "grad",
+    "10",
+    "iti"
+   ],
+   "url": "https://www.drdo.gov.in/"
+  },
+  {
+   "t": "BPSC 71st Mains Result",
+   "org": "Bihar PSC",
+   "date": "2026-11-06",
+   "s": [
+    "state"
+   ],
+   "q": [
+    "grad"
+   ],
+   "url": "https://bpsc.bihar.gov.in/",
+   "note": "3,392 candidates qualify for interview."
+  },
+  {
+   "t": "UPSC Civil Services (Main) 2026 Written Result",
+   "org": "UPSC",
+   "date": "2026-11-05",
+   "s": [
+    "upsc"
+   ],
+   "q": [
+    "grad"
+   ],
+   "url": "https://upsc.gov.in/",
+   "note": "2,526 qualified for the personality test."
+  },
+  {
+   "t": "UPSC NDA & NA (I) 2026 Final Result",
+   "org": "UPSC",
+   "date": "2026-11-05",
+   "s": [
+    "upsc",
+    "police"
+   ],
+   "q": [
+    "12"
+   ],
+   "url": "https://upsc.gov.in/",
+   "note": "617 candidates recommended."
+  },
+  {
+   "t": "UPSC CDS (I) 2026 Final Result",
+   "org": "UPSC",
+   "date": "2026-11-03",
+   "s": [
+    "upsc",
+    "police"
+   ],
+   "q": [
+    "grad"
+   ],
+   "url": "https://upsc.gov.in/"
+  },
+  {
+   "t": "RRB NTPC CBT-2 Result (CEN 07/2025)",
+   "org": "Railway Recruitment Boards",
+   "date": "2026-10-30",
+   "s": [
+    "railway"
+   ],
+   "q": [
+    "12",
+    "grad"
+   ],
+   "url": "https://www.rrbapply.gov.in/"
+  }
+ ],
+ "admit": [
+  {
+   "t": "SSC CPO SI (CAPF) Paper-I Admit Card",
+   "org": "Staff Selection Commission",
+   "s": [
+    "ssc",
+    "police"
+   ],
+   "q": [
+    "grad"
+   ],
+   "url": "https://ssc.gov.in/",
+   "tag": "Out"
+  },
+  {
+   "t": "SBI PO Phase 3 Interview Call Letter",
+   "org": "State Bank of India",
+   "s": [
+    "bank"
+   ],
+   "q": [
+    "grad"
+   ],
+   "url": "https://sbi.bank.in/web/careers",
+   "tag": "Out"
+  },
+  {
+   "t": "SBI Junior Associate (Clerk) Mains Admit Card",
+   "org": "State Bank of India",
+   "s": [
+    "bank"
+   ],
+   "q": [
+    "grad"
+   ],
+   "url": "https://sbi.bank.in/web/careers",
+   "tag": "Out"
+  },
+  {
+   "t": "UIIC AO Phase-II (Mains) Admit Card",
+   "org": "United India Insurance",
+   "s": [
+    "psu"
+   ],
+   "q": [
+    "grad",
+    "pg"
+   ],
+   "url": "https://uiic.co.in/recruitment/details",
+   "tag": "Exam 30 Nov"
+  },
+  {
+   "t": "Bank of India SO Admit Card",
+   "org": "Bank of India",
+   "s": [
+    "bank"
+   ],
+   "q": [
+    "grad",
+    "pg",
+    "engg"
+   ],
+   "url": "https://bankofindia.co.in/career",
+   "tag": "Out"
+  },
+  {
+   "t": "RRB Paramedical Staff Admit Card",
+   "org": "Railway Recruitment Boards",
+   "s": [
+    "railway",
+    "medical"
+   ],
+   "q": [
+    "medical"
+   ],
+   "url": "https://www.rrbapply.gov.in/",
+   "tag": "Out"
+  },
+  {
+   "t": "RRB NTPC 10+2 UG CBT Exam City Details",
+   "org": "Railway Recruitment Boards",
+   "s": [
+    "railway"
+   ],
+   "q": [
+    "12"
+   ],
+   "url": "https://www.rrbapply.gov.in/",
+   "tag": "City slip"
+  },
+  {
+   "t": "NTPC NGEL Engineer & Executive Admit Card",
+   "org": "NTPC Green Energy",
+   "s": [
+    "psu"
+   ],
+   "q": [
+    "engg",
+    "pg"
+   ],
+   "url": "https://ngel.in/careers",
+   "tag": "Out"
+  },
+  {
+   "t": "CISF Constable Tradesmen / Driver Exam City Details",
+   "org": "CISF",
+   "s": [
+    "police"
+   ],
+   "q": [
+    "10"
+   ],
+   "url": "https://cisfrectt.cisf.gov.in/",
+   "tag": "City slip"
+  },
+  {
+   "t": "RSSB CET 12th Level Exam City Details",
+   "org": "Rajasthan Staff Selection Board",
+   "s": [
+    "state"
+   ],
+   "q": [
+    "12"
+   ],
+   "url": "https://rssb.rajasthan.gov.in/",
+   "tag": "City slip"
+  },
+  {
+   "t": "UPSSSC Havildar Instructor Admit Card",
+   "org": "UPSSSC",
+   "s": [
+    "state",
+    "police"
+   ],
+   "q": [
+    "12"
+   ],
+   "url": "https://upsssc.gov.in/",
+   "tag": "Out"
+  },
+  {
+   "t": "UPSSSC Platoon Commander / Block Organiser Admit Card",
+   "org": "UPSSSC",
+   "s": [
+    "state"
+   ],
+   "q": [
+    "grad"
+   ],
+   "url": "https://upsssc.gov.in/",
+   "tag": "Out"
+  },
+  {
+   "t": "MP High Court Stenographer & Assistant Exam Date",
+   "org": "MP High Court",
+   "s": [
+    "state"
+   ],
+   "q": [
+    "12",
+    "grad"
+   ],
+   "url": "https://mphc.gov.in/",
+   "tag": "Date out"
+  }
+ ],
+ "keys": [
+  {
+   "t": "RRB ALP (CEN 01/2026) Answer Key",
+   "org": "Railway Recruitment Boards",
+   "s": [
+    "railway"
+   ],
+   "q": [
+    "iti",
+    "diploma",
+    "engg"
+   ],
+   "url": "https://www.rrbapply.gov.in/",
+   "tag": "Out"
+  },
+  {
+   "t": "RRB Technician Answer Key",
+   "org": "Railway Recruitment Boards",
+   "s": [
+    "railway"
+   ],
+   "q": [
+    "iti",
+    "diploma",
+    "engg",
+    "12"
+   ],
+   "url": "https://www.rrbapply.gov.in/",
+   "tag": "Out"
+  },
+  {
+   "t": "RRB Junior Engineer (JE) Answer Key",
+   "org": "Railway Recruitment Boards",
+   "s": [
+    "railway"
+   ],
+   "q": [
+    "diploma",
+    "engg"
+   ],
+   "url": "https://www.rrbapply.gov.in/",
+   "tag": "Out"
+  },
+  {
+   "t": "RRB Section Controller Answer Key",
+   "org": "Railway Recruitment Boards",
+   "s": [
+    "railway"
+   ],
+   "q": [
+    "grad"
+   ],
+   "url": "https://www.rrbapply.gov.in/",
+   "tag": "Out"
+  },
+  {
+   "t": "SSC CGL Tier-I Answer Key",
+   "org": "Staff Selection Commission",
+   "s": [
+    "ssc"
+   ],
+   "q": [
+    "grad"
+   ],
+   "url": "https://ssc.gov.in/",
+   "tag": "Out"
+  },
+  {
+   "t": "SSC Junior Engineer (JE) Answer Key",
+   "org": "Staff Selection Commission",
+   "s": [
+    "ssc",
+    "psu"
+   ],
+   "q": [
+    "diploma",
+    "engg"
+   ],
+   "url": "https://ssc.gov.in/",
+   "tag": "Out"
+  },
+  {
+   "t": "SSC Constable GD 2025 Final Answer Key",
+   "org": "Staff Selection Commission",
+   "s": [
+    "ssc",
+    "police"
+   ],
+   "q": [
+    "10"
+   ],
+   "url": "https://ssc.gov.in/",
+   "tag": "Final"
+  },
+  {
+   "t": "UPSSSC PET Answer Key (objection window)",
+   "org": "UPSSSC",
+   "s": [
+    "state"
+   ],
+   "q": [
+    "10",
+    "12",
+    "grad"
+   ],
+   "url": "https://upsssc.gov.in/",
+   "tag": "Objection"
+  },
+  {
+   "t": "ISRO ICRB Scientist / Engineer Answer Key",
+   "org": "ISRO",
+   "s": [
+    "psu"
+   ],
+   "q": [
+    "engg"
+   ],
+   "url": "https://www.isro.gov.in/Careers.html",
+   "tag": "Out"
+  },
+  {
+   "t": "MPESB MP Police SI / Subedar Answer Key",
+   "org": "MP Employee Selection Board",
+   "s": [
+    "state",
+    "police"
+   ],
+   "q": [
+    "grad"
+   ],
+   "url": "https://esb.mp.gov.in/",
+   "tag": "Out"
+  },
+  {
+   "t": "BSF Head Constable RO / RM Answer Key",
+   "org": "Border Security Force",
+   "s": [
+    "police"
+   ],
+   "q": [
+    "12"
+   ],
+   "url": "https://rectt.bsf.gov.in/",
+   "tag": "Out"
+  }
+ ],
+ "status": [
+  {
+   "t": "UPSC Civil Services 2026",
+   "org": "UPSC",
+   "posts": 933,
+   "s": [
+    "upsc"
+   ],
+   "q": [
+    "grad"
+   ],
+   "stages": [
+    "Applied (Feb)",
+    "Prelims (24 May)",
+    "Mains (21–30 Aug)",
+    "Mains result (5 Nov)",
+    "DAF-II form (11–25 Nov)",
+    "Interview"
+   ],
+   "now": 4,
+   "next": "Fill DAF-II by 25 Nov 2026, 6 PM. Interview dates to be announced.",
+   "url": "https://upsc.gov.in/"
+  },
+  {
+   "t": "SSC CGL 2026",
+   "org": "Staff Selection Commission",
+   "posts": 12256,
+   "s": [
+    "ssc"
+   ],
+   "q": [
+    "grad"
+   ],
+   "stages": [
+    "Applied (May–Jun)",
+    "Tier 1",
+    "Tier 1 answer key",
+    "Tier 2 (Dec 2026)",
+    "Final result"
+   ],
+   "now": 3,
+   "next": "Tier-I answer key is out. Tier 2 is scheduled for December 2026.",
+   "url": "https://ssc.gov.in/"
+  },
+  {
+   "t": "SSC CPO Sub-Inspector 2026",
+   "org": "Staff Selection Commission",
+   "posts": 1871,
+   "s": [
+    "ssc",
+    "police"
+   ],
+   "q": [
+    "grad"
+   ],
+   "stages": [
+    "Applied",
+    "Paper-I admit card",
+    "CBT Paper I",
+    "PET/PST",
+    "Paper II",
+    "Final"
+   ],
+   "now": 1,
+   "next": "Paper-I admit card is out; download it before the exam.",
+   "url": "https://ssc.gov.in/"
+  },
+  {
+   "t": "SSC GD Constable 2027",
+   "org": "Staff Selection Commission",
+   "posts": null,
+   "s": [
+    "ssc",
+    "police"
+   ],
+   "q": [
+    "10"
+   ],
+   "stages": [
+    "Applied (30 Sep–31 Oct)",
+    "CBT (Jan–Mar 2027)",
+    "PET/PST",
+    "Medical",
+    "Final"
+   ],
+   "now": 1,
+   "next": "Applications closed. CBT expected Jan–Mar 2027.",
+   "url": "https://ssc.gov.in/"
+  },
+  {
+   "t": "IBPS PO (CRP XVI)",
+   "org": "IBPS",
+   "posts": null,
+   "s": [
+    "bank"
+   ],
+   "q": [
+    "grad"
+   ],
+   "stages": [
+    "Applied",
+    "Prelims",
+    "Mains",
+    "Mains result (20 Nov)",
+    "Interview",
+    "Allotment"
+   ],
+   "now": 4,
+   "next": "Interview call letters are the next step.",
+   "url": "https://www.ibps.in/"
+  },
+  {
+   "t": "SBI Clerk 2026",
+   "org": "State Bank of India",
+   "posts": null,
+   "s": [
+    "bank"
+   ],
+   "q": [
+    "grad"
+   ],
+   "stages": [
+    "Applied",
+    "Prelims",
+    "Prelims result (18 Nov)",
+    "Mains",
+    "Final"
+   ],
+   "now": 3,
+   "next": "Prepare for the Mains; admit card will follow.",
+   "url": "https://sbi.co.in/web/careers"
+  },
+  {
+   "t": "SBI PO 2026",
+   "org": "State Bank of India",
+   "posts": null,
+   "s": [
+    "bank"
+   ],
+   "q": [
+    "grad"
+   ],
+   "stages": [
+    "Applied (Jun–Jul)",
+    "Prelims",
+    "Mains",
+    "Mains result (15 Oct)",
+    "Phase 3 interview",
+    "Final"
+   ],
+   "now": 4,
+   "next": "Phase 3 (psychometric + interview) under way.",
+   "url": "https://sbi.co.in/web/careers"
+  },
+  {
+   "t": "RRB ALP (CEN 01/2026)",
+   "org": "Railway Recruitment Boards",
+   "posts": 11127,
+   "s": [
+    "railway"
+   ],
+   "q": [
+    "iti",
+    "diploma",
+    "engg"
+   ],
+   "stages": [
+    "Applied (May–Jun)",
+    "CBT",
+    "Answer key (12 Nov)",
+    "Result",
+    "CBAT",
+    "DV & Medical"
+   ],
+   "now": 2,
+   "next": "Answer key released 12 Nov 2026; result expected next.",
+   "url": "https://www.rrbapply.gov.in/"
+  },
+  {
+   "t": "RRB Technician (CEN 02/2026)",
+   "org": "Railway Recruitment Boards",
+   "posts": 6557,
+   "s": [
+    "railway"
+   ],
+   "q": [
+    "iti",
+    "diploma",
+    "engg",
+    "12"
+   ],
+   "stages": [
+    "Applied (Jun–Jul)",
+    "CBT",
+    "Answer key",
+    "Result",
+    "DV & Medical"
+   ],
+   "now": 2,
+   "next": "Answer key is out; result expected next.",
+   "url": "https://www.rrbapply.gov.in/"
+  },
+  {
+   "t": "RRB JE / DMS / CMA (CEN 04/2026)",
+   "org": "Railway Recruitment Boards",
+   "posts": 3993,
+   "s": [
+    "railway"
+   ],
+   "q": [
+    "diploma",
+    "engg",
+    "grad"
+   ],
+   "stages": [
+    "Applied (Aug–Sep)",
+    "CBT 1",
+    "Answer key",
+    "CBT 2",
+    "DV & Medical"
+   ],
+   "now": 2,
+   "next": "Answer key is out; CBT 1 result expected next.",
+   "url": "https://www.rrbapply.gov.in/"
+  },
+  {
+   "t": "UIIC Administrative Officer",
+   "org": "United India Insurance",
+   "posts": null,
+   "s": [
+    "psu"
+   ],
+   "q": [
+    "grad",
+    "pg"
+   ],
+   "stages": [
+    "Applied",
+    "Phase I",
+    "Phase I result (11 Nov)",
+    "Mains (30 Nov)",
+    "Interview"
+   ],
+   "now": 3,
+   "next": "Mains on 30 Nov 2026.",
+   "url": "https://uiic.co.in/recruitment/details"
+  },
+  {
+   "t": "BPSC 71st Combined Exam",
+   "org": "Bihar PSC",
+   "posts": null,
+   "s": [
+    "state"
+   ],
+   "q": [
+    "grad"
+   ],
+   "stages": [
+    "Prelims",
+    "Mains",
+    "Mains result (6 Nov)",
+    "Interview",
+    "Final"
+   ],
+   "now": 3,
+   "next": "Interview schedule to be released.",
+   "url": "https://bpsc.bihar.gov.in/"
+  }
+ ],
+ "calendar": [
+  {
+   "t": "SSC CPO SI Paper-I (CBT)",
+   "type": "exam",
+   "start": "2026-11-20",
+   "end": "2026-11-28",
+   "s": [
+    "ssc",
+    "police"
+   ],
+   "q": [
+    "grad"
+   ],
+   "url": "https://ssc.gov.in/"
+  },
+  {
+   "t": "UGC NET Dec 2026 exam city slip",
+   "type": "admit",
+   "start": "2026-11-23",
+   "s": [
+    "teaching"
+   ],
+   "q": [
+    "pg"
+   ],
+   "url": "https://ugcnet.nta.nic.in/"
+  },
+  {
+   "t": "SBI Clerk (Junior Associate) Mains",
+   "type": "exam",
+   "start": "2026-11-26",
+   "end": "2026-11-27",
+   "s": [
+    "bank"
+   ],
+   "q": [
+    "grad"
+   ],
+   "url": "https://sbi.bank.in/web/careers"
+  },
+  {
+   "t": "UIIC AO Mains",
+   "type": "exam",
+   "start": "2026-11-30",
+   "s": [
+    "psu"
+   ],
+   "q": [
+    "grad",
+    "pg"
+   ],
+   "url": "https://uiic.co.in/recruitment/details"
+  },
+  {
+   "t": "IBPS RRB Office Assistant Prelims",
+   "type": "exam",
+   "dates": [
+    "2026-12-06",
+    "2026-12-12",
+    "2026-12-13"
+   ],
+   "s": [
+    "bank"
+   ],
+   "q": [
+    "grad"
+   ],
+   "url": "https://www.ibps.in/"
+  },
+  {
+   "t": "UGC NET Dec 2026 admit card",
+   "type": "admit",
+   "start": "2026-12-07",
+   "s": [
+    "teaching"
+   ],
+   "q": [
+    "pg"
+   ],
+   "url": "https://ugcnet.nta.nic.in/"
+  },
+  {
+   "t": "UGC NET December 2026",
+   "type": "exam",
+   "dates": [
+    "2026-12-14",
+    "2026-12-15",
+    "2026-12-16",
+    "2026-12-17",
+    "2026-12-18",
+    "2026-12-21"
+   ],
+   "s": [
+    "teaching"
+   ],
+   "q": [
+    "pg"
+   ],
+   "url": "https://ugcnet.nta.nic.in/"
+  },
+  {
+   "t": "IBPS RRB Officer Scale-I Mains",
+   "type": "exam",
+   "start": "2026-12-20",
+   "s": [
+    "bank"
+   ],
+   "q": [
+    "grad"
+   ],
+   "url": "https://www.ibps.in/"
+  },
+  {
+   "t": "Supreme Court Court Assistant objective & technical test",
+   "type": "exam",
+   "start": "2026-12-22",
+   "tentative": true,
+   "s": [
+    "ssc"
+   ],
+   "q": [
+    "engg",
+    "pg"
+   ],
+   "url": "https://www.sci.gov.in/recruitment/"
+  },
+  {
+   "t": "IBPS Clerk (CSA-XVI) Mains",
+   "type": "exam",
+   "start": "2026-12-27",
+   "s": [
+    "bank"
+   ],
+   "q": [
+    "grad"
+   ],
+   "url": "https://www.ibps.in/"
+  },
+  {
+   "t": "SIDBI Grade A & B Phase I & II",
+   "type": "exam",
+   "start": "2026-12-27",
+   "tentative": true,
+   "s": [
+    "bank"
+   ],
+   "q": [
+    "grad",
+    "pg"
+   ],
+   "url": "https://www.sidbi.in/en/careers"
+  },
+  {
+   "t": "AFCAT 01/2027 admit card",
+   "type": "admit",
+   "start": "2027-01-27",
+   "s": [
+    "police"
+   ],
+   "q": [
+    "grad",
+    "engg"
+   ],
+   "url": "https://afcat.edcil.co.in/"
+  },
+  {
+   "t": "IBPS RRB Office Assistant Mains",
+   "type": "exam",
+   "start": "2027-01-30",
+   "s": [
+    "bank"
+   ],
+   "q": [
+    "grad"
+   ],
+   "url": "https://www.ibps.in/"
+  },
+  {
+   "t": "AFCAT 01/2027 online exam",
+   "type": "exam",
+   "start": "2027-01-31",
+   "s": [
+    "police"
+   ],
+   "q": [
+    "grad",
+    "engg"
+   ],
+   "url": "https://afcat.edcil.co.in/"
+  }
+ ],
+ "calendarTBA": [
+  {
+   "t": "SSC CGL 2026 Tier 2",
+   "when": "December 2026",
+   "s": [
+    "ssc"
+   ],
+   "q": [
+    "grad"
+   ],
+   "url": "https://ssc.gov.in/"
+  },
+  {
+   "t": "EXIM Bank MT & Manager written exam",
+   "when": "December 2026",
+   "s": [
+    "bank"
+   ],
+   "q": [
+    "grad",
+    "pg"
+   ],
+   "url": "https://www.eximbankindia.in/careers"
+  },
+  {
+   "t": "RRB Station Master CBT",
+   "when": "January 2027 (expected)",
+   "s": [
+    "railway"
+   ],
+   "q": [
+    "grad"
+   ],
+   "url": "https://www.rrbapply.gov.in/"
+  },
+  {
+   "t": "SSC GD Constable 2027 CBT",
+   "when": "January – March 2027",
+   "s": [
+    "ssc",
+    "police"
+   ],
+   "q": [
+    "10"
+   ],
+   "url": "https://ssc.gov.in/"
+  },
+  {
+   "t": "UPSC CSE 2026 interviews",
+   "when": "Dates to be notified",
+   "s": [
+    "upsc"
+   ],
+   "q": [
+    "grad"
+   ],
+   "url": "https://upsc.gov.in/"
+  }
+ ]
+}
