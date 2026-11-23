@@ -17,20 +17,22 @@ CITIES = ["Bengaluru", "Bangalore", "Hyderabad", "Pune", "Chennai", "Mumbai", "N
 
 def classify(role, company, meta):
     t = f"{role} {company} {meta}".lower()
-    kind = "apprentice" if re.search(r"\bapprentice", t) else "intern" if re.search(r"\bintern(ship)?\b", role.lower()) else "job"
+    def has(words):  # match at the start of a word only
+        return re.search(r"(?<![a-z])(?:" + words + r")", t)
+    kind = "apprentice" if has(r"\bapprentice") else "intern" if re.search(r"\bintern(ship)?\b", role.lower()) else "job"
     s = set()
     if re.search(r"software|developer|engineer.*(software|cloud|devops|qa|test)|sde|full stack|java|python|web|"
                  r"programmer|quality engineer|test engineer|cloud|devops|salesforce|servicenow|network|noc|database|"
                  r"cyber|security|technical support|desktop|asic|vlsi", t): s.add("it")
-    if re.search(r"data|analytics|machine learning|\bml\b|\bai\b|artificial|scientist", t): s.add("data")
+    if has(r"data|analytics|machine learning|\bml\b|\bai\b|artificial|scientist"): s.add("data")
     if re.search(r"mechanical|civil|electrical|production|manufactur|plant|design engineer|cad|get\b|"
                  r"graduate engineer|field|maintenance|chemical|mechanical engineering|electrical engineering|quality.*(plant|ptm)|chemist", t): s.add("core")
-    if re.search(r"analyst|consult|associate.*(ops|operations)|process", t): s.add("consult")
-    if re.search(r"financ|account|audit|tax|risk|credit|bank|loan|treasury|\bca\b|record to report", t): s.add("finance")
-    if re.search(r"sales|business development|relationship|marketing|bd\b", t): s.add("sales")
-    if re.search(r"pharma|clinical|medical|health|formulation|research associate", t): s.add("health")
-    if re.search(r"customer|voice|support|bpo|service executive|front office|guest", t): s.add("support")
-    if re.search(r"design|ui|ux|motion|graphic|draftsman|revit|bim", t): s.add("design")
+    if has(r"analyst|consult|associate.*(ops|operations)|process"): s.add("consult")
+    if has(r"financ|account|audit|tax|risk|credit|bank|loan|treasury|\bca\b|record to report"): s.add("finance")
+    if has(r"sales|business development|relationship|marketing|bd\b"): s.add("sales")
+    if has(r"pharma|clinical|medical|health|formulation|research associate"): s.add("health")
+    if has(r"customer|voice|support|bpo|service executive|front office|guest"): s.add("support")
+    if has(r"design|ui|ux|motion|graphic|draftsman|revit|bim"): s.add("design")
     if not s:
         s.add("it")
     q = set()
@@ -42,7 +44,7 @@ def classify(role, company, meta):
     if "health" in s: q |= {"pharm", "sci"}
     if "design" in s and "draftsman" in t: q.add("arch")
     m = re.search(r"(\d+)\s*[-–]\s*(\d+)\s*(?:yrs|years)", meta, re.I)
-    exp = [int(m.group(1)), int(m.group(2))] if m else [0, 0] if re.search(r"fresher|entry|0\s*years|intern", t) else [0, 2]
+    exp = [int(m.group(1)), int(m.group(2))] if m else [0, 0] if has(r"fresher|entry|0\s*years|intern") else [0, 2]
     loc = next((c for c in CITIES if c.lower() in meta.lower()), meta.split("·")[1].strip() if "·" in meta else "India")
     loc = {"Bangalore": "Bengaluru", "Gurgaon": "Gurugram"}.get(loc, loc)
     return kind, sorted(s), sorted(q) or ["any"], exp, loc
