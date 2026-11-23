@@ -60,7 +60,7 @@ jobs:
           else
             gh release create apk-latest SarkariJobTracker.apk \
               --target "${{ github.sha }}" \
-              --title "Sarkari Job Tracker for Android" \
+              --title "JOB Alert for Android" \
               --notes "$NOTES"
           fi
           # Fail the job if the public download link does not work

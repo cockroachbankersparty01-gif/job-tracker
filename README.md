@@ -1,4 +1,4 @@
-# Sarkari Job Tracker
+# JOB Alert
 
 A mobile-friendly web app for Indian government job openings, admit cards, answer keys, results and an exam calendar, filtered by the candidate's qualification, preferred sector and experience.
 

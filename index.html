@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sarkari Job Tracker</title>
+<title>JOB Alert</title>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
-<meta name="theme-color" content="#1b2340">
+<meta name="theme-color" content="#FFC81A">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="description" content="Daily Indian government job openings, admit cards, answer keys, results and exam calendar, filtered by your qualification.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,10 +37,13 @@
 html,body{margin:0}
 body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5}
 .wrap{max-width:860px;margin:0 auto;padding:16px}
-header{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap;border-bottom:3px double var(--line);padding-bottom:10px}
-h1{font-family:var(--display);font-weight:800;font-size:1.6rem;margin:0;letter-spacing:-.01em;text-wrap:balance}
-h1 span{color:var(--accent)}
-.updated{font-size:.85rem;color:var(--muted)}
+header{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;background:linear-gradient(135deg,#FFE14D,#FFB300);color:#1b2340;border-radius:14px;padding:12px 14px;box-shadow:0 2px 10px rgba(255,179,0,.25)}
+.brand{display:flex;align-items:center;gap:10px}
+.logo{width:44px;height:44px;flex:none;border-radius:10px;box-shadow:0 0 0 2px #1b2340}
+h1{font-family:var(--display);font-weight:800;font-size:1.7rem;margin:0;letter-spacing:-.01em;text-wrap:balance;color:#1b2340;line-height:1}
+h1 small{display:block;font-family:var(--body);font-weight:500;font-size:.78rem;letter-spacing:0;margin-top:3px;color:#3b3f52}
+h1 span{color:#C2410C}
+.updated{font-size:.85rem;color:#1b2340;font-weight:500}
 h2{font-family:var(--display);font-size:1.15rem;margin:0 0 6px;text-wrap:balance}
 p{margin:0}
 button,input,select{font:inherit;color:inherit}
@@ -104,7 +107,7 @@ body{overscroll-behavior-y:contain}
 #ptr[data-state="loading"] #ptrIcon::before{content:""}
 @keyframes spin{to{transform:rotate(360deg)}}
 .updated{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
-.refresh{background:none;border:1px solid var(--line);border-radius:999px;padding:3px 12px;font-size:.82rem;cursor:pointer;color:var(--ink)}
+.refresh{background:rgba(255,255,255,.55);border:1px solid #1b2340;border-radius:999px;padding:3px 12px;font-size:.82rem;cursor:pointer;color:var(--ink)}
 .refresh:hover{border-color:var(--accent);color:var(--accent)}
 .refresh:disabled{opacity:.5;cursor:wait}
 #toast{position:fixed;left:50%;bottom:20px;transform:translate(-50%,20px);background:var(--ink);color:var(--paper);padding:10px 16px;border-radius:8px;font-size:.9rem;opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;z-index:10;max-width:calc(100% - 32px);text-align:center}
@@ -128,9 +131,9 @@ body{overscroll-behavior-y:contain}
 .day:hover{border-color:var(--line)}
 .dots{display:flex;gap:3px;flex-wrap:wrap;justify-content:center}
 .dot{width:7px;height:7px;border-radius:50%}
-.c-exam{background:var(--accent)} .c-admit{background:var(--info)} .c-last{background:var(--last)}
+.c-exam{background:var(--accent)} .c-admit{background:var(--info)} .c-last{background:var(--last)} .c-start{background:#7c3aed}
 .ev-type{font-size:.75rem;font-weight:600;padding:2px 8px;border-radius:999px}
-.t-exam{background:var(--accent-soft);color:var(--accent)} .t-admit{background:var(--info-bg);color:var(--info)} .t-last{background:var(--last-bg);color:var(--last)}
+.t-exam{background:var(--accent-soft);color:var(--accent)} .t-admit{background:var(--info-bg);color:var(--info)} .t-last{background:var(--last-bg);color:var(--last)} .t-start{background:#f1eafe;color:#6d28d9}
 .sec-title{font-family:var(--display);font-size:1rem;margin:16px 0 8px}
 @media (max-width:480px){.day{min-height:44px;font-size:.82rem}.cal{padding:8px}}
 .xp{font-weight:600}
@@ -147,7 +150,7 @@ footer{margin:22px 0 8px;font-size:.82rem;color:var(--muted);display:grid;gap:6p
 <div id="toast" role="status" aria-live="polite"></div>
 <div class="wrap">
   <header>
-    <h1>Sarkari Job <span>Tracker</span></h1>
+    <div class="brand"><svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" aria-hidden="true"> <defs> <linearGradient id="logobg" x1="0" y1="0" x2="1" y2="1"> <stop offset="0" stop-color="#FFE14D"/> <stop offset="1" stop-color="#FFB300"/> </linearGradient> </defs> <rect width="512" height="512" rx="112" fill="url(#logobg)"/> <path d="M112 132 C84 168 76 214 86 258" fill="none" stroke="#1b2340" stroke-width="22" stroke-linecap="round"/> <path d="M400 132 C428 168 436 214 426 258" fill="none" stroke="#1b2340" stroke-width="22" stroke-linecap="round"/> <circle cx="256" cy="104" r="22" fill="#1b2340"/> <path d="M256 112c-72 0-122 54-122 128v72l-36 50c-9 12 0 28 15 28h286c15 0 24-16 15-28l-36-50v-72c0-74-50-128-122-128z" fill="#1b2340"/> <path d="M214 396h84a42 42 0 0 1-84 0z" fill="#1b2340"/> <path d="M236 232v-14a12 12 0 0 1 12-12h16a12 12 0 0 1 12 12v14" fill="none" stroke="#FFC81A" stroke-width="13"/> <rect x="196" y="230" width="120" height="86" rx="14" fill="#FFC81A"/> <rect x="196" y="262" width="120" height="10" fill="#1b2340"/> <rect x="244" y="256" width="24" height="22" rx="5" fill="#FFC81A" stroke="#1b2340" stroke-width="6"/> <circle cx="370" cy="140" r="50" fill="#E11D48" stroke="#FFD43B" stroke-width="16"/> <rect x="362" y="110" width="16" height="38" rx="8" fill="#fff"/> <circle cx="370" cy="166" r="9" fill="#fff"/> </svg><h1>JOB <span>Alert</span><small>Sarkari jobs, results &amp; exam dates</small></h1></div>
     <div class="updated" id="updated"><span id="updatedDate">Loading…</span><button class="refresh" id="refreshBtn" aria-label="Refresh listings">↻ Refresh</button></div>
   </header>
   <div class="stale hidden" id="stale" role="status"></div>
@@ -279,6 +282,13 @@ function jobStatus(j){
   return {k:"open",label:`Open · ${left} days left`};
 }
 
+/* ---------- Opening date ---------- */
+function startHtml(j){
+  if(!j.start) return `<span>Started: <b>see notice</b></span>`;
+  if(parse(j.start)>today()) return `<span>Applications open: <b>${fmt(j.start)}</b></span>`;
+  return j.startNotice ? `<span>Notified: <b>${fmt(j.start)}</b></span>` : `<span>Started: <b>${fmt(j.start)}</b></span>`;
+}
+
 /* ---------- Profile ---------- */
 let profile = null;
 try{ profile = JSON.parse(localStorage.getItem("sjt-profile")||"null"); }catch(e){}
@@ -376,7 +386,7 @@ function render(){
         <div><h3>${esc(j.t)}</h3><div class="meta"><span>${esc(j.org)}</span><span>${esc(j.loc)}</span></div></div>
         <span class="stamp st-${st.k}">${st.label}</span>
         <div class="foot">
-          <div class="meta"><span>Posts: <b>${j.posts.toLocaleString("en-IN")}</b></span>${j.start?`<span>Opens: <b>${fmt(j.start)}</b></span>`:""}<span>Last date: <b>${fmt(j.last)}</b></span><span>Eligibility: <b>${j.q.map(id=>QUALS.find(x=>x.id===id).label).join(" / ")}</b></span><span class="xp xp-${j.exp||"fresher"}">${EXP_LABEL[j.exp||"fresher"]}</span></div>
+          <div class="meta"><span>Posts: <b>${j.posts.toLocaleString("en-IN")}</b></span>${startHtml(j)}<span>Last date: <b>${fmt(j.last)}</b></span><span>Eligibility: <b>${j.q.map(id=>QUALS.find(x=>x.id===id).label).join(" / ")}</b></span><span class="xp xp-${j.exp||"fresher"}">${EXP_LABEL[j.exp||"fresher"]}</span></div>
           <a href="${j.url}" target="_blank" rel="noopener">${j.src?"Notice details ↗":"Official site ↗"}</a>
         </div>
         ${j.note?`<p class="note">${esc(j.note)}</p>`:""}
@@ -414,7 +424,7 @@ function render(){
 
 /* ---------- Exam calendar ---------- */
 let calMonth=null, calSel=null;
-const TYPE_LABEL={exam:"Exam",admit:"Admit card / city slip",last:"Last date to apply"};
+const TYPE_LABEL={exam:"Exam",admit:"Admit card / city slip",last:"Last date to apply",start:"Applications open"};
 function iso(d){ return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0"); }
 function calEvents(mine){
   const s=$("#q").value.trim().toLowerCase();
@@ -425,7 +435,10 @@ function calEvents(mine){
     if(!e.dates){ let d=parse(e.start); const end=parse(e.end||e.start); while(d<=end){ days.push(iso(d)); d=new Date(d.getFullYear(),d.getMonth(),d.getDate()+1); } }
     days.forEach(day=>out.push({day,t:e.t,type:e.type,url:e.url,tentative:e.tentative,span:days.length>1?`${fmt(days[0])} – ${fmt(days[days.length-1])}`:""}));
   });
-  JOBS.filter(j=>ok(j)&&stateOk(j)).forEach(j=>out.push({day:j.last,t:j.t,type:"last",url:j.url,org:j.org}));
+  JOBS.filter(j=>ok(j)&&stateOk(j)).forEach(j=>{
+    out.push({day:j.last,t:j.t,type:"last",url:j.url,org:j.org});
+    if(j.start && !j.startNotice) out.push({day:j.start,t:j.t,type:"start",url:j.url,org:j.org});
+  });
   return out;
 }
 function renderCalendar(mine){
@@ -461,7 +474,7 @@ function renderCalendar(mine){
     <div class="foot"><span></span><a href="${x.url}" target="_blank" rel="noopener">Official site ↗</a></div></article>`).join("");
   return `<div class="cal">
       <div class="cal-head"><button class="cal-nav" data-cal="-1" aria-label="Previous month">‹</button><h2>${monthName}</h2><button class="cal-nav" data-cal="1" aria-label="Next month">›</button></div>
-      <div class="legend"><span><i class="c-exam"></i>Exam</span><span><i class="c-admit"></i>Admit card</span><span><i class="c-last"></i>Last date to apply</span></div>
+      <div class="legend"><span><i class="c-exam"></i>Exam</span><span><i class="c-admit"></i>Admit card</span><span><i class="c-start"></i>Applications open</span><span><i class="c-last"></i>Last date to apply</span></div>
       <div class="grid">${cells}</div>
     </div>
     <h3 class="sec-title">${calSel?"On "+fmt(calSel)+` <button class="refresh" data-cal="clear">Show whole month</button>`:"This month"}</h3>

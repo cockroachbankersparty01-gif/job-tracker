@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.SystemClock;
+import android.view.View;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
@@ -25,7 +26,7 @@ import java.net.URL;
 import java.nio.charset.StandardCharsets;
 
 /**
- * Sarkari Job Tracker.
+ * JOB Alert (Sarkari job alerts).
  * Everything updates by itself:
  *  - Each time the app starts, it downloads the latest screens (index.html) from the GitHub repo,
  *    so design changes reach every phone without reinstalling. If offline, it uses the last
@@ -47,7 +48,9 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getWindow().setStatusBarColor(Color.parseColor("#1b2340"));
+        getWindow().setStatusBarColor(Color.parseColor("#FFC81A"));
+        // dark status-bar icons on the yellow bar
+        getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
 
         web = new WebView(this);
         setContentView(web);

@@ -1,9 +1,9 @@
 {
-  "name": "Sarkari Job Tracker",
-  "short_name": "Job Tracker",
+  "name": "JOB Alert",
+  "short_name": "JOB Alert",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#f6f6f3",
-  "theme_color": "#1b2340",
+  "theme_color": "#FFC81A",
   "icons": [{"src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}]
 }

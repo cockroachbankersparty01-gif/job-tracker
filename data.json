@@ -15,7 +15,7 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-14",
    "last": "2026-12-04",
    "url": "https://upsconline.nic.in/",
    "exp": "mixed"
@@ -32,9 +32,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-17",
    "last": "2026-12-08",
    "url": "https://ssc.gov.in/",
+   "startNotice": 1,
    "exp": "exp",
    "note": "Only for serving central government stenographers. CBT Feb–Mar 2027."
   },
@@ -51,9 +52,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-03",
    "last": "2026-11-25",
-   "url": "https://www.sci.gov.in/recruitment/"
+   "url": "https://www.sci.gov.in/recruitment/",
+   "startNotice": 1
   },
   {
    "t": "Supreme Court Court Assistant (Technical Assistant-cum-Programmer)",
@@ -68,7 +70,7 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-03",
    "last": "2026-11-24",
    "url": "https://www.sci.gov.in/recruitment/",
    "exp": "mixed",
@@ -86,9 +88,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-21",
    "last": "2026-12-15",
    "url": "https://www.freejobalert.com/government-jobs/",
+   "startNotice": 1,
    "src": 1
   },
   {
@@ -105,9 +108,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-10-24",
    "last": "2026-12-20",
    "url": "https://nia.gov.in/",
+   "startNotice": 1,
    "exp": "mixed",
    "note": "Mostly deputation; check notice."
   },
@@ -124,9 +128,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-10-30",
    "last": "2026-12-28",
    "url": "https://cwc.gov.in/",
+   "startNotice": 1,
    "exp": "exp"
   },
   {
@@ -142,9 +147,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-23",
    "last": "2027-01-04",
    "url": "https://www.freejobalert.com/sarkari-naukri/",
+   "startNotice": 1,
    "src": 1
   },
   {
@@ -178,9 +184,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-13",
    "last": "2026-12-23",
-   "url": "https://www.nplindia.org/"
+   "url": "https://www.nplindia.org/",
+   "startNotice": 1
   },
   {
    "t": "Delhi University Assistant",
@@ -238,7 +245,7 @@
   {
    "t": "BHU Medical Officer, Nursing Officer & other posts",
    "org": "Banaras Hindu University",
-   "posts": 633,
+   "posts": 601,
    "q": [
     "10",
     "iti",
@@ -252,9 +259,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-16",
    "last": "2026-12-15",
-   "url": "https://www.bhu.ac.in/"
+   "url": "https://www.bhu.ac.in/",
+   "startNotice": 1
   },
   {
    "t": "ICAR Technical Assistant T-3 & T-4",
@@ -269,7 +277,7 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-18",
    "last": "2026-12-17",
    "url": "https://www.asrb.org.in/"
   },
@@ -286,9 +294,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-21",
    "last": "2026-12-21",
    "url": "https://www.freejobalert.com/government-jobs/",
+   "startNotice": 1,
    "src": 1
   },
   {
@@ -304,7 +313,7 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-12",
    "last": "2026-12-11",
    "url": "https://afcat.edcil.co.in/",
    "note": "Online exam 31 Jan 2027."
@@ -324,9 +333,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-16",
    "last": "2026-12-14",
-   "url": "https://www.assamrifles.gov.in/"
+   "url": "https://www.assamrifles.gov.in/",
+   "startNotice": 1
   },
   {
    "t": "BSF Sub-Inspector (GD) LDCE (departmental)",
@@ -340,7 +350,7 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-12",
    "last": "2026-12-31",
    "url": "https://rectt.bsf.gov.in/",
    "exp": "exp",
@@ -359,9 +369,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-10-10",
    "last": "2026-12-09",
-   "url": "https://rectt.bsf.gov.in/"
+   "url": "https://rectt.bsf.gov.in/",
+   "startNotice": 1
   },
   {
    "t": "Territorial Army (Garhwal Rifles) JCO, Soldier & Tradesmen",
@@ -376,9 +387,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-12",
    "last": "2026-12-10",
    "url": "https://www.freejobalert.com/police-defence-jobs/",
+   "startNotice": 1,
    "exp": "exp",
    "note": "Usually for ex-servicemen; check notice.",
    "src": 1
@@ -397,9 +409,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-19",
    "last": "2026-12-15",
    "url": "https://crpf.gov.in/",
+   "startNotice": 1,
    "exp": "mixed"
   },
   {
@@ -414,7 +427,7 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-10-27",
    "last": "2026-11-25",
    "url": "https://www.rrbapply.gov.in/",
    "note": "Fee payment till 27 Nov; correction 28 Nov – 7 Dec."
@@ -432,9 +445,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-05",
    "last": "2026-12-04",
-   "url": "https://www.rrbapply.gov.in/"
+   "url": "https://www.rrbapply.gov.in/",
+   "startNotice": 1
   },
   {
    "t": "RRC Northern Railway Act Apprentice",
@@ -449,7 +463,7 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-11",
    "last": "2026-12-11",
    "url": "https://www.rrcnr.org/",
    "note": "Age 15–24."
@@ -466,9 +480,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-17",
    "last": "2026-12-02",
-   "url": "https://rrccr.com/"
+   "url": "https://rrccr.com/",
+   "startNotice": 1
   },
   {
    "t": "South Western Railway Goods Train Manager & Junior Engineer",
@@ -483,9 +498,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-10",
    "last": "2026-12-08",
    "url": "https://www.rrchubli.in/",
+   "startNotice": 1,
    "exp": "exp",
    "note": "Usually internal/GDCE; check eligibility."
   },
@@ -504,9 +520,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-10-31",
    "last": "2026-11-30",
    "url": "https://www.rrcser.co.in/",
+   "startNotice": 1,
    "exp": "exp",
    "note": "For sportspersons with qualifying achievements."
   },
@@ -524,9 +541,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-05",
    "last": "2026-12-06",
    "url": "https://www.rrcnr.org/",
+   "startNotice": 1,
    "exp": "exp",
    "note": "Scouts & Guides certificate holders."
   },
@@ -545,9 +563,10 @@
    ],
    "state": "Maharashtra",
    "loc": "Maharashtra",
-   "start": "",
+   "start": "2026-10-31",
    "last": "2026-11-30",
    "url": "https://mmrcl.com/",
+   "startNotice": 1,
    "exp": "mixed"
   },
   {
@@ -562,7 +581,7 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-05",
    "last": "2026-11-25",
    "url": "https://indianbank.in/career/"
   },
@@ -578,9 +597,10 @@
    ],
    "state": "Jammu & Kashmir",
    "loc": "Jammu & Kashmir",
-   "start": "",
+   "start": "2026-11-12",
    "last": "2026-11-26",
-   "url": "https://www.jkbank.com/careers/"
+   "url": "https://www.jkbank.com/careers/",
+   "startNotice": 1
   },
   {
    "t": "SIDBI Grade A & B Officers",
@@ -595,7 +615,7 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-21",
    "last": "2026-12-11",
    "url": "https://www.sidbi.in/en/careers",
    "exp": "mixed",
@@ -613,7 +633,7 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-27",
    "last": "2026-12-11",
    "url": "https://www.eximbankindia.in/careers",
    "exp": "mixed"
@@ -631,7 +651,7 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-04",
    "last": "2026-11-25",
    "url": "https://sbi.bank.in/web/careers/current-openings",
    "exp": "exp",
@@ -650,9 +670,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-20",
    "last": "2026-12-10",
    "url": "https://sbi.bank.in/web/careers/current-openings",
+   "startNotice": 1,
    "exp": "exp"
   },
   {
@@ -667,9 +688,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-23",
    "last": "2026-11-25",
    "url": "https://sbi.bank.in/web/careers/current-openings",
+   "startNotice": 1,
    "exp": "mixed"
   },
   {
@@ -685,9 +707,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-04",
    "last": "2026-11-24",
    "url": "https://www.bankofbaroda.in/career",
+   "startNotice": 1,
    "exp": "exp"
   },
   {
@@ -703,9 +726,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-21",
    "last": "2026-12-07",
    "url": "https://www.nabard.org/",
+   "startNotice": 1,
    "exp": "mixed"
   },
   {
@@ -721,9 +745,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-11",
    "last": "2026-12-01",
    "url": "https://indianbank.in/career/",
+   "startNotice": 1,
    "exp": "exp"
   },
   {
@@ -742,9 +767,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-20",
    "last": "2026-11-29",
    "url": "https://ongcindia.com/",
+   "startNotice": 1,
    "exp": "fresher",
    "note": "Last date reportedly extended; confirm on the official site."
   },
@@ -762,9 +788,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-23",
    "last": "2026-12-28",
-   "url": "https://careers.bhel.in/"
+   "url": "https://careers.bhel.in/",
+   "startNotice": 1
   },
   {
    "t": "IOCL Technician, Trade & Graduate Apprentice",
@@ -781,9 +808,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-06",
    "last": "2026-12-05",
-   "url": "https://iocl.com/apprenticeships"
+   "url": "https://iocl.com/apprenticeships",
+   "startNotice": 1
   },
   {
    "t": "IOCL Eastern Region Apprentices",
@@ -801,9 +829,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-13",
    "last": "2026-12-12",
-   "url": "https://iocl.com/apprenticeships"
+   "url": "https://iocl.com/apprenticeships",
+   "startNotice": 1
   },
   {
    "t": "NLC India Graduate Executive Trainee",
@@ -818,9 +847,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-05",
    "last": "2026-12-14",
-   "url": "https://www.nlcindia.in/"
+   "url": "https://www.nlcindia.in/",
+   "startNotice": 1
   },
   {
    "t": "NLC India Executive Engineer, DGM & other posts",
@@ -835,9 +865,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-20",
    "last": "2026-12-19",
    "url": "https://www.nlcindia.in/",
+   "startNotice": 1,
    "exp": "exp"
   },
   {
@@ -852,9 +883,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-23",
    "last": "2026-11-30",
-   "url": "https://bdl-india.in/"
+   "url": "https://bdl-india.in/",
+   "startNotice": 1
   },
   {
    "t": "DVC Executive Trainee",
@@ -868,9 +900,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-06",
    "last": "2026-12-06",
-   "url": "https://www.dvc.gov.in/"
+   "url": "https://www.dvc.gov.in/",
+   "startNotice": 1
   },
   {
    "t": "BEML Engineer, Manager & other posts",
@@ -885,9 +918,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-21",
    "last": "2026-12-03",
    "url": "https://www.bemlindia.in/",
+   "startNotice": 1,
    "exp": "mixed"
   },
   {
@@ -902,9 +936,10 @@
    ],
    "state": "Karnataka",
    "loc": "Karnataka",
-   "start": "",
+   "start": "2026-11-21",
    "last": "2026-12-06",
-   "url": "https://www.bemlindia.in/"
+   "url": "https://www.bemlindia.in/",
+   "startNotice": 1
   },
   {
    "t": "NTPC Manager & Deputy Manager (Finance)",
@@ -918,9 +953,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-19",
    "last": "2026-12-03",
    "url": "https://careers.ntpc.co.in/",
+   "startNotice": 1,
    "exp": "exp",
    "note": "CA/CMA with experience."
   },
@@ -975,9 +1011,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-21",
    "last": "2026-12-14",
    "url": "https://www.nsic.co.in/",
+   "startNotice": 1,
    "exp": "exp"
   },
   {
@@ -1027,9 +1064,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-10-30",
    "last": "2026-12-02",
-   "url": "https://www.coalindia.in/"
+   "url": "https://www.coalindia.in/",
+   "startNotice": 1
   },
   {
    "t": "SDSC SHAR Trade, Diploma & Graduate Apprentice",
@@ -1047,9 +1085,10 @@
    ],
    "state": "Andhra Pradesh",
    "loc": "Andhra Pradesh",
-   "start": "",
+   "start": "2026-11-05",
    "last": "2026-11-26",
-   "url": "https://www.shar.gov.in/"
+   "url": "https://www.shar.gov.in/",
+   "startNotice": 1
   },
   {
    "t": "SJVN Apprentice (Technician/Graduate)",
@@ -1066,9 +1105,10 @@
    ],
    "state": "Himachal Pradesh",
    "loc": "Himachal Pradesh",
-   "start": "",
+   "start": "2026-11-18",
    "last": "2026-12-17",
-   "url": "https://sjvn.nic.in/"
+   "url": "https://sjvn.nic.in/",
+   "startNotice": 1
   },
   {
    "t": "Goa Shipyard Technical Assistant, Crane Operator & others",
@@ -1085,9 +1125,10 @@
    ],
    "state": "Goa",
    "loc": "Goa",
-   "start": "",
+   "start": "2026-10-27",
    "last": "2026-11-27",
    "url": "https://goashipyard.in/",
+   "startNotice": 1,
    "exp": "mixed"
   },
   {
@@ -1103,9 +1144,10 @@
    ],
    "state": "West Bengal",
    "loc": "West Bengal",
-   "start": "",
+   "start": "2026-10-30",
    "last": "2026-11-28",
-   "url": "https://grse.in/"
+   "url": "https://grse.in/",
+   "startNotice": 1
   },
   {
    "t": "Mumbai Port Computer Operator & Programming Assistant (apprentice)",
@@ -1155,9 +1197,10 @@
    ],
    "state": "Tamil Nadu",
    "loc": "Tamil Nadu",
-   "start": "",
+   "start": "2026-11-23",
    "last": "2026-11-25",
-   "url": "https://www.bheltry.co.in/"
+   "url": "https://www.bheltry.co.in/",
+   "startNotice": 1
   },
   {
    "t": "TNPDCL Diploma (Technician) Apprentice",
@@ -1193,9 +1236,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-05",
    "last": "2026-11-25",
-   "url": "https://www.rites.com/Career"
+   "url": "https://www.rites.com/Career",
+   "startNotice": 1
   },
   {
    "t": "IRCON Manager",
@@ -1210,9 +1254,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-10-27",
    "last": "2026-11-23",
    "url": "https://www.ircon.org/",
+   "startNotice": 1,
    "exp": "exp"
   },
   {
@@ -1227,9 +1272,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-13",
    "last": "2026-11-27",
-   "url": "https://www.powergrid.in/en/job-opportunities"
+   "url": "https://www.powergrid.in/en/job-opportunities",
+   "startNotice": 1
   },
   {
    "t": "BPCL SRD Recruitment",
@@ -1261,9 +1307,10 @@
    ],
    "state": "Punjab",
    "loc": "Punjab",
-   "start": "",
+   "start": "2026-11-02",
    "last": "2026-11-30",
-   "url": "https://www.scl.gov.in/"
+   "url": "https://www.scl.gov.in/",
+   "startNotice": 1
   },
   {
    "t": "AAI Senior Assistant (Operational), Eastern Region",
@@ -1278,9 +1325,10 @@
    ],
    "state": "West Bengal",
    "loc": "West Bengal",
-   "start": "",
+   "start": "2026-11-13",
    "last": "2026-11-30",
-   "url": "https://www.aai.aero/en/careers/recruitment"
+   "url": "https://www.aai.aero/en/careers/recruitment",
+   "startNotice": 1
   },
   {
    "t": "WAPCOS Office Assistant, Project Accountant & others",
@@ -1296,9 +1344,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-11",
    "last": "2026-11-25",
    "url": "https://www.freejobalert.com/government-jobs/",
+   "startNotice": 1,
    "exp": "mixed",
    "src": 1
   },
@@ -1333,9 +1382,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-23",
    "last": "2026-12-05",
-   "url": "https://www.aiimsdeoghar.edu.in/"
+   "url": "https://www.aiimsdeoghar.edu.in/",
+   "startNotice": 1
   },
   {
    "t": "ESIC Asansol Junior Resident, Professor & others",
@@ -1350,9 +1400,10 @@
    ],
    "state": "All India",
    "loc": "All India",
-   "start": "",
+   "start": "2026-11-23",
    "last": "2026-12-04",
    "url": "https://www.esic.gov.in/recruitments",
+   "startNotice": 1,
    "exp": "mixed"
   },
   {
@@ -1367,9 +1418,10 @@
    ],
    "state": "Bihar",
    "loc": "Bihar",
-   "start": "",
+   "start": "2026-11-09",
    "last": "2026-11-30",
    "url": "https://www.igims.org/",
+   "startNotice": 1,
    "note": "MBBS."
   },
   {
@@ -1384,9 +1436,10 @@
    ],
    "state": "Andhra Pradesh",
    "loc": "Andhra Pradesh",
-   "start": "",
+   "start": "2026-11-11",
    "last": "2026-12-11",
-   "url": "https://psc.ap.gov.in/"
+   "url": "https://psc.ap.gov.in/",
+   "startNotice": 1
   },
   {
    "t": "AP High Court Civil Judge",
@@ -1400,9 +1453,10 @@
    ],
    "state": "Andhra Pradesh",
    "loc": "Andhra Pradesh",
-   "start": "",
+   "start": "2026-11-09",
    "last": "2026-11-30",
    "url": "https://aphc.gov.in/",
+   "startNotice": 1,
    "note": "LLB required."
   },
   {
@@ -1419,9 +1473,10 @@
    ],
    "state": "Andhra Pradesh",
    "loc": "Andhra Pradesh",
-   "start": "",
+   "start": "2026-10-14",
    "last": "2026-12-08",
-   "url": "https://psc.ap.gov.in/"
+   "url": "https://psc.ap.gov.in/",
+   "startNotice": 1
   },
   {
    "t": "APPSC Assistant Motor Vehicle Inspector, Lab Assistant & others",
@@ -1437,9 +1492,10 @@
    ],
    "state": "Andhra Pradesh",
    "loc": "Andhra Pradesh",
-   "start": "",
+   "start": "2026-10-14",
    "last": "2026-11-26",
-   "url": "https://psc.ap.gov.in/"
+   "url": "https://psc.ap.gov.in/",
+   "startNotice": 1
   },
   {
    "t": "APSSB Multi Tasking Staff",
@@ -1454,9 +1510,10 @@
    ],
    "state": "Arunachal Pradesh",
    "loc": "Arunachal Pradesh",
-   "start": "",
+   "start": "2026-10-14",
    "last": "2026-11-23",
-   "url": "https://apssb.nic.in/"
+   "url": "https://apssb.nic.in/",
+   "startNotice": 1
   },
   {
    "t": "Assam Agricultural University ATM, BTM, Programmer & others",
@@ -1471,9 +1528,10 @@
    ],
    "state": "Assam",
    "loc": "Assam",
-   "start": "",
+   "start": "2026-11-11",
    "last": "2026-12-11",
-   "url": "https://www.aau.ac.in/"
+   "url": "https://www.aau.ac.in/",
+   "startNotice": 1
   },
   {
    "t": "Bihar Vidhan Sabha Assistant Section Officer",
@@ -1487,9 +1545,10 @@
    ],
    "state": "Bihar",
    "loc": "Bihar",
-   "start": "",
+   "start": "2026-11-09",
    "last": "2026-11-27",
-   "url": "https://vidhansabha.bih.nic.in/"
+   "url": "https://vidhansabha.bih.nic.in/",
+   "startNotice": 1
   },
   {
    "t": "Bihar Vidhan Sabha Junior Secretariat Assistant & Office Attendant",
@@ -1504,9 +1563,10 @@
    ],
    "state": "Bihar",
    "loc": "Bihar",
-   "start": "",
+   "start": "2026-11-04",
    "last": "2026-12-06",
-   "url": "https://vidhansabha.bih.nic.in/"
+   "url": "https://vidhansabha.bih.nic.in/",
+   "startNotice": 1
   },
   {
    "t": "BRLPS (JEEViKA) Young Professional",
@@ -1520,9 +1580,10 @@
    ],
    "state": "Bihar",
    "loc": "Bihar",
-   "start": "",
+   "start": "2026-11-20",
    "last": "2026-11-30",
    "url": "https://www.freejobalert.com/state-government-jobs/",
+   "startNotice": 1,
    "src": 1
   },
   {
@@ -1539,9 +1600,10 @@
    ],
    "state": "Bihar",
    "loc": "Bihar",
-   "start": "",
+   "start": "2026-11-07",
    "last": "2026-12-14",
    "url": "https://www.freejobalert.com/state-government-jobs/",
+   "startNotice": 1,
    "note": "JE closes 25 Nov; LDC 14 Dec.",
    "src": 1
   },
@@ -1557,10 +1619,10 @@
    ],
    "state": "Chhattisgarh",
    "loc": "Chhattisgarh",
-   "start": "",
+   "start": "2026-11-05",
    "last": "2026-11-27",
-   "url": "https://www.freejobalert.com/state-government-jobs/",
-   "src": 1
+   "url": "https://cgssb.cgstate.gov.in/",
+   "note": "Exam 10 Jan 2027."
   },
   {
    "t": "CSPTCL AE, JE, DEO & other posts",
@@ -1580,10 +1642,9 @@
    ],
    "state": "Chhattisgarh",
    "loc": "Chhattisgarh",
-   "start": "",
+   "start": "2026-11-06",
    "last": "2026-11-26",
-   "url": "https://www.freejobalert.com/state-government-jobs/",
-   "src": 1
+   "url": "https://www.cspc.co.in/"
   },
   {
    "t": "Chhattisgarh Bastar Fighter Constable (district-wise)",
@@ -1598,9 +1659,10 @@
    ],
    "state": "Chhattisgarh",
    "loc": "Chhattisgarh",
-   "start": "",
+   "start": "2026-10-31",
    "last": "2026-12-12",
    "url": "https://www.freejobalert.com/police-defence-jobs/",
+   "startNotice": 1,
    "note": "Bijapur, Sukma, Narayanpur, Bilaspur, Dantewada, Kondagaon, Bastar.",
    "src": 1
   },
@@ -1616,7 +1678,7 @@
    ],
    "state": "Delhi",
    "loc": "Delhi",
-   "start": "",
+   "start": "2026-11-12",
    "last": "2026-12-11",
    "url": "https://dsssb.delhi.gov.in/"
   },
@@ -1634,7 +1696,7 @@
    ],
    "state": "Delhi",
    "loc": "Delhi",
-   "start": "",
+   "start": "2026-11-12",
    "last": "2026-12-11",
    "url": "https://dsssb.delhi.gov.in/"
   },
@@ -1651,9 +1713,10 @@
    ],
    "state": "Goa",
    "loc": "Goa",
-   "start": "",
+   "start": "2026-11-21",
    "last": "2026-11-23",
-   "url": "https://citizen.goapolice.gov.in/"
+   "url": "https://citizen.goapolice.gov.in/",
+   "startNotice": 1
   },
   {
    "t": "Goa Home Guard Volunteer & Marine Home Guard",
@@ -1668,9 +1731,10 @@
    ],
    "state": "Goa",
    "loc": "Goa",
-   "start": "",
+   "start": "2026-11-19",
    "last": "2026-12-31",
    "url": "https://www.freejobalert.com/police-defence-jobs/",
+   "startNotice": 1,
    "src": 1
   },
   {
@@ -1687,9 +1751,10 @@
    ],
    "state": "Goa",
    "loc": "Goa",
-   "start": "",
+   "start": "2026-11-12",
    "last": "2026-11-27",
    "url": "https://www.freejobalert.com/state-government-jobs/",
+   "startNotice": 1,
    "src": 1
   },
   {
@@ -1705,9 +1770,10 @@
    ],
    "state": "Gujarat",
    "loc": "Gujarat",
-   "start": "",
+   "start": "2026-11-20",
    "last": "2026-11-30",
    "url": "https://gprb.gujarat.gov.in/",
+   "startNotice": 1,
    "note": "Sources give different last dates (30 Nov / 16 Dec). Confirm on gprb.gujarat.gov.in or ojas.gujarat.gov.in."
   },
   {
@@ -1722,9 +1788,10 @@
    ],
    "state": "Gujarat",
    "loc": "Gujarat",
-   "start": "",
+   "start": "2026-11-04",
    "last": "2026-11-30",
-   "url": "https://gsssb.gujarat.gov.in/"
+   "url": "https://gsssb.gujarat.gov.in/",
+   "startNotice": 1
   },
   {
    "t": "Haryana Fisheries Department Clerk",
@@ -1739,9 +1806,10 @@
    ],
    "state": "Haryana",
    "loc": "Haryana",
-   "start": "",
+   "start": "2026-11-20",
    "last": "2026-12-21",
    "url": "https://www.freejobalert.com/state-government-jobs/",
+   "startNotice": 1,
    "src": 1
   },
   {
@@ -1758,7 +1826,7 @@
    ],
    "state": "Himachal Pradesh",
    "loc": "Himachal Pradesh",
-   "start": "",
+   "start": "2026-11-10",
    "last": "2026-12-05",
    "url": "https://hprca.hp.gov.in/",
    "note": "PG + B.Ed (+HP TET as applicable). Fixed ₹30,000/month honorarium."
@@ -1776,9 +1844,10 @@
    ],
    "state": "Himachal Pradesh",
    "loc": "Himachal Pradesh",
-   "start": "",
+   "start": "2026-11-03",
    "last": "2026-12-07",
-   "url": "https://hprca.hp.gov.in/"
+   "url": "https://hprca.hp.gov.in/",
+   "startNotice": 1
   },
   {
    "t": "HPPSC Agriculture Development Officer",
@@ -1793,9 +1862,10 @@
    ],
    "state": "Himachal Pradesh",
    "loc": "Himachal Pradesh",
-   "start": "",
+   "start": "2026-10-23",
    "last": "2026-11-30",
-   "url": "https://www.hppsc.hp.gov.in/"
+   "url": "https://www.hppsc.hp.gov.in/",
+   "startNotice": 1
   },
   {
    "t": "JKSSB Multi Tasking Staff & Sanitation Worker",
@@ -1809,9 +1879,10 @@
    ],
    "state": "Jammu & Kashmir",
    "loc": "Jammu & Kashmir",
-   "start": "",
+   "start": "2026-11-11",
    "last": "2026-11-27",
-   "url": "https://jkssb.nic.in/"
+   "url": "https://jkssb.nic.in/",
+   "startNotice": 1
   },
   {
    "t": "JKSSB Junior Engineer (Civil)",
@@ -1827,9 +1898,10 @@
    ],
    "state": "Jammu & Kashmir",
    "loc": "Jammu & Kashmir",
-   "start": "",
+   "start": "2026-10-27",
    "last": "2026-12-29",
-   "url": "https://jkssb.nic.in/"
+   "url": "https://jkssb.nic.in/",
+   "startNotice": 1
   },
   {
    "t": "JKSSB Junior Engineer (Mechanical)",
@@ -1845,9 +1917,10 @@
    ],
    "state": "Jammu & Kashmir",
    "loc": "Jammu & Kashmir",
-   "start": "",
+   "start": "2026-11-20",
    "last": "2026-12-22",
-   "url": "https://jkssb.nic.in/"
+   "url": "https://jkssb.nic.in/",
+   "startNotice": 1
   },
   {
    "t": "J&K High Court District Judge (Entry Level)",
@@ -1861,9 +1934,10 @@
    ],
    "state": "Jammu & Kashmir",
    "loc": "Jammu & Kashmir",
-   "start": "",
+   "start": "2026-11-21",
    "last": "2026-11-28",
    "url": "https://jkhighcourt.nic.in/",
+   "startNotice": 1,
    "exp": "exp",
    "note": "Advocates with 7 years' practice."
   },
@@ -1883,9 +1957,10 @@
    ],
    "state": "Ladakh",
    "loc": "Ladakh",
-   "start": "",
+   "start": "2026-10-22",
    "last": "2026-11-27",
    "url": "https://www.freejobalert.com/state-government-jobs/",
+   "startNotice": 1,
    "note": "Two notices (Leh 216, Kargil 181).",
    "src": 1
   },
@@ -1902,9 +1977,10 @@
    ],
    "state": "Jharkhand",
    "loc": "Jharkhand",
-   "start": "",
+   "start": "2026-11-21",
    "last": "2026-12-15",
    "url": "https://www.freejobalert.com/state-government-jobs/",
+   "startNotice": 1,
    "note": "B.Sc Nursing/CHO qualification.",
    "src": 1
   },
@@ -1922,9 +1998,10 @@
    ],
    "state": "Jharkhand",
    "loc": "Jharkhand",
-   "start": "",
+   "start": "2026-11-12",
    "last": "2026-11-30",
    "url": "https://www.freejobalert.com/state-government-jobs/",
+   "startNotice": 1,
    "src": 1
   },
   {
@@ -1940,9 +2017,10 @@
    ],
    "state": "Jharkhand",
    "loc": "Jharkhand",
-   "start": "",
+   "start": "2026-11-02",
    "last": "2026-12-04",
    "url": "https://www.freejobalert.com/state-government-jobs/",
+   "startNotice": 1,
    "exp": "mixed",
    "src": 1
   },
@@ -1959,9 +2037,10 @@
    ],
    "state": "Jharkhand",
    "loc": "Jharkhand",
-   "start": "",
+   "start": "2026-10-31",
    "last": "2026-12-11",
    "url": "https://www.freejobalert.com/police-defence-jobs/",
+   "startNotice": 1,
    "note": "Latehar closes 1 Dec; other notice 11 Dec.",
    "src": 1
   },
@@ -1978,7 +2057,7 @@
    ],
    "state": "Karnataka",
    "loc": "Karnataka",
-   "start": "",
+   "start": "2026-10-30",
    "last": "2026-11-25",
    "url": "https://cetonline.karnataka.gov.in/kea/",
    "note": "Fee payment till 26 Nov. Exams 8–17 Jan 2027."
@@ -1995,9 +2074,10 @@
    ],
    "state": "Karnataka",
    "loc": "Karnataka",
-   "start": "",
+   "start": "2026-11-18",
    "last": "2026-12-15",
    "url": "https://cetonline.karnataka.gov.in/kea/",
+   "startNotice": 1,
    "note": "LLB required."
   },
   {
@@ -2013,9 +2093,10 @@
    ],
    "state": "Karnataka",
    "loc": "Karnataka",
-   "start": "",
+   "start": "2026-11-02",
    "last": "2026-11-26",
-   "url": "https://cetonline.karnataka.gov.in/kea/"
+   "url": "https://cetonline.karnataka.gov.in/kea/",
+   "startNotice": 1
   },
   {
    "t": "KEA Female Supervisor",
@@ -2029,9 +2110,10 @@
    ],
    "state": "Karnataka",
    "loc": "Karnataka",
-   "start": "",
+   "start": "2026-11-05",
    "last": "2026-11-28",
-   "url": "https://cetonline.karnataka.gov.in/kea/"
+   "url": "https://cetonline.karnataka.gov.in/kea/",
+   "startNotice": 1
   },
   {
    "t": "Karnataka Fire & Emergency Services Fire Fighter",
@@ -2046,9 +2128,10 @@
    ],
    "state": "Karnataka",
    "loc": "Karnataka",
-   "start": "",
+   "start": "2026-11-21",
    "last": "2026-12-22",
    "url": "https://www.freejobalert.com/state-government-jobs/",
+   "startNotice": 1,
    "src": 1
   },
   {
@@ -2064,9 +2147,10 @@
    ],
    "state": "Karnataka",
    "loc": "Karnataka",
-   "start": "",
+   "start": "2026-11-19",
    "last": "2026-12-22",
-   "url": "https://aranya.gov.in/"
+   "url": "https://aranya.gov.in/",
+   "startNotice": 1
   },
   {
    "t": "Karnataka Anganwadi Worker & Helper (Bidar, Chamarajanagar)",
@@ -2081,9 +2165,10 @@
    ],
    "state": "Karnataka",
    "loc": "Karnataka",
-   "start": "",
+   "start": "2026-11-05",
    "last": "2026-12-11",
    "url": "https://www.freejobalert.com/state-government-jobs/",
+   "startNotice": 1,
    "note": "Local women applicants.",
    "src": 1
   },
@@ -2116,9 +2201,10 @@
    ],
    "state": "Kerala",
    "loc": "Kerala",
-   "start": "",
+   "start": "2026-11-20",
    "last": "2026-12-16",
    "url": "https://hckrecruitment.keralacourts.in/",
+   "startNotice": 1,
    "note": "LLB required."
   },
   {
@@ -2134,9 +2220,10 @@
    ],
    "state": "Kerala",
    "loc": "Kerala",
-   "start": "",
+   "start": "2026-11-23",
    "last": "2026-12-05",
    "url": "https://www.freejobalert.com/sarkari-naukri/",
+   "startNotice": 1,
    "src": 1
   },
   {
@@ -2154,9 +2241,10 @@
    ],
    "state": "Kerala",
    "loc": "Kerala",
-   "start": "",
+   "start": "2026-10-31",
    "last": "2026-12-02",
-   "url": "https://www.keralapsc.gov.in/"
+   "url": "https://www.keralapsc.gov.in/",
+   "startNotice": 1
   },
   {
    "t": "NHM MP Staff Nurse",
@@ -2189,7 +2277,7 @@
    ],
    "state": "Maharashtra",
    "loc": "Maharashtra",
-   "start": "",
+   "start": "2026-11-13",
    "last": "2026-11-27",
    "url": "https://mpsc.gov.in/",
    "note": "Fee payment till 30 Nov. Prelims 3–24 Jan 2027."
@@ -2206,9 +2294,10 @@
    ],
    "state": "Maharashtra",
    "loc": "Maharashtra",
-   "start": "",
+   "start": "2026-11-23",
    "last": "2026-12-18",
    "url": "https://www.freejobalert.com/sarkari-naukri/",
+   "startNotice": 1,
    "src": 1
   },
   {
@@ -2242,9 +2331,10 @@
    ],
    "state": "Manipur",
    "loc": "Manipur",
-   "start": "",
+   "start": "2026-11-14",
    "last": "2026-12-10",
    "url": "https://www.freejobalert.com/police-defence-jobs/",
+   "startNotice": 1,
    "src": 1
   },
   {
@@ -2278,9 +2368,10 @@
    ],
    "state": "Nagaland",
    "loc": "Nagaland",
-   "start": "",
+   "start": "2026-10-16",
    "last": "2026-11-30",
    "url": "https://www.freejobalert.com/police-defence-jobs/",
+   "startNotice": 1,
    "note": "Min. qualification Class 8 for some posts.",
    "src": 1
   },
@@ -2314,9 +2405,10 @@
    ],
    "state": "Odisha",
    "loc": "Odisha",
-   "start": "",
+   "start": "2026-11-09",
    "last": "2026-11-30",
-   "url": "https://www.opsc.gov.in/"
+   "url": "https://www.opsc.gov.in/",
+   "note": "Written exam tentatively 17 Jan 2027."
   },
   {
    "t": "OPSC Scientific Officer",
@@ -2348,10 +2440,10 @@
    ],
    "state": "Odisha",
    "loc": "Odisha",
-   "start": "",
+   "start": "2026-11-17",
    "last": "2026-12-17",
    "url": "https://osssc.gov.in/",
-   "note": "DMLT/BMLT."
+   "note": "DMLT/BMLT. Registration closes 10 Dec; final application by 17 Dec."
   },
   {
    "t": "OSSSC Ophthalmic Officer",
@@ -2383,7 +2475,7 @@
    ],
    "state": "Odisha",
    "loc": "Odisha",
-   "start": "",
+   "start": "2026-11-06",
    "last": "2026-12-05",
    "url": "https://www.freejobalert.com/state-government-jobs/",
    "exp": "mixed",
@@ -2456,9 +2548,10 @@
    ],
    "state": "Rajasthan",
    "loc": "Rajasthan",
-   "start": "",
+   "start": "2026-11-18",
    "last": "2026-12-17",
-   "url": "https://rssb.rajasthan.gov.in/"
+   "url": "https://rssb.rajasthan.gov.in/",
+   "startNotice": 1
   },
   {
    "t": "Tamil Nadu NHM Staff Nurse (state + districts)",
@@ -2473,9 +2566,10 @@
    ],
    "state": "Tamil Nadu",
    "loc": "Tamil Nadu",
-   "start": "",
+   "start": "2026-11-20",
    "last": "2026-12-04",
    "url": "https://nhm.tn.gov.in/",
+   "startNotice": 1,
    "note": "District Health Societies have separate notices too."
   },
   {
@@ -2490,9 +2584,10 @@
    ],
    "state": "Telangana",
    "loc": "Telangana",
-   "start": "",
+   "start": "2026-11-17",
    "last": "2026-11-27",
-   "url": "https://www.tspsc.gov.in/"
+   "url": "https://www.tspsc.gov.in/",
+   "startNotice": 1
   },
   {
    "t": "DEPwD Hyderabad Junior Assistant & other posts",
@@ -2509,9 +2604,10 @@
    ],
    "state": "Telangana",
    "loc": "Telangana",
-   "start": "",
+   "start": "2026-11-21",
    "last": "2026-12-02",
    "url": "https://www.freejobalert.com/sarkari-naukri/",
+   "startNotice": 1,
    "src": 1
   },
   {
@@ -2527,9 +2623,10 @@
    ],
    "state": "Tripura",
    "loc": "Tripura",
-   "start": "",
+   "start": "2026-10-30",
    "last": "2026-12-04",
    "url": "https://www.freejobalert.com/state-government-jobs/",
+   "startNotice": 1,
    "src": 1
   },
   {
@@ -2545,9 +2642,10 @@
    ],
    "state": "Uttar Pradesh",
    "loc": "Uttar Pradesh",
-   "start": "",
+   "start": "2026-11-22",
    "last": "2026-11-28",
    "url": "https://upessc.up.gov.in/",
+   "startNotice": 1,
    "note": "Last date extended to 28 Nov."
   },
   {
@@ -2562,7 +2660,7 @@
    ],
    "state": "Uttar Pradesh",
    "loc": "Uttar Pradesh",
-   "start": "",
+   "start": "2026-11-10",
    "last": "2026-12-01",
    "url": "https://upsssc.gov.in/"
   },
@@ -2579,7 +2677,7 @@
    ],
    "state": "Uttar Pradesh",
    "loc": "Uttar Pradesh",
-   "start": "",
+   "start": "2026-11-03",
    "last": "2026-11-25",
    "url": "https://upsssc.gov.in/"
   },
@@ -2596,7 +2694,7 @@
    ],
    "state": "Uttar Pradesh",
    "loc": "Uttar Pradesh",
-   "start": "",
+   "start": "2026-11-06",
    "last": "2026-11-27",
    "url": "https://upsssc.gov.in/"
   },
@@ -2612,10 +2710,28 @@
    ],
    "state": "Uttar Pradesh",
    "loc": "Uttar Pradesh",
-   "start": "",
+   "start": "2026-10-26",
    "last": "2026-11-26",
    "url": "https://uppsc.up.nic.in/",
    "note": "Correction till 3 Dec."
+  },
+  {
+   "t": "UPPSC Civil Judge (PCS-J)",
+   "org": "UP Public Service Commission",
+   "posts": 365,
+   "q": [
+    "grad"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Uttar Pradesh",
+   "loc": "Uttar Pradesh",
+   "start": "2026-11-20",
+   "last": "2026-12-21",
+   "url": "https://uppsc.up.nic.in/",
+   "startNotice": 1,
+   "note": "LLB required."
   },
   {
    "t": "UPPSC Asst. Architect Planner, Sports Officer & others",
@@ -2647,9 +2763,10 @@
    ],
    "state": "Uttar Pradesh",
    "loc": "Uttar Pradesh",
-   "start": "",
+   "start": "2026-11-19",
    "last": "2026-12-14",
    "url": "https://www.freejobalert.com/state-government-jobs/",
+   "startNotice": 1,
    "note": "Ballia, Ghazipur, Hardoi, Budaun, Lucknow, Pilibhit, Sant Kabir Nagar; dates vary 24 Nov – 14 Dec.",
    "src": 1
   },
@@ -2666,9 +2783,10 @@
    ],
    "state": "Uttarakhand",
    "loc": "Uttarakhand",
-   "start": "",
+   "start": "2026-11-18",
    "last": "2026-12-25",
-   "url": "https://sssc.uk.gov.in/"
+   "url": "https://sssc.uk.gov.in/",
+   "startNotice": 1
   },
   {
    "t": "UKSSSC Technician",
@@ -2682,9 +2800,10 @@
    ],
    "state": "Uttarakhand",
    "loc": "Uttarakhand",
-   "start": "",
+   "start": "2026-10-07",
    "last": "2026-11-25",
-   "url": "https://sssc.uk.gov.in/"
+   "url": "https://sssc.uk.gov.in/",
+   "startNotice": 1
   },
   {
    "t": "UKPSC Nayab Tehsildar, Excise Inspector & others (Lower PCS)",
@@ -2698,9 +2817,10 @@
    ],
    "state": "Uttarakhand",
    "loc": "Uttarakhand",
-   "start": "",
+   "start": "2026-11-06",
    "last": "2026-11-26",
-   "url": "https://psc.uk.gov.in/"
+   "url": "https://psc.uk.gov.in/",
+   "startNotice": 1
   },
   {
    "t": "WBPSC Industrial Development Officer",
@@ -2715,9 +2835,10 @@
    ],
    "state": "West Bengal",
    "loc": "West Bengal",
-   "start": "",
+   "start": "2026-11-06",
    "last": "2026-11-26",
-   "url": "https://psc.wb.gov.in/"
+   "url": "https://psc.wb.gov.in/",
+   "startNotice": 1
   },
   {
    "t": "WBPDCL Technician Apprentice",
@@ -2754,9 +2875,10 @@
    ],
    "state": "West Bengal",
    "loc": "West Bengal",
-   "start": "",
+   "start": "2026-11-04",
    "last": "2026-12-05",
    "url": "https://www.freejobalert.com/state-government-jobs/",
+   "startNotice": 1,
    "note": "Several district notices; dates 26 Nov – 5 Dec.",
    "src": 1
   },
@@ -2774,9 +2896,10 @@
    ],
    "state": "Chandigarh",
    "loc": "Chandigarh",
-   "start": "",
+   "start": "2026-11-20",
    "last": "2026-12-04",
-   "url": "https://chandigarh.gov.in/"
+   "url": "https://chandigarh.gov.in/",
+   "startNotice": 1
   }
  ],
  "results": [
@@ -3794,6 +3917,31 @@
     "grad"
    ],
    "url": "https://cetonline.karnataka.gov.in/kea/"
+  },
+  {
+   "t": "CGSSB Group 2 Sub-group 2 exam",
+   "type": "exam",
+   "start": "2027-01-10",
+   "s": [
+    "state"
+   ],
+   "q": [
+    "grad"
+   ],
+   "url": "https://cgssb.cgstate.gov.in/"
+  },
+  {
+   "t": "OPSC Assistant Section Officer written exam",
+   "type": "exam",
+   "start": "2027-01-17",
+   "tentative": true,
+   "s": [
+    "state"
+   ],
+   "q": [
+    "grad"
+   ],
+   "url": "https://www.opsc.gov.in/"
   },
   {
    "t": "AFCAT 01/2027 admit card",
