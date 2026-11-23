@@ -1706,9 +1706,9 @@
    "state": "Gujarat",
    "loc": "Gujarat",
    "start": "",
-   "last": "2026-12-16",
-   "url": "https://www.freejobalert.com/police-defence-jobs/",
-   "src": 1
+   "last": "2026-11-30",
+   "url": "https://gprb.gujarat.gov.in/",
+   "note": "Sources give different last dates (30 Nov / 16 Dec). Confirm on gprb.gujarat.gov.in or ojas.gujarat.gov.in."
   },
   {
    "t": "GSSSB Sub Registrar, Asst. Tribal Development Officer & others",
@@ -1750,7 +1750,7 @@
    "posts": 2423,
    "q": [
     "bed",
-    "grad"
+    "pg"
    ],
    "s": [
     "teaching",
@@ -1760,7 +1760,8 @@
    "loc": "Himachal Pradesh",
    "start": "",
    "last": "2026-12-05",
-   "url": "https://hprca.hp.gov.in/"
+   "url": "https://hprca.hp.gov.in/",
+   "note": "PG + B.Ed (+HP TET as applicable). Fixed ₹30,000/month honorarium."
   },
   {
    "t": "HPRCA Radiographer",
@@ -1979,7 +1980,8 @@
    "loc": "Karnataka",
    "start": "",
    "last": "2026-11-25",
-   "url": "https://cetonline.karnataka.gov.in/kea/"
+   "url": "https://cetonline.karnataka.gov.in/kea/",
+   "note": "Fee payment till 26 Nov. Exams 8–17 Jan 2027."
   },
   {
    "t": "KEA Asst. Public Prosecutor-cum-Asst. Govt Pleader",
@@ -2176,7 +2178,7 @@
   {
    "t": "MPSC Clerk-Typist, Staff Nurse & other Group B/C posts",
    "org": "Maharashtra PSC",
-   "posts": 16797,
+   "posts": 16717,
    "q": [
     "10",
     "diploma",
@@ -2189,7 +2191,8 @@
    "loc": "Maharashtra",
    "start": "",
    "last": "2026-11-27",
-   "url": "https://mpsc.gov.in/"
+   "url": "https://mpsc.gov.in/",
+   "note": "Fee payment till 30 Nov. Prelims 3–24 Jan 2027."
   },
   {
    "t": "GMC Akola Peon, Watchman & other posts",
@@ -3756,6 +3759,41 @@
     "pg"
    ],
    "url": "https://www.sidbi.in/en/careers"
+  },
+  {
+   "t": "MPSC Group C Prelims",
+   "type": "exam",
+   "start": "2027-01-03",
+   "end": "2027-01-24",
+   "tentative": true,
+   "s": [
+    "state"
+   ],
+   "q": [
+    "10",
+    "diploma",
+    "grad"
+   ],
+   "url": "https://mpsc.gov.in/"
+  },
+  {
+   "t": "KEA FDA / SDA competitive exam",
+   "type": "exam",
+   "dates": [
+    "2027-01-08",
+    "2027-01-09",
+    "2027-01-10",
+    "2027-01-16",
+    "2027-01-17"
+   ],
+   "s": [
+    "state"
+   ],
+   "q": [
+    "12",
+    "grad"
+   ],
+   "url": "https://cetonline.karnataka.gov.in/kea/"
   },
   {
    "t": "AFCAT 01/2027 admit card",
