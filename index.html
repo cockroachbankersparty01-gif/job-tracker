@@ -273,7 +273,7 @@ footer{margin:22px 0 8px;font-size:.82rem;color:var(--muted);display:grid;gap:6p
         <li>National Career Service – <a href="https://www.ncs.gov.in" target="_blank" rel="noopener">ncs.gov.in</a></li>
         <li>State Public Service Commissions, State Subordinate Service Selection Boards, police recruitment boards, PSUs and banks – their own official websites</li>
       </ul>
-      <p>Each listing has a link to the official website or notification. The "Official notification" button opens the recruiting organisation's own notification (usually a PDF). Where we haven't yet found the direct file, a "Notification details" button opens a job-news page that links to it, so you know it isn't the official site.</p>
+      <p>Each listing has a link to the official website or notification. The "Official notification" button opens the recruiting organisation's own notification (usually a PDF). Where we haven't yet found the direct file, a "Notification details" button opens a job-news page that links to it. "Notification PDF (copy)" is a copy of the official notice kept by a job-news site, shown when the recruiter's own file isn't directly linkable.</p>
       <h3>Accuracy</h3>
       <p>We check listings carefully, but dates and vacancy numbers can change or contain mistakes. The app is provided for information only, without any warranty. We are not responsible for any loss caused by relying on it; always verify on the official website before acting.</p>
       <h3>Names and symbols</h3>
@@ -652,7 +652,7 @@ loadData(false);
 /* notification + apply links for a job card */
 function linksHtml(j){
   const out=[];
-  if(j.notice) out.push(`<a class="lnk lnk-main" href="${esc(j.notice)}" target="_blank" rel="noopener">Official notification ↗</a>`);
+  if(j.notice) out.push(`<a class="lnk lnk-main" href="${esc(j.notice)}" target="_blank" rel="noopener">${/freejobalert\.com/.test(j.notice)?"Notification PDF (copy) ↗":"Official notification ↗"}</a>`);
   else if(j.noticePage) out.push(`<a class="lnk lnk-main" href="${esc(j.noticePage)}" target="_blank" rel="noopener">Notification details ↗</a>`);
   const site=j.apply||(!j.src?j.url:"");
   if(site) out.push(`<a class="lnk" href="${esc(site)}" target="_blank" rel="noopener">${j.apply?"Apply / official site ↗":"Official site ↗"}</a>`);
