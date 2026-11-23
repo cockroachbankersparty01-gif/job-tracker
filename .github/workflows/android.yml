@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'android/**'
+      - 'index.html'
       - '.github/workflows/android.yml'
   workflow_dispatch:
 
@@ -25,6 +26,11 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '8.9'
+
+      - name: Bundle the web app into the APK
+        run: |
+          mkdir -p android/app/src/main/assets
+          cp index.html icon.svg android/app/src/main/assets/
 
       - name: Build APK
         working-directory: android
