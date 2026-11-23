@@ -48,8 +48,21 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release delete apk-latest -y --cleanup-tag || true
-          gh release create apk-latest SarkariJobTracker.apk \
-            --target "${{ github.sha }}" \
-            --title "Sarkari Job Tracker for Android" \
-            --notes "Download SarkariJobTracker.apk below and open it on your Android phone. Allow 'Install unknown apps' for your browser or file manager when asked. Job listings update daily inside the app; you don't need to reinstall."
+          # Remove any leftover draft releases
+          for t in $(gh release list --limit 30 --json tagName,isDraft -q '.[] | select(.isDraft) | .tagName'); do
+            gh release delete "$t" -y || true
+          done
+          NOTES="Download SarkariJobTracker.apk below and open it on your Android phone. Allow 'Install unknown apps' for your browser or file manager when asked. Jobs and screens update automatically every time the app opens; you don't need to reinstall."
+          if gh release view apk-latest >/dev/null 2>&1; then
+            # Keep the same release and link; just replace the file
+            gh release upload apk-latest SarkariJobTracker.apk --clobber
+            gh release edit apk-latest --draft=false --notes "$NOTES"
+          else
+            gh release create apk-latest SarkariJobTracker.apk \
+              --target "${{ github.sha }}" \
+              --title "Sarkari Job Tracker for Android" \
+              --notes "$NOTES"
+          fi
+          # Fail the job if the public download link does not work
+          sleep 5
+          curl -sfIL "https://github.com/${{ github.repository }}/releases/download/apk-latest/SarkariJobTracker.apk" > /dev/null
