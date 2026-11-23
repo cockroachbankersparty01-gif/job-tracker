@@ -143,6 +143,21 @@ footer{margin:22px 0 8px;font-size:.82rem;color:var(--muted);display:grid;gap:6p
 .hidden{display:none !important}
 @media (max-width:480px){.summary{grid-template-columns:repeat(3,1fr);gap:6px}.tile{padding:8px}.tile .n{font-size:1.25rem}.row{grid-template-columns:1fr}.stamp{justify-self:start}}
 @media (prefers-reduced-motion:no-preference){.row{transition:transform .12s}.row:hover{transform:translateY(-1px)}}
+
+/* disclaimer strip, first-run notice and disclaimer screen */
+.disc-strip{margin-top:10px;font-size:.82rem;line-height:1.4;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 12px;color:var(--muted)}
+.disc-strip b{color:var(--ink)}
+.linkbtn{background:none;border:0;padding:0;color:var(--accent);font-weight:600;cursor:pointer;text-decoration:underline;font-size:inherit}
+#discModal{position:fixed;inset:0;background:rgba(15,23,42,.55);z-index:20;display:flex;align-items:flex-end;justify-content:center;padding:12px}
+#discModal.hidden{display:none}
+#discModal .sheet{background:var(--card);color:var(--ink);border-radius:14px;max-width:640px;width:100%;max-height:88vh;overflow:auto;padding:18px 18px 14px;box-shadow:0 10px 40px rgba(0,0,0,.3)}
+#discModal h2{font-size:1.2rem;margin:0 0 8px}
+#discModal h3{font-size:.98rem;margin:14px 0 4px}
+#discModal p,#discModal li{font-size:.9rem;line-height:1.5}
+#discModal ul{margin:4px 0;padding-left:20px}
+#discModal a{color:var(--accent);font-weight:600}
+#discModal .actions{position:sticky;bottom:-14px;background:var(--card);padding:12px 0 2px;display:flex;gap:8px;flex-wrap:wrap}
+@media (min-width:700px){#discModal{align-items:center}}
 </style>
 </head>
 <body>
@@ -153,6 +168,7 @@ footer{margin:22px 0 8px;font-size:.82rem;color:var(--muted);display:grid;gap:6p
     <div class="brand"><svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" aria-hidden="true"> <defs> <linearGradient id="logobg" x1="0" y1="0" x2="1" y2="1"> <stop offset="0" stop-color="#FFE14D"/> <stop offset="1" stop-color="#FFB300"/> </linearGradient> </defs> <rect width="512" height="512" rx="112" fill="url(#logobg)"/> <path d="M112 132 C84 168 76 214 86 258" fill="none" stroke="#1b2340" stroke-width="22" stroke-linecap="round"/> <path d="M400 132 C428 168 436 214 426 258" fill="none" stroke="#1b2340" stroke-width="22" stroke-linecap="round"/> <circle cx="256" cy="104" r="22" fill="#1b2340"/> <path d="M256 112c-72 0-122 54-122 128v72l-36 50c-9 12 0 28 15 28h286c15 0 24-16 15-28l-36-50v-72c0-74-50-128-122-128z" fill="#1b2340"/> <path d="M214 396h84a42 42 0 0 1-84 0z" fill="#1b2340"/> <path d="M236 232v-14a12 12 0 0 1 12-12h16a12 12 0 0 1 12 12v14" fill="none" stroke="#FFC81A" stroke-width="13"/> <rect x="196" y="230" width="120" height="86" rx="14" fill="#FFC81A"/> <rect x="196" y="262" width="120" height="10" fill="#1b2340"/> <rect x="244" y="256" width="24" height="22" rx="5" fill="#FFC81A" stroke="#1b2340" stroke-width="6"/> <circle cx="370" cy="140" r="50" fill="#E11D48" stroke="#FFD43B" stroke-width="16"/> <rect x="362" y="110" width="16" height="38" rx="8" fill="#fff"/> <circle cx="370" cy="166" r="9" fill="#fff"/> </svg><h1>JOB <span>Alert</span><small>Sarkari jobs, results &amp; exam dates</small></h1></div>
     <div class="updated" id="updated"><span id="updatedDate">Loading…</span><button class="refresh" id="refreshBtn" aria-label="Refresh listings">↻ Refresh</button></div>
   </header>
+  <p class="disc-strip"><b>Not a government app.</b> JOB Alert is an independent app and is not connected to any government body. Information is taken from official recruitment websites and notices; always check the official notification before you apply. <button class="linkbtn" data-open-disc>Disclaimer &amp; privacy</button></p>
   <div class="stale hidden" id="stale" role="status"></div>
 
   <!-- Step 1: ask the candidate -->
@@ -226,9 +242,53 @@ footer{margin:22px 0 8px;font-size:.82rem;color:var(--muted);display:grid;gap:6p
   <footer>
     <p>Dates and vacancy counts are collected from public recruitment notices and job-news sites. Always confirm eligibility, age limits and dates in the official notification before you apply or pay any fee.</p>
     <p>Status is recalculated every time you open this page, so "closing soon" and "closed" labels stay correct day to day. New notifications, admit cards, answer keys and results are published every morning, and the app loads the latest listings automatically each time you open it.</p>
+  
+    <p><button class="linkbtn" data-open-disc>Disclaimer</button> · <span id="adPrivWrap" class="hidden"><button class="linkbtn" id="adPriv">Ad privacy settings</button> · </span><a href="https://github.com/cockroachbankersparty01-gif/job-tracker/blob/main/PRIVACY.md" target="_blank" rel="noopener" style="color:var(--accent);font-weight:600">Privacy Policy</a> · <a href="https://github.com/cockroachbankersparty01-gif/job-tracker/issues" target="_blank" rel="noopener" style="color:var(--accent);font-weight:600">Contact</a></p>
   </footer>
 </div>
 
+
+<div id="discModal" class="hidden" role="dialog" aria-modal="true" aria-labelledby="discTitle">
+  <div class="sheet">
+    <h2 id="discTitle">Important: please read</h2>
+    
+      <ul>
+        <li><b>JOB Alert is not a government app.</b> It is made by an independent developer and is not affiliated with, endorsed by or acting for the Government of India, any State or UT government, ministry, department, PSU, bank, recruitment board or commission.</li>
+        <li><b>You cannot apply through this app.</b> It only tells you about openings. Every application, fee payment, admit card and result is on the official website, which each listing links to.</li>
+        <li><b>Information comes from official sources</b> such as recruiting organisations' websites, their published notifications and Employment News. Always confirm dates, eligibility, age limits and fees in the official notification. If anything here differs from it, the official notification is correct.</li>
+        <li><b>We never ask for money.</b> Ignore anyone who asks for payment for a government job, "confirmed selection" or a "setting".</li>
+      </ul>
+    <div id="discMore" class="hidden">
+      <h3>Source of information</h3>
+      <p>Vacancies, exam dates, admit cards, answer keys and results are collected from the official websites and published notifications of the recruiting organisations, for example:</p>
+      <ul>
+        <li>Union Public Service Commission – <a href="https://upsc.gov.in" target="_blank" rel="noopener">upsc.gov.in</a></li>
+        <li>Staff Selection Commission – <a href="https://ssc.gov.in" target="_blank" rel="noopener">ssc.gov.in</a></li>
+        <li>Institute of Banking Personnel Selection – <a href="https://www.ibps.in" target="_blank" rel="noopener">ibps.in</a></li>
+        <li>Indian Railways / Railway Recruitment Boards – <a href="https://indianrailways.gov.in" target="_blank" rel="noopener">indianrailways.gov.in</a></li>
+        <li>Employment News (Govt. of India) – <a href="https://www.employmentnews.gov.in" target="_blank" rel="noopener">employmentnews.gov.in</a></li>
+        <li>National Career Service – <a href="https://www.ncs.gov.in" target="_blank" rel="noopener">ncs.gov.in</a></li>
+        <li>State Public Service Commissions, State Subordinate Service Selection Boards, police recruitment boards, PSUs and banks – their own official websites</li>
+      </ul>
+      <p>Each listing has a link to the official website or notification. A few listings link to a job-news page that reproduces the official notice; those are labelled "Notice details" so you know it isn't the official site.</p>
+      <h3>Accuracy</h3>
+      <p>We check listings carefully, but dates and vacancy numbers can change or contain mistakes. The app is provided for information only, without any warranty. We are not responsible for any loss caused by relying on it; always verify on the official website before acting.</p>
+      <h3>Names and symbols</h3>
+      <p>Organisation names are used only to identify who is recruiting. The app does not use the State Emblem of India or any government logo, and nothing in it is an official communication.</p>
+      <h3>Advertisements</h3>
+      <p>The Android app shows advertisements provided by Google AdMob. Ads come from third parties and are not endorsed by JOB Alert or by any government body. Ads never ask you to apply for a job through them.</p>
+      <h3>Privacy (summary)</h3>
+      <ul>
+        <li>No sign-up or account. Your qualification, sector, experience and state choices are stored only on your phone and never sent to us.</li>
+        <li>The app downloads job data from GitHub, which, like any web server, receives your IP address.</li>
+        <li>Google AdMob may collect device identifiers (such as the advertising ID), approximate location from your IP address, and ad interaction and diagnostic data, to show and measure ads and prevent fraud. You can reset or delete your advertising ID in your phone's Google settings.</li>
+        <li>To delete everything the app stores, clear the app's data or uninstall it.</li>
+      </ul>
+      <p>Read the full <a href="https://github.com/cockroachbankersparty01-gif/job-tracker/blob/main/PRIVACY.md" target="_blank" rel="noopener">Privacy Policy</a>. Questions, corrections or complaints: <a href="https://github.com/cockroachbankersparty01-gif/job-tracker/issues" target="_blank" rel="noopener">contact us</a> or use the developer email on the Play Store page.</p>
+    </div>
+    <div class="actions"><button class="btn" id="discOk">I understand</button><button class="btn ghost" id="discMoreBtn">Full disclaimer &amp; privacy</button></div>
+  </div>
+</div>
 <script>
 /* ---------- Data (last refreshed below) ---------- */
 let DATA_UPDATED="", JOBS=[], RESULTS=[], ADMIT=[], KEYS=[], STATUS=[], CAL=[], CALTBA=[];
@@ -584,6 +644,22 @@ fillStates();
 renderChips();
 if(profile && profile.q && profile.q.length && profile.e) showMain();
 loadData(false);
+
+/* ---------- disclaimer: shown once on first start, and from the footer link ---------- */
+(function(){
+  const KEY="sjt-disclaimer-v1", m=document.getElementById("discModal");
+  function open(first){ document.getElementById("discMore").classList.toggle("hidden",first); document.getElementById("discMoreBtn").classList.toggle("hidden",!first); m.classList.remove("hidden"); m.querySelector(".sheet").scrollTop=0; }
+  function close(){ try{localStorage.setItem(KEY,"1");}catch(e){} m.classList.add("hidden"); }
+  document.getElementById("discOk").addEventListener("click",close);
+  document.getElementById("discMoreBtn").addEventListener("click",()=>{document.getElementById("discMore").classList.remove("hidden");document.getElementById("discMoreBtn").classList.add("hidden");});
+  document.querySelectorAll("[data-open-disc]").forEach(b=>b.addEventListener("click",()=>open(false)));
+  let seen=false; try{seen=localStorage.getItem(KEY)==="1";}catch(e){}
+  if(!seen) open(true);
+})();
+
+/* "Ad privacy settings" link, shown in the Android app where the law requires it */
+(function(){ try{ if(window.AndroidApp && AndroidApp.privacyOptionsRequired()){ document.getElementById("adPrivWrap").classList.remove("hidden");
+  document.getElementById("adPriv").addEventListener("click",()=>AndroidApp.showPrivacyOptions()); } }catch(e){} })();
 </script>
 </body>
 </html>

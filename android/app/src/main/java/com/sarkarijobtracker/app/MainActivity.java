@@ -4,16 +4,32 @@ import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.Insets;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.SystemClock;
 import android.view.View;
+import android.view.ViewGroup;
+import android.view.WindowInsets;
+import android.view.WindowInsetsController;
+import android.webkit.JavascriptInterface;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.FrameLayout;
+import android.widget.LinearLayout;
+
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.ump.ConsentInformation;
+import com.google.android.ump.ConsentRequestParameters;
+import com.google.android.ump.UserMessagingPlatform;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -24,49 +40,58 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
- * JOB Alert (Sarkari job alerts).
- * Everything updates by itself:
- *  - Each time the app starts, it downloads the latest screens (index.html) from the GitHub repo,
- *    so design changes reach every phone without reinstalling. If offline, it uses the last
- *    downloaded copy, or the copy built into the APK.
- *  - The page then downloads the latest job data (data.json) on every open.
- *  - When the app comes back from the background it fetches fresh data again; after 30 minutes
- *    away it reloads everything.
+ * JOB Alert.
+ *  - Each start downloads the latest screens (index.html) from the GitHub repo; offline it uses the
+ *    last downloaded copy or the copy built into the APK. The page loads fresh data on every open.
+ *  - Back from the background: fresh data; after 30 minutes away, a full reload.
+ *  - A Google AdMob banner sits below the page. Consent is requested first where the law requires
+ *    it (Google User Messaging Platform), and the page can reopen the ad-privacy choices.
  */
 public class MainActivity extends Activity {
 
-    private static final String BASE_URL =
-            "https://raw.githubusercontent.com/cockroachbankersparty01-gif/job-tracker/main/";
+    private static final String BASE_URL = "https://raw.githubusercontent.com/cockroachbankersparty01-gif/job-tracker/main/";
+    private static final int BRAND = Color.parseColor("#FFC81A");
+    private static final boolean DARK_ICONS = true;
     private static final long FULL_RELOAD_AFTER_MS = 30 * 60 * 1000L;
 
     private WebView web;
+    private FrameLayout adBox;
+    private AdView adView;
+    private ConsentInformation consent;
+    private final AtomicBoolean adsStarted = new AtomicBoolean(false);
     private long pausedAt = 0;
     private final Handler main = new Handler(Looper.getMainLooper());
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getWindow().setStatusBarColor(Color.parseColor("#FFC81A"));
-        // dark status-bar icons on the yellow bar
-        getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
+
+        LinearLayout root = new LinearLayout(this);
+        root.setOrientation(LinearLayout.VERTICAL);
+        root.setBackgroundColor(BRAND); // shows behind the status bar
 
         web = new WebView(this);
-        setContentView(web);
+        root.addView(web, new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 0, 1f));
+        adBox = new FrameLayout(this);
+        adBox.setBackgroundColor(Color.WHITE);
+        root.addView(adBox, new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+        setContentView(root);
+        setUpSystemBars(root);
 
         WebSettings s = web.getSettings();
         s.setJavaScriptEnabled(true);
-        s.setDomStorageEnabled(true);   // keeps the candidate's profile between visits
+        s.setDomStorageEnabled(true);   // keeps the user's profile between visits
         s.setCacheMode(WebSettings.LOAD_DEFAULT);
-
+        web.addJavascriptInterface(new Bridge(), "AndroidApp");
         web.setWebViewClient(new WebViewClient() {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
-                // "Official site" and result links open in the phone's browser
-                Uri uri = request.getUrl();
+                // official sites, privacy policy etc. open in the phone's browser
                 try {
-                    startActivity(new Intent(Intent.ACTION_VIEW, uri));
+                    startActivity(new Intent(Intent.ACTION_VIEW, request.getUrl()));
                 } catch (ActivityNotFoundException ignored) {
                 }
                 return true;
@@ -74,9 +99,82 @@ public class MainActivity extends Activity {
         });
 
         loadLatest();
+        requestConsentThenAds();
     }
 
-    /** Download the newest screens in the background, then show them (or a saved copy if offline). */
+    /** Android 15+ draws apps edge to edge; pad the content so nothing hides behind the system bars. */
+    private void setUpSystemBars(View root) {
+        if (Build.VERSION.SDK_INT >= 35) {
+            root.setOnApplyWindowInsetsListener((v, insets) -> {
+                Insets b = insets.getInsets(WindowInsets.Type.systemBars() | WindowInsets.Type.displayCutout());
+                v.setPadding(b.left, b.top, b.right, b.bottom);
+                return WindowInsets.CONSUMED;
+            });
+        } else {
+            getWindow().setStatusBarColor(BRAND);
+        }
+        if (DARK_ICONS) {
+            if (Build.VERSION.SDK_INT >= 30) {
+                WindowInsetsController c = getWindow().getInsetsController();
+                if (c != null) c.setSystemBarsAppearance(WindowInsetsController.APPEARANCE_LIGHT_STATUS_BARS,
+                        WindowInsetsController.APPEARANCE_LIGHT_STATUS_BARS);
+            } else {
+                getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
+            }
+        }
+    }
+
+    /* ---------------- ads ---------------- */
+
+    private void requestConsentThenAds() {
+        consent = UserMessagingPlatform.getConsentInformation(this);
+        ConsentRequestParameters params = new ConsentRequestParameters.Builder().build();
+        consent.requestConsentInfoUpdate(this, params,
+                () -> UserMessagingPlatform.loadAndShowConsentFormIfRequired(this, formError -> {
+                    if (consent.canRequestAds()) startAds();
+                }),
+                requestError -> {
+                    if (consent.canRequestAds()) startAds();
+                });
+        if (consent.canRequestAds()) startAds(); // consent already known from an earlier session
+    }
+
+    private void startAds() {
+        if (!adsStarted.compareAndSet(false, true)) return;
+        new Thread(() -> {
+            MobileAds.initialize(this, status -> { });
+            main.post(this::loadBanner);
+        }).start();
+    }
+
+    private void loadBanner() {
+        if (isFinishing()) return;
+        float density = getResources().getDisplayMetrics().density;
+        int widthDp = (int) (getResources().getDisplayMetrics().widthPixels / density);
+        adView = new AdView(this);
+        adView.setAdUnitId(getString(R.string.admob_banner_id));
+        adView.setAdSize(AdSize.getCurrentOrientationAnchoredAdaptiveBannerAdSize(this, widthDp));
+        adBox.removeAllViews();
+        adBox.addView(adView);
+        adView.loadAd(new AdRequest.Builder().build());
+    }
+
+    /** Lets the page show an "Ad privacy settings" link where the law requires one. */
+    private class Bridge {
+        @JavascriptInterface
+        public boolean privacyOptionsRequired() {
+            return consent != null && consent.getPrivacyOptionsRequirementStatus()
+                    == ConsentInformation.PrivacyOptionsRequirementStatus.REQUIRED;
+        }
+
+        @JavascriptInterface
+        public void showPrivacyOptions() {
+            main.post(() -> UserMessagingPlatform.showPrivacyOptionsForm(MainActivity.this, e -> { }));
+        }
+    }
+
+    /* ---------------- page loading ---------------- */
+
     private void loadLatest() {
         new Thread(() -> {
             String html = download(BASE_URL + "index.html?t=" + System.currentTimeMillis());
@@ -93,6 +191,7 @@ public class MainActivity extends Activity {
 
     @Override
     protected void onPause() {
+        if (adView != null) adView.pause();
         super.onPause();
         pausedAt = SystemClock.elapsedRealtime();
     }
@@ -100,13 +199,20 @@ public class MainActivity extends Activity {
     @Override
     protected void onResume() {
         super.onResume();
+        if (adView != null) adView.resume();
         if (pausedAt == 0) return; // first start is handled by onCreate
         long away = SystemClock.elapsedRealtime() - pausedAt;
         if (away > FULL_RELOAD_AFTER_MS) {
-            loadLatest();                       // new screens + new data
+            loadLatest();
         } else {
-            web.evaluateJavascript("window.appResumed && window.appResumed()", null); // new data
+            web.evaluateJavascript("window.appResumed && window.appResumed()", null);
         }
+    }
+
+    @Override
+    protected void onDestroy() {
+        if (adView != null) adView.destroy();
+        super.onDestroy();
     }
 
     private String download(String address) {
@@ -153,7 +259,7 @@ public class MainActivity extends Activity {
             return readAll(in);
         } catch (IOException e) {
             return "<!DOCTYPE html><html><body style='font-family:sans-serif;padding:24px'>"
-                    + "<h2>No internet connection</h2><p>Connect to the internet and reopen Job Tracker.</p></body></html>";
+                    + "<h2>No internet connection</h2><p>Connect to the internet and reopen JOB Alert.</p></body></html>";
         }
     }
 
@@ -165,14 +271,5 @@ public class MainActivity extends Activity {
             out.write(buf, 0, n);
         }
         return out.toString("UTF-8");
-    }
-
-    @Override
-    public void onBackPressed() {
-        if (web.canGoBack()) {
-            web.goBack();
-        } else {
-            super.onBackPressed();
-        }
     }
 }

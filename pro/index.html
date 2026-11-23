@@ -126,6 +126,21 @@ h1 small{display:block;font-family:var(--body);font-weight:500;font-size:.78rem;
 footer{margin:22px 0 8px;font-size:.82rem;color:var(--muted);display:grid;gap:6px}
 @media (max-width:480px){.summary{gap:6px}.tile{padding:8px}.tile .n{font-size:1.25rem}.row{grid-template-columns:1fr}.pill{justify-self:start}.day{min-height:44px;font-size:.82rem}}
 @media (prefers-reduced-motion:reduce){#ptr,#toast{transition:none}#ptr[data-state="loading"] #ptrIcon{animation:none}}
+
+/* disclaimer strip, first-run notice and disclaimer screen */
+.disc-strip{margin-top:10px;font-size:.82rem;line-height:1.4;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 12px;color:var(--muted)}
+.disc-strip b{color:var(--ink)}
+.linkbtn{background:none;border:0;padding:0;color:var(--accent);font-weight:600;cursor:pointer;text-decoration:underline;font-size:inherit}
+#discModal{position:fixed;inset:0;background:rgba(15,23,42,.55);z-index:20;display:flex;align-items:flex-end;justify-content:center;padding:12px}
+#discModal.hidden{display:none}
+#discModal .sheet{background:var(--card);color:var(--ink);border-radius:14px;max-width:640px;width:100%;max-height:88vh;overflow:auto;padding:18px 18px 14px;box-shadow:0 10px 40px rgba(0,0,0,.3)}
+#discModal h2{font-size:1.2rem;margin:0 0 8px}
+#discModal h3{font-size:.98rem;margin:14px 0 4px}
+#discModal p,#discModal li{font-size:.9rem;line-height:1.5}
+#discModal ul{margin:4px 0;padding-left:20px}
+#discModal a{color:var(--accent);font-weight:600}
+#discModal .actions{position:sticky;bottom:-14px;background:var(--card);padding:12px 0 2px;display:flex;gap:8px;flex-wrap:wrap}
+@media (min-width:700px){#discModal{align-items:center}}
 </style>
 </head>
 <body>
@@ -139,6 +154,7 @@ footer{margin:22px 0 8px;font-size:.82rem;color:var(--muted);display:grid;gap:6p
     </div>
     <div class="updated"><span id="updatedDate">Loading…</span><button class="refresh" id="refreshBtn" aria-label="Refresh listings">↻ Refresh</button></div>
   </header>
+  <p class="disc-strip"><b>Independent app.</b> PRO Job Alert is not a recruiter and is not connected to the companies listed. Read the full job details on the company's site before you apply, and never pay to get a job. <button class="linkbtn" data-open-disc>Disclaimer &amp; privacy</button></p>
   <div class="stale hidden" id="stale" role="status"></div>
 
   <section class="panel" id="onboard">
@@ -180,9 +196,43 @@ footer{margin:22px 0 8px;font-size:.82rem;color:var(--muted);display:grid;gap:6p
   <footer>
     <p>Genuine companies never charge a fee to apply, test or join. Ignore anyone asking for money for a job or "guaranteed placement".</p>
     <p>Listings are gathered from company career pages and off-campus job trackers. Always read the full job description on the company's site before applying. New openings are added every morning, and the app loads the latest every time you open it.</p>
+  
+    <p><button class="linkbtn" data-open-disc>Disclaimer</button> · <span id="adPrivWrap" class="hidden"><button class="linkbtn" id="adPriv">Ad privacy settings</button> · </span><a href="https://github.com/cockroachbankersparty01-gif/job-tracker/blob/main/pro/PRIVACY.md" target="_blank" rel="noopener" style="color:var(--accent);font-weight:600">Privacy Policy</a> · <a href="https://github.com/cockroachbankersparty01-gif/job-tracker/issues" target="_blank" rel="noopener" style="color:var(--accent);font-weight:600">Contact</a></p>
   </footer>
 </div>
 
+
+<div id="discModal" class="hidden" role="dialog" aria-modal="true" aria-labelledby="discTitle">
+  <div class="sheet">
+    <h2 id="discTitle">Important: please read</h2>
+    
+      <ul>
+        <li><b>PRO Job Alert is not a recruiter or placement agency.</b> It is an independent app that lists openings published by companies. It is not affiliated with or endorsed by any company shown, and it plays no part in hiring decisions.</li>
+        <li><b>You apply on the company's own website.</b> Each listing links to the company's careers page or to the page where the opening was published.</li>
+        <li><b>Check every detail on the company's site.</b> Openings can close early or change. If anything here differs from the company's job post, the company's post is correct.</li>
+        <li><b>Genuine companies never charge a fee</b> for applying, tests, interviews, training or joining. Ignore anyone asking for money or offering a "guaranteed placement".</li>
+      </ul>
+    <div id="discMore" class="hidden">
+      <h3>Source of information</h3>
+      <p>Openings, hiring-test dates and drive timelines are collected from companies' official careers pages and their published job posts, and from public job portals and off-campus drive trackers that report them. Each listing links to the company's site where available. Listings that link to a job portal or tracker instead are labelled "View details", not "Apply on company site".</p>
+      <h3>Accuracy</h3>
+      <p>We check listings, but pay, eligibility, batches and dates can change or contain mistakes. The app is provided for information only, without any warranty, and we are not responsible for any loss caused by relying on it.</p>
+      <h3>Trademarks</h3>
+      <p>Company names are used only to identify the employer. They and any trademarks belong to their owners. The app does not use company logos and does not claim any partnership with them.</p>
+      <h3>Advertisements</h3>
+      <p>The Android app shows advertisements provided by Google AdMob. Ads come from third parties and are not endorsed by PRO Job Alert or by the companies listed.</p>
+      <h3>Privacy (summary)</h3>
+      <ul>
+        <li>No sign-up or account. Your degree, experience, job-type and city choices are stored only on your phone and never sent to us.</li>
+        <li>The app downloads job data from GitHub, which, like any web server, receives your IP address.</li>
+        <li>Google AdMob may collect device identifiers (such as the advertising ID), approximate location from your IP address, and ad interaction and diagnostic data, to show and measure ads and prevent fraud. You can reset or delete your advertising ID in your phone's Google settings.</li>
+        <li>To delete everything the app stores, clear the app's data or uninstall it.</li>
+      </ul>
+      <p>Read the full <a href="https://github.com/cockroachbankersparty01-gif/job-tracker/blob/main/pro/PRIVACY.md" target="_blank" rel="noopener">Privacy Policy</a>. Questions, corrections or complaints: <a href="https://github.com/cockroachbankersparty01-gif/job-tracker/issues" target="_blank" rel="noopener">contact us</a> or use the developer email on the Play Store page.</p>
+    </div>
+    <div class="actions"><button class="btn" id="discOk">I understand</button><button class="btn ghost" id="discMoreBtn">Full disclaimer &amp; privacy</button></div>
+  </div>
+</div>
 <script>
 let DATA_UPDATED="", JOBS=[], CAL=[], CALTBA=[], TRACKER=[];
 
@@ -412,6 +462,22 @@ window.appResumed=function(){loadData(false);};
 fillCities(); renderChips(); showUpdated();
 if(profile&&profile.d&&profile.d.length&&profile.e!==undefined&&profile.e!=="") showMain();
 loadData(false);
+
+/* ---------- disclaimer: shown once on first start, and from the footer link ---------- */
+(function(){
+  const KEY="pja-disclaimer-v1", m=document.getElementById("discModal");
+  function open(first){ document.getElementById("discMore").classList.toggle("hidden",first); document.getElementById("discMoreBtn").classList.toggle("hidden",!first); m.classList.remove("hidden"); m.querySelector(".sheet").scrollTop=0; }
+  function close(){ try{localStorage.setItem(KEY,"1");}catch(e){} m.classList.add("hidden"); }
+  document.getElementById("discOk").addEventListener("click",close);
+  document.getElementById("discMoreBtn").addEventListener("click",()=>{document.getElementById("discMore").classList.remove("hidden");document.getElementById("discMoreBtn").classList.add("hidden");});
+  document.querySelectorAll("[data-open-disc]").forEach(b=>b.addEventListener("click",()=>open(false)));
+  let seen=false; try{seen=localStorage.getItem(KEY)==="1";}catch(e){}
+  if(!seen) open(true);
+})();
+
+/* "Ad privacy settings" link, shown in the Android app where the law requires it */
+(function(){ try{ if(window.AndroidApp && AndroidApp.privacyOptionsRequired()){ document.getElementById("adPrivWrap").classList.remove("hidden");
+  document.getElementById("adPriv").addEventListener("click",()=>AndroidApp.showPrivacyOptions()); } }catch(e){} })();
 </script>
 </body>
 </html>

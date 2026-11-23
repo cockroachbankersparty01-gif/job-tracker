@@ -1,4 +1,4 @@
-name: Build PRO Job Alert APK
+name: Build PRO Job Alert app
 
 on:
   push:
@@ -19,6 +19,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      KS_B64: ${{ secrets.UPLOAD_KEYSTORE_B64 }}
+      UPLOAD_KEY_PASSWORD: ${{ secrets.UPLOAD_KEY_PASSWORD }}
     steps:
       - uses: actions/checkout@v4
 
@@ -29,38 +32,56 @@ jobs:
 
       - uses: gradle/actions/setup-gradle@v4
         with:
-          gradle-version: '8.9'
+          gradle-version: '8.13'
 
-      - name: Bundle the web app into the APK (offline fallback)
+      - name: Bundle the web app into the app (offline fallback)
         run: |
           mkdir -p android-pro/app/src/main/assets
           cp pro/index.html pro/icon.svg android-pro/app/src/main/assets/
 
-      - name: Build APK
-        working-directory: android-pro
-        run: gradle assembleDebug --no-daemon
+      - name: Set up the upload key (if the repository secrets exist)
+        run: |
+          if [ -n "$KS_B64" ]; then
+            echo "$KS_B64" | base64 -d > "$RUNNER_TEMP/upload.jks"
+            echo "UPLOAD_KEYSTORE=$RUNNER_TEMP/upload.jks" >> "$GITHUB_ENV"
+            echo "Signed release build"
+          else
+            echo "No signing secrets: building a test-signed APK and an unsigned Play bundle"
+          fi
 
-      - name: Rename APK
-        run: cp android-pro/app/build/outputs/apk/debug/app-debug.apk PROJobAlert.apk
+      - name: Build APK and Play Store bundle (AAB)
+        working-directory: android-pro
+        run: |
+          if [ -n "$KS_B64" ]; then
+            gradle assembleRelease bundleRelease --no-daemon
+            cp app/build/outputs/apk/release/app-release.apk ../PROJobAlert.apk
+            cp app/build/outputs/bundle/release/app-release.aab ../PROJobAlert.aab
+          else
+            gradle assembleDebug bundleRelease --no-daemon
+            cp app/build/outputs/apk/debug/app-debug.apk ../PROJobAlert.apk
+            cp app/build/outputs/bundle/release/app-release.aab ../PROJobAlert-unsigned.aab
+          fi
+          ls -l ../PROJobAlert*
 
       - uses: actions/upload-artifact@v4
         with:
-          name: PROJobAlert-apk
-          path: PROJobAlert.apk
+          name: PROJobAlert
+          path: PROJobAlert*.a*
 
       - name: Publish to the "pro-apk-latest" release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          NOTES="PRO Job Alert: private jobs, off-campus drives and internships for B.Tech, MCA, MBA and other professional degrees. Download PROJobAlert.apk below and open it on your Android phone (allow 'Install unknown apps' when asked). Jobs update automatically every time the app opens."
+          for t in $(gh release list --limit 30 --json tagName,isDraft -q '.[] | select(.isDraft) | .tagName'); do
+            gh release delete "$t" -y || true
+          done
+          NOTES="PRO Job Alert. Phone install: download PROJobAlert.apk and open it (allow 'Install unknown apps' when asked). Google Play upload: use the .aab file. Listings update automatically every time the app opens."
+          FILES=$(ls PROJobAlert*.a*)
           if gh release view pro-apk-latest >/dev/null 2>&1; then
-            gh release upload pro-apk-latest PROJobAlert.apk --clobber
-            gh release edit pro-apk-latest --draft=false --notes "$NOTES"
+            gh release upload pro-apk-latest $FILES --clobber
+            gh release edit pro-apk-latest --draft=false --title "PRO Job Alert for Android" --notes "$NOTES"
           else
-            gh release create pro-apk-latest PROJobAlert.apk \
-              --target "${{ github.sha }}" \
-              --title "PRO Job Alert for Android" \
-              --notes "$NOTES"
+            gh release create pro-apk-latest $FILES --target "${{ github.sha }}" --title "PRO Job Alert for Android" --notes "$NOTES"
           fi
           sleep 5
           curl -sfIL "https://github.com/${{ github.repository }}/releases/download/pro-apk-latest/PROJobAlert.apk" > /dev/null
