@@ -2,21 +2,58 @@
  "updated": "2026-11-23",
  "jobs": [
   {
-   "t": "SBI Specialist Cadre Officer: Chief Manager & Manager",
-   "org": "State Bank of India",
-   "posts": 7,
+   "t": "UPSC Advt 13/2026: Dental Surgeon, Ayurveda & Homeopathic Physician, Scientist B",
+   "org": "UPSC",
+   "posts": 13,
    "q": [
+    "medical",
     "pg"
    ],
    "s": [
-    "bank"
+    "upsc",
+    "medical"
    ],
-   "loc": "Mumbai",
-   "start": "2026-11-02",
-   "last": "2026-11-23",
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-04",
+   "url": "https://upsconline.nic.in/",
+   "exp": "mixed"
+  },
+  {
+   "t": "SSC Grade C Stenographer LDCE (departmental)",
+   "org": "Staff Selection Commission",
+   "posts": 320,
+   "q": [
+    "serving"
+   ],
+   "s": [
+    "ssc"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-08",
+   "url": "https://ssc.gov.in/",
    "exp": "exp",
-   "url": "https://sbi.bank.in/web/careers/current-openings",
-   "note": "MBA/PGDM with 3–7 years' experience depending on post."
+   "note": "Only for serving central government stenographers. CBT Feb–Mar 2027."
+  },
+  {
+   "t": "Supreme Court Junior Court Attendant",
+   "org": "Supreme Court of India",
+   "posts": 130,
+   "q": [
+    "10",
+    "12"
+   ],
+   "s": [
+    "ssc"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-11-25",
+   "url": "https://www.sci.gov.in/recruitment/"
   },
   {
    "t": "Supreme Court Court Assistant (Technical Assistant-cum-Programmer)",
@@ -29,78 +66,230 @@
    "s": [
     "ssc"
    ],
-   "loc": "New Delhi",
-   "start": "2026-11-03",
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
    "last": "2026-11-24",
-   "exp": "mixed",
    "url": "https://www.sci.gov.in/recruitment/",
-   "note": "Objective & technical aptitude test tentatively 22 Dec 2026."
+   "exp": "mixed",
+   "note": "Test tentatively 22 Dec 2026."
   },
   {
-   "t": "RRB Station Master (CEN 08/2026)",
-   "org": "Railway Recruitment Boards",
-   "posts": 1265,
+   "t": "GSTAT Stenographer, UDC & other posts",
+   "org": "GST Appellate Tribunal",
+   "posts": 237,
    "q": [
     "grad"
    ],
    "s": [
-    "railway"
+    "ssc"
    ],
+   "state": "All India",
    "loc": "All India",
-   "start": "2026-10-27",
-   "last": "2026-11-25",
-   "url": "https://www.rrbapply.gov.in/",
-   "note": "Fee payment till 27 Nov; correction window 28 Nov – 7 Dec."
+   "start": "",
+   "last": "2026-12-15",
+   "url": "https://www.freejobalert.com/government-jobs/",
+   "src": 1
   },
   {
-   "t": "SBI Specialist Officer (Security): Manager & Deputy Manager",
-   "org": "State Bank of India",
-   "posts": 60,
+   "t": "NIA DEO, ASI & Head Constable",
+   "org": "National Investigation Agency",
+   "posts": 111,
    "q": [
+    "12",
     "grad"
    ],
    "s": [
-    "bank",
-    "police"
+    "police",
+    "ssc"
    ],
+   "state": "All India",
    "loc": "All India",
-   "start": "2026-11-04",
-   "last": "2026-11-25",
-   "exp": "exp",
-   "url": "https://sbi.bank.in/web/careers/current-openings",
-   "note": "Graduates with prescribed military or paramilitary officer experience."
+   "start": "",
+   "last": "2026-12-20",
+   "url": "https://nia.gov.in/",
+   "exp": "mixed",
+   "note": "Mostly deputation; check notice."
   },
   {
-   "t": "UPPSC RO / ARO (Samiksha Adhikari)",
-   "org": "UP Public Service Commission",
-   "posts": 501,
+   "t": "CWC Chief Draughtsman",
+   "org": "Central Water Commission",
+   "posts": 39,
+   "q": [
+    "diploma"
+   ],
+   "s": [
+    "ssc",
+    "psu"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-28",
+   "url": "https://cwc.gov.in/",
+   "exp": "exp"
+  },
+  {
+   "t": "NCSK LDC, Assistant & other posts",
+   "org": "National Commission for Safai Karamcharis",
+   "posts": 12,
+   "q": [
+    "12",
+    "grad"
+   ],
+   "s": [
+    "ssc"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2027-01-04",
+   "url": "https://www.freejobalert.com/sarkari-naukri/",
+   "src": 1
+  },
+  {
+   "t": "CSIR Multi Tasking Staff, Driver & other posts",
+   "org": "CSIR",
+   "posts": 29,
+   "q": [
+    "10",
+    "diploma",
+    "pg"
+   ],
+   "s": [
+    "ssc"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-21",
+   "url": "https://www.csir.res.in/"
+  },
+  {
+   "t": "CSIR-NPL Multi Tasking Staff",
+   "org": "CSIR-National Physical Laboratory",
+   "posts": 25,
+   "q": [
+    "10",
+    "12"
+   ],
+   "s": [
+    "ssc"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-23",
+   "url": "https://www.nplindia.org/"
+  },
+  {
+   "t": "Delhi University Assistant",
+   "org": "University of Delhi",
+   "posts": 215,
    "q": [
     "grad"
    ],
    "s": [
-    "state"
+    "ssc"
    ],
-   "loc": "Uttar Pradesh",
-   "start": "2026-10-26",
-   "last": "2026-11-26",
-   "url": "https://uppsc.up.nic.in/",
-   "note": "Age 21–40. Correction till 3 Dec 2026."
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-11-30",
+   "url": "https://www.du.ac.in/"
   },
   {
-   "t": "RRC Northern Railway Act Apprentice",
-   "org": "RRC Northern Railway",
-   "posts": 4651,
+   "t": "Delhi University Senior Assistant & Assistant",
+   "org": "University of Delhi",
+   "posts": 126,
    "q": [
-    "iti"
+    "grad"
    ],
    "s": [
-    "railway"
+    "ssc"
    ],
-   "loc": "Lucknow, Delhi, Firozpur, Ambala, Moradabad, Jammu",
-   "start": "2026-11-11",
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-11-30",
+   "url": "https://www.du.ac.in/",
+   "exp": "mixed"
+  },
+  {
+   "t": "Jamia Millia Islamia UDC, Assistant & other non-teaching posts",
+   "org": "Jamia Millia Islamia",
+   "posts": 85,
+   "q": [
+    "10",
+    "12",
+    "grad",
+    "iti",
+    "diploma"
+   ],
+   "s": [
+    "ssc"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
    "last": "2026-12-11",
-   "url": "https://www.rrcnr.org/",
-   "note": "Age 15–24. Merit list expected Feb 2027."
+   "url": "https://www.jmi.ac.in/"
+  },
+  {
+   "t": "BHU Medical Officer, Nursing Officer & other posts",
+   "org": "Banaras Hindu University",
+   "posts": 633,
+   "q": [
+    "10",
+    "iti",
+    "diploma",
+    "grad",
+    "medical"
+   ],
+   "s": [
+    "medical",
+    "ssc"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-15",
+   "url": "https://www.bhu.ac.in/"
+  },
+  {
+   "t": "ICAR Technical Assistant T-3 & T-4",
+   "org": "ASRB, Indian Council of Agricultural Research",
+   "posts": 1393,
+   "q": [
+    "grad",
+    "diploma"
+   ],
+   "s": [
+    "psu"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-17",
+   "url": "https://www.asrb.org.in/"
+  },
+  {
+   "t": "Coconut Development Board DEO, LDC & other posts",
+   "org": "Coconut Development Board",
+   "posts": 35,
+   "q": [
+    "grad",
+    "pg"
+   ],
+   "s": [
+    "ssc"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-21",
+   "url": "https://www.freejobalert.com/government-jobs/",
+   "src": 1
   },
   {
    "t": "AFCAT 01/2027 (IAF Flying & Ground Duty officers)",
@@ -113,43 +302,253 @@
    "s": [
     "police"
    ],
+   "state": "All India",
    "loc": "All India",
-   "start": "2026-11-12",
+   "start": "",
    "last": "2026-12-11",
    "url": "https://afcat.edcil.co.in/",
-   "note": "Online exam 31 Jan 2027. Posts are tentative."
+   "note": "Online exam 31 Jan 2027."
   },
   {
-   "t": "UPESSC TGT (Assistant Teacher, aided schools)",
-   "org": "UP Education Service Selection Commission",
-   "posts": 17735,
+   "t": "Assam Rifles Technical & Tradesman Rally",
+   "org": "Assam Rifles",
+   "posts": 354,
    "q": [
-    "bed"
+    "10",
+    "12",
+    "iti",
+    "diploma"
    ],
    "s": [
-    "teaching",
-    "state"
+    "police"
    ],
-   "loc": "Uttar Pradesh",
+   "state": "All India",
+   "loc": "All India",
    "start": "",
-   "last": "2026-11-23",
-   "url": "https://upessc.up.gov.in/"
+   "last": "2026-12-14",
+   "url": "https://www.assamrifles.gov.in/"
   },
   {
-   "t": "Goa Police Constable",
-   "org": "Goa Police",
-   "posts": 52,
+   "t": "BSF Sub-Inspector (GD) LDCE (departmental)",
+   "org": "Border Security Force",
+   "posts": 1167,
    "q": [
-    "10"
+    "serving"
+   ],
+   "s": [
+    "police"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-31",
+   "url": "https://rectt.bsf.gov.in/",
+   "exp": "exp",
+   "note": "Only for serving BSF personnel."
+  },
+  {
+   "t": "BSF Sub-Inspector",
+   "org": "Border Security Force",
+   "posts": 34,
+   "q": [
+    "12",
+    "diploma"
+   ],
+   "s": [
+    "police"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-09",
+   "url": "https://rectt.bsf.gov.in/"
+  },
+  {
+   "t": "Territorial Army (Garhwal Rifles) JCO, Soldier & Tradesmen",
+   "org": "Territorial Army",
+   "posts": 45,
+   "q": [
+    "10",
+    "12"
+   ],
+   "s": [
+    "police"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-10",
+   "url": "https://www.freejobalert.com/police-defence-jobs/",
+   "exp": "exp",
+   "note": "Usually for ex-servicemen; check notice.",
+   "src": 1
+  },
+  {
+   "t": "CRPF Specialist Medical Officer & Surgeon",
+   "org": "CRPF",
+   "posts": 19,
+   "q": [
+    "medical",
+    "pg"
    ],
    "s": [
     "police",
-    "state"
+    "medical"
    ],
-   "loc": "Goa",
+   "state": "All India",
+   "loc": "All India",
    "start": "",
-   "last": "2026-11-23",
-   "url": "https://citizen.goapolice.gov.in/"
+   "last": "2026-12-15",
+   "url": "https://crpf.gov.in/",
+   "exp": "mixed"
+  },
+  {
+   "t": "RRB Station Master (CEN 08/2026)",
+   "org": "Railway Recruitment Boards",
+   "posts": 1265,
+   "q": [
+    "grad"
+   ],
+   "s": [
+    "railway"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-11-25",
+   "url": "https://www.rrbapply.gov.in/",
+   "note": "Fee payment till 27 Nov; correction 28 Nov – 7 Dec."
+  },
+  {
+   "t": "RRB Ministerial & Isolated Categories (CEN 09/2026)",
+   "org": "Railway Recruitment Boards",
+   "posts": 191,
+   "q": [
+    "grad",
+    "pg"
+   ],
+   "s": [
+    "railway"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-04",
+   "url": "https://www.rrbapply.gov.in/"
+  },
+  {
+   "t": "RRC Northern Railway Act Apprentice",
+   "org": "RRC Northern Railway",
+   "posts": 4651,
+   "q": [
+    "iti",
+    "10"
+   ],
+   "s": [
+    "railway"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-11",
+   "url": "https://www.rrcnr.org/",
+   "note": "Age 15–24."
+  },
+  {
+   "t": "Central Railway Act Apprentice",
+   "org": "RRC Central Railway",
+   "posts": 2861,
+   "q": [
+    "iti"
+   ],
+   "s": [
+    "railway"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-02",
+   "url": "https://rrccr.com/"
+  },
+  {
+   "t": "South Western Railway Goods Train Manager & Junior Engineer",
+   "org": "South Western Railway",
+   "posts": 258,
+   "q": [
+    "grad",
+    "diploma"
+   ],
+   "s": [
+    "railway"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-08",
+   "url": "https://www.rrchubli.in/",
+   "exp": "exp",
+   "note": "Usually internal/GDCE; check eligibility."
+  },
+  {
+   "t": "South Eastern Railway Sports Quota Group C & D",
+   "org": "South Eastern Railway",
+   "posts": 54,
+   "q": [
+    "10",
+    "12",
+    "iti",
+    "grad"
+   ],
+   "s": [
+    "railway"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-11-30",
+   "url": "https://www.rrcser.co.in/",
+   "exp": "exp",
+   "note": "For sportspersons with qualifying achievements."
+  },
+  {
+   "t": "Northern Railway Scouts & Guides Quota",
+   "org": "RRC Northern Railway",
+   "posts": 27,
+   "q": [
+    "10",
+    "12",
+    "iti"
+   ],
+   "s": [
+    "railway"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-06",
+   "url": "https://www.rrcnr.org/",
+   "exp": "exp",
+   "note": "Scouts & Guides certificate holders."
+  },
+  {
+   "t": "Mumbai Metro (MMRCL) JE, AE & other posts",
+   "org": "Mumbai Metro Rail Corporation",
+   "posts": 35,
+   "q": [
+    "diploma",
+    "engg",
+    "grad"
+   ],
+   "s": [
+    "psu",
+    "railway"
+   ],
+   "state": "Maharashtra",
+   "loc": "Maharashtra",
+   "start": "",
+   "last": "2026-11-30",
+   "url": "https://mmrcl.com/",
+   "exp": "mixed"
   },
   {
    "t": "Indian Bank Apprentices 2026-27",
@@ -161,46 +560,664 @@
    "s": [
     "bank"
    ],
-   "loc": "All India (state-wise)",
-   "start": "2026-11-05",
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
    "last": "2026-11-25",
    "url": "https://indianbank.in/career/"
   },
   {
-   "t": "JKSSB Multi Tasking Staff (Class IV)",
-   "org": "J&K Services Selection Board",
-   "posts": 2863,
+   "t": "J&K Bank Probationary Officer & Banking Associate",
+   "org": "Jammu & Kashmir Bank",
+   "posts": 1053,
    "q": [
-    "10"
+    "grad"
    ],
    "s": [
-    "state"
+    "bank"
    ],
+   "state": "Jammu & Kashmir",
    "loc": "Jammu & Kashmir",
    "start": "",
-   "last": "2026-11-27",
-   "url": "https://jkssb.nic.in/"
+   "last": "2026-11-26",
+   "url": "https://www.jkbank.com/careers/"
   },
   {
-   "t": "UPSSSC Junior Engineer",
-   "org": "UP Subordinate Services Selection Commission",
-   "posts": 1536,
+   "t": "SIDBI Grade A & B Officers",
+   "org": "SIDBI",
+   "posts": 68,
    "q": [
+    "grad",
+    "pg"
+   ],
+   "s": [
+    "bank"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-11",
+   "url": "https://www.sidbi.in/en/careers",
+   "exp": "mixed",
+   "note": "Phase I & II tentatively 27 Dec 2026."
+  },
+  {
+   "t": "EXIM Bank Management Trainee & Manager",
+   "org": "Export-Import Bank of India",
+   "posts": 120,
+   "q": [
+    "pg"
+   ],
+   "s": [
+    "bank"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-11",
+   "url": "https://www.eximbankindia.in/careers",
+   "exp": "mixed"
+  },
+  {
+   "t": "SBI Specialist Officer (Security): Manager & Deputy Manager",
+   "org": "State Bank of India",
+   "posts": 60,
+   "q": [
+    "grad"
+   ],
+   "s": [
+    "bank",
+    "police"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-11-25",
+   "url": "https://sbi.bank.in/web/careers/current-openings",
+   "exp": "exp",
+   "note": "Military/paramilitary officer experience needed."
+  },
+  {
+   "t": "SBI Specialist Officers: Data Scientist, Chief Manager & others",
+   "org": "State Bank of India",
+   "posts": 20,
+   "q": [
+    "engg",
+    "pg"
+   ],
+   "s": [
+    "bank"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-10",
+   "url": "https://sbi.bank.in/web/careers/current-openings",
+   "exp": "exp"
+  },
+  {
+   "t": "SBI Assistant Manager – Engineer (Fire)",
+   "org": "State Bank of India",
+   "posts": 17,
+   "q": [
+    "engg"
+   ],
+   "s": [
+    "bank"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-11-25",
+   "url": "https://sbi.bank.in/web/careers/current-openings",
+   "exp": "mixed"
+  },
+  {
+   "t": "Bank of Baroda Wealth Management (Relationship Managers & others)",
+   "org": "Bank of Baroda",
+   "posts": 837,
+   "q": [
+    "grad",
+    "pg"
+   ],
+   "s": [
+    "bank"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-11-24",
+   "url": "https://www.bankofbaroda.in/career",
+   "exp": "exp"
+  },
+  {
+   "t": "NABARD Junior & Senior Project Associate",
+   "org": "NABARD",
+   "posts": 24,
+   "q": [
+    "grad",
+    "diploma"
+   ],
+   "s": [
+    "bank"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-07",
+   "url": "https://www.nabard.org/",
+   "exp": "mixed"
+  },
+  {
+   "t": "Indian Bank AI Specialist Officers",
+   "org": "Indian Bank",
+   "posts": 8,
+   "q": [
+    "engg",
+    "pg"
+   ],
+   "s": [
+    "bank"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-01",
+   "url": "https://indianbank.in/career/",
+   "exp": "exp"
+  },
+  {
+   "t": "ONGC Apprentice",
+   "org": "Oil and Natural Gas Corporation",
+   "posts": 3047,
+   "q": [
+    "10",
+    "12",
+    "iti",
+    "diploma",
+    "grad"
+   ],
+   "s": [
+    "psu"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-11-29",
+   "url": "https://ongcindia.com/",
+   "exp": "fresher",
+   "note": "Last date reportedly extended; confirm on the official site."
+  },
+  {
+   "t": "BHEL Engineer/Executive Trainee & Supervisor Trainee",
+   "org": "Bharat Heavy Electricals Ltd",
+   "posts": 415,
+   "q": [
+    "engg",
+    "diploma",
+    "grad"
+   ],
+   "s": [
+    "psu"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-28",
+   "url": "https://careers.bhel.in/"
+  },
+  {
+   "t": "IOCL Technician, Trade & Graduate Apprentice",
+   "org": "Indian Oil Corporation",
+   "posts": 500,
+   "q": [
+    "12",
+    "iti",
+    "diploma",
+    "grad"
+   ],
+   "s": [
+    "psu"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-05",
+   "url": "https://iocl.com/apprenticeships"
+  },
+  {
+   "t": "IOCL Eastern Region Apprentices",
+   "org": "Indian Oil Corporation",
+   "posts": 409,
+   "q": [
+    "10",
+    "12",
+    "iti",
+    "diploma",
+    "grad"
+   ],
+   "s": [
+    "psu"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-12",
+   "url": "https://iocl.com/apprenticeships"
+  },
+  {
+   "t": "NLC India Graduate Executive Trainee",
+   "org": "NLC India Ltd",
+   "posts": 143,
+   "q": [
+    "engg",
+    "grad"
+   ],
+   "s": [
+    "psu"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-14",
+   "url": "https://www.nlcindia.in/"
+  },
+  {
+   "t": "NLC India Executive Engineer, DGM & other posts",
+   "org": "NLC India Ltd",
+   "posts": 145,
+   "q": [
+    "engg",
+    "diploma"
+   ],
+   "s": [
+    "psu"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-19",
+   "url": "https://www.nlcindia.in/",
+   "exp": "exp"
+  },
+  {
+   "t": "BDL Fitter, Electrician & other trades",
+   "org": "Bharat Dynamics Ltd",
+   "posts": 134,
+   "q": [
+    "iti"
+   ],
+   "s": [
+    "psu"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-11-30",
+   "url": "https://bdl-india.in/"
+  },
+  {
+   "t": "DVC Executive Trainee",
+   "org": "Damodar Valley Corporation",
+   "posts": 108,
+   "q": [
+    "engg"
+   ],
+   "s": [
+    "psu"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-06",
+   "url": "https://www.dvc.gov.in/"
+  },
+  {
+   "t": "BEML Engineer, Manager & other posts",
+   "org": "BEML Ltd",
+   "posts": 83,
+   "q": [
+    "engg",
+    "pg"
+   ],
+   "s": [
+    "psu"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-03",
+   "url": "https://www.bemlindia.in/",
+   "exp": "mixed"
+  },
+  {
+   "t": "BEML ITI Trainee",
+   "org": "BEML Ltd",
+   "posts": 44,
+   "q": [
+    "iti"
+   ],
+   "s": [
+    "psu"
+   ],
+   "state": "Karnataka",
+   "loc": "Karnataka",
+   "start": "",
+   "last": "2026-12-06",
+   "url": "https://www.bemlindia.in/"
+  },
+  {
+   "t": "NTPC Manager & Deputy Manager (Finance)",
+   "org": "NTPC Ltd",
+   "posts": 40,
+   "q": [
+    "pg"
+   ],
+   "s": [
+    "psu"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-03",
+   "url": "https://careers.ntpc.co.in/",
+   "exp": "exp",
+   "note": "CA/CMA with experience."
+  },
+  {
+   "t": "CPCL Engineer, Officer & Manager",
+   "org": "Chennai Petroleum Corporation",
+   "posts": 41,
+   "q": [
+    "engg",
+    "grad"
+   ],
+   "s": [
+    "psu"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-03",
+   "url": "https://www.cpcl.co.in/",
+   "exp": "mixed"
+  },
+  {
+   "t": "Oil India Senior Officer & other posts",
+   "org": "Oil India Ltd",
+   "posts": 32,
+   "q": [
+    "grad",
+    "engg",
+    "pg"
+   ],
+   "s": [
+    "psu"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-14",
+   "url": "https://www.oil-india.com/",
+   "exp": "mixed"
+  },
+  {
+   "t": "NSIC Managers (two notices, 83 posts)",
+   "org": "National Small Industries Corporation",
+   "posts": 83,
+   "q": [
+    "engg",
+    "pg",
+    "diploma"
+   ],
+   "s": [
+    "psu"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-14",
+   "url": "https://www.nsic.co.in/",
+   "exp": "exp"
+  },
+  {
+   "t": "NCL ITI Electrician, Fitter & other apprentices",
+   "org": "Northern Coalfields Ltd",
+   "posts": 100,
+   "q": [
+    "iti"
+   ],
+   "s": [
+    "psu"
+   ],
+   "state": "Madhya Pradesh",
+   "loc": "Madhya Pradesh",
+   "start": "",
+   "last": "2026-11-30",
+   "url": "https://www.nclcil.in/"
+  },
+  {
+   "t": "NCL Clerk, Lab Technician & other apprentices",
+   "org": "Northern Coalfields Ltd",
+   "posts": 52,
+   "q": [
+    "grad"
+   ],
+   "s": [
+    "psu"
+   ],
+   "state": "Madhya Pradesh",
+   "loc": "Madhya Pradesh",
+   "start": "",
+   "last": "2026-12-06",
+   "url": "https://www.nclcil.in/"
+  },
+  {
+   "t": "Coal India Office Intern",
+   "org": "Coal India Ltd",
+   "posts": 50,
+   "q": [
+    "12",
+    "iti",
+    "diploma",
+    "grad"
+   ],
+   "s": [
+    "psu"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-02",
+   "url": "https://www.coalindia.in/"
+  },
+  {
+   "t": "SDSC SHAR Trade, Diploma & Graduate Apprentice",
+   "org": "ISRO Satish Dhawan Space Centre",
+   "posts": 400,
+   "q": [
+    "10",
+    "iti",
+    "diploma",
+    "grad",
+    "engg"
+   ],
+   "s": [
+    "psu"
+   ],
+   "state": "Andhra Pradesh",
+   "loc": "Andhra Pradesh",
+   "start": "",
+   "last": "2026-11-26",
+   "url": "https://www.shar.gov.in/"
+  },
+  {
+   "t": "SJVN Apprentice (Technician/Graduate)",
+   "org": "SJVN Ltd",
+   "posts": 100,
+   "q": [
+    "10",
+    "iti",
     "diploma",
     "engg"
    ],
    "s": [
-    "state",
     "psu"
    ],
-   "loc": "Uttar Pradesh",
+   "state": "Himachal Pradesh",
+   "loc": "Himachal Pradesh",
+   "start": "",
+   "last": "2026-12-17",
+   "url": "https://sjvn.nic.in/"
+  },
+  {
+   "t": "Goa Shipyard Technical Assistant, Crane Operator & others",
+   "org": "Goa Shipyard Ltd",
+   "posts": 91,
+   "q": [
+    "10",
+    "iti",
+    "diploma",
+    "grad"
+   ],
+   "s": [
+    "psu"
+   ],
+   "state": "Goa",
+   "loc": "Goa",
    "start": "",
    "last": "2026-11-27",
-   "url": "https://upsssc.gov.in/"
+   "url": "https://goashipyard.in/",
+   "exp": "mixed"
+  },
+  {
+   "t": "GRSE Journeyman & Driver",
+   "org": "Garden Reach Shipbuilders",
+   "posts": 58,
+   "q": [
+    "10",
+    "iti"
+   ],
+   "s": [
+    "psu"
+   ],
+   "state": "West Bengal",
+   "loc": "West Bengal",
+   "start": "",
+   "last": "2026-11-28",
+   "url": "https://grse.in/"
+  },
+  {
+   "t": "Mumbai Port Computer Operator & Programming Assistant (apprentice)",
+   "org": "Mumbai Port Authority",
+   "posts": 96,
+   "q": [
+    "10",
+    "12",
+    "iti"
+   ],
+   "s": [
+    "psu"
+   ],
+   "state": "Maharashtra",
+   "loc": "Maharashtra",
+   "start": "",
+   "last": "2026-12-18",
+   "url": "https://mumbaiport.gov.in/"
+  },
+  {
+   "t": "Mumbai Port Graduate Apprentice",
+   "org": "Mumbai Port Authority",
+   "posts": 48,
+   "q": [
+    "grad"
+   ],
+   "s": [
+    "psu"
+   ],
+   "state": "Maharashtra",
+   "loc": "Maharashtra",
+   "start": "",
+   "last": "2026-12-18",
+   "url": "https://mumbaiport.gov.in/"
+  },
+  {
+   "t": "BHEL Trichy Trade, Graduate & Technician Apprentice",
+   "org": "BHEL Tiruchirappalli",
+   "posts": 214,
+   "q": [
+    "iti",
+    "diploma",
+    "engg"
+   ],
+   "s": [
+    "psu"
+   ],
+   "state": "Tamil Nadu",
+   "loc": "Tamil Nadu",
+   "start": "",
+   "last": "2026-11-25",
+   "url": "https://www.bheltry.co.in/"
+  },
+  {
+   "t": "TNPDCL Diploma (Technician) Apprentice",
+   "org": "Tamil Nadu Power Distribution Corp",
+   "posts": 500,
+   "q": [
+    "diploma"
+   ],
+   "s": [
+    "psu",
+    "state"
+   ],
+   "state": "Tamil Nadu",
+   "loc": "Tamil Nadu",
+   "start": "",
+   "last": "2026-11-28",
+   "url": "https://www.freejobalert.com/state-government-jobs/",
+   "src": 1
+  },
+  {
+   "t": "RITES Graduate, Diploma & Trade Apprentice",
+   "org": "RITES Ltd",
+   "posts": 281,
+   "q": [
+    "iti",
+    "diploma",
+    "grad",
+    "engg"
+   ],
+   "s": [
+    "psu",
+    "railway"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-11-25",
+   "url": "https://www.rites.com/Career"
+  },
+  {
+   "t": "IRCON Manager",
+   "org": "IRCON International",
+   "posts": 37,
+   "q": [
+    "engg"
+   ],
+   "s": [
+    "psu",
+    "railway"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-11-23",
+   "url": "https://www.ircon.org/",
+   "exp": "exp"
   },
   {
    "t": "POWERGRID Trainee Engineer (Electronics)",
-   "org": "Power Grid Corporation of India",
+   "org": "Power Grid Corporation",
    "posts": 33,
    "q": [
     "engg"
@@ -208,6 +1225,7 @@
    "s": [
     "psu"
    ],
+   "state": "All India",
    "loc": "All India",
    "start": "",
    "last": "2026-11-27",
@@ -215,7 +1233,7 @@
   },
   {
    "t": "BPCL SRD Recruitment",
-   "org": "Bharat Petroleum Corporation Ltd",
+   "org": "Bharat Petroleum",
    "posts": 49,
    "q": [
     "grad"
@@ -223,6 +1241,7 @@
    "s": [
     "psu"
    ],
+   "state": "All India",
    "loc": "All India",
    "start": "",
    "last": "2026-11-29",
@@ -230,7 +1249,7 @@
   },
   {
    "t": "SCL Technician, Technical Assistant & other posts",
-   "org": "Semi-Conductor Laboratory, Mohali",
+   "org": "Semi-Conductor Laboratory",
    "posts": 83,
    "q": [
     "iti",
@@ -240,7 +1259,8 @@
    "s": [
     "psu"
    ],
-   "loc": "Mohali, Punjab",
+   "state": "Punjab",
+   "loc": "Punjab",
    "start": "",
    "last": "2026-11-30",
    "url": "https://www.scl.gov.in/"
@@ -256,14 +1276,1280 @@
    "s": [
     "psu"
    ],
-   "loc": "Eastern Region",
+   "state": "West Bengal",
+   "loc": "West Bengal",
    "start": "",
    "last": "2026-11-30",
    "url": "https://www.aai.aero/en/careers/recruitment"
   },
   {
+   "t": "WAPCOS Office Assistant, Project Accountant & others",
+   "org": "WAPCOS Ltd",
+   "posts": 29,
+   "q": [
+    "grad",
+    "diploma",
+    "pg"
+   ],
+   "s": [
+    "psu"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-11-25",
+   "url": "https://www.freejobalert.com/government-jobs/",
+   "exp": "mixed",
+   "src": 1
+  },
+  {
+   "t": "VMMC & Safdarjung Hospital Senior Resident",
+   "org": "VMMC & Safdarjung Hospital",
+   "posts": 470,
+   "q": [
+    "medical",
+    "pg"
+   ],
+   "s": [
+    "medical"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-11-30",
+   "url": "https://vmmc-sjh.mohfw.gov.in/",
+   "note": "MBBS + PG/diploma."
+  },
+  {
+   "t": "AIIMS Deoghar Senior Resident (Non-Academic)",
+   "org": "AIIMS Deoghar",
+   "posts": 159,
+   "q": [
+    "medical",
+    "pg"
+   ],
+   "s": [
+    "medical"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-05",
+   "url": "https://www.aiimsdeoghar.edu.in/"
+  },
+  {
+   "t": "ESIC Asansol Junior Resident, Professor & others",
+   "org": "ESIC",
+   "posts": 110,
+   "q": [
+    "medical",
+    "pg"
+   ],
+   "s": [
+    "medical"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-12-04",
+   "url": "https://www.esic.gov.in/recruitments",
+   "exp": "mixed"
+  },
+  {
+   "t": "IGIMS Patna Junior Resident (Non-Academic)",
+   "org": "IGIMS Patna",
+   "posts": 109,
+   "q": [
+    "medical"
+   ],
+   "s": [
+    "medical"
+   ],
+   "state": "Bihar",
+   "loc": "Bihar",
+   "start": "",
+   "last": "2026-11-30",
+   "url": "https://www.igims.org/",
+   "note": "MBBS."
+  },
+  {
+   "t": "APPSC Junior Accountant, Assistant Section Officer & others",
+   "org": "Andhra Pradesh PSC",
+   "posts": 720,
+   "q": [
+    "grad"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Andhra Pradesh",
+   "loc": "Andhra Pradesh",
+   "start": "",
+   "last": "2026-12-11",
+   "url": "https://psc.ap.gov.in/"
+  },
+  {
+   "t": "AP High Court Civil Judge",
+   "org": "High Court of Andhra Pradesh",
+   "posts": 119,
+   "q": [
+    "grad"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Andhra Pradesh",
+   "loc": "Andhra Pradesh",
+   "start": "",
+   "last": "2026-11-30",
+   "url": "https://aphc.gov.in/",
+   "note": "LLB required."
+  },
+  {
+   "t": "APPSC Lecturer & Senior Lecturer",
+   "org": "Andhra Pradesh PSC",
+   "posts": 160,
+   "q": [
+    "pg",
+    "bed"
+   ],
+   "s": [
+    "state",
+    "teaching"
+   ],
+   "state": "Andhra Pradesh",
+   "loc": "Andhra Pradesh",
+   "start": "",
+   "last": "2026-12-08",
+   "url": "https://psc.ap.gov.in/"
+  },
+  {
+   "t": "APPSC Assistant Motor Vehicle Inspector, Lab Assistant & others",
+   "org": "Andhra Pradesh PSC",
+   "posts": 106,
+   "q": [
+    "grad",
+    "engg",
+    "diploma"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Andhra Pradesh",
+   "loc": "Andhra Pradesh",
+   "start": "",
+   "last": "2026-11-26",
+   "url": "https://psc.ap.gov.in/"
+  },
+  {
+   "t": "APSSB Multi Tasking Staff",
+   "org": "Arunachal Pradesh SSB",
+   "posts": 93,
+   "q": [
+    "10",
+    "iti"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Arunachal Pradesh",
+   "loc": "Arunachal Pradesh",
+   "start": "",
+   "last": "2026-11-23",
+   "url": "https://apssb.nic.in/"
+  },
+  {
+   "t": "Assam Agricultural University ATM, BTM, Programmer & others",
+   "org": "Assam Agricultural University",
+   "posts": 310,
+   "q": [
+    "grad",
+    "pg"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Assam",
+   "loc": "Assam",
+   "start": "",
+   "last": "2026-12-11",
+   "url": "https://www.aau.ac.in/"
+  },
+  {
+   "t": "Bihar Vidhan Sabha Assistant Section Officer",
+   "org": "Bihar Vidhan Sabha",
+   "posts": 54,
+   "q": [
+    "grad"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Bihar",
+   "loc": "Bihar",
+   "start": "",
+   "last": "2026-11-27",
+   "url": "https://vidhansabha.bih.nic.in/"
+  },
+  {
+   "t": "Bihar Vidhan Sabha Junior Secretariat Assistant & Office Attendant",
+   "org": "Bihar Vidhan Sabha",
+   "posts": 20,
+   "q": [
+    "10",
+    "12"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Bihar",
+   "loc": "Bihar",
+   "start": "",
+   "last": "2026-12-06",
+   "url": "https://vidhansabha.bih.nic.in/"
+  },
+  {
+   "t": "BRLPS (JEEViKA) Young Professional",
+   "org": "Bihar Rural Livelihoods Promotion Society",
+   "posts": 66,
+   "q": [
+    "pg"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Bihar",
+   "loc": "Bihar",
+   "start": "",
+   "last": "2026-11-30",
+   "url": "https://www.freejobalert.com/state-government-jobs/",
+   "src": 1
+  },
+  {
+   "t": "BPBCC Junior Engineer (Civil) & LDC",
+   "org": "Bihar Police Building Construction Corp",
+   "posts": 30,
+   "q": [
+    "diploma",
+    "10",
+    "12"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Bihar",
+   "loc": "Bihar",
+   "start": "",
+   "last": "2026-12-14",
+   "url": "https://www.freejobalert.com/state-government-jobs/",
+   "note": "JE closes 25 Nov; LDC 14 Dec.",
+   "src": 1
+  },
+  {
+   "t": "CGSSB Assistant, Stenographer & other posts",
+   "org": "Chhattisgarh SSB",
+   "posts": 1703,
+   "q": [
+    "grad"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Chhattisgarh",
+   "loc": "Chhattisgarh",
+   "start": "",
+   "last": "2026-11-27",
+   "url": "https://www.freejobalert.com/state-government-jobs/",
+   "src": 1
+  },
+  {
+   "t": "CSPTCL AE, JE, DEO & other posts",
+   "org": "Chhattisgarh State Power Transmission Co",
+   "posts": 1501,
+   "q": [
+    "10",
+    "12",
+    "iti",
+    "diploma",
+    "engg",
+    "grad"
+   ],
+   "s": [
+    "state",
+    "psu"
+   ],
+   "state": "Chhattisgarh",
+   "loc": "Chhattisgarh",
+   "start": "",
+   "last": "2026-11-26",
+   "url": "https://www.freejobalert.com/state-government-jobs/",
+   "src": 1
+  },
+  {
+   "t": "Chhattisgarh Bastar Fighter Constable (district-wise)",
+   "org": "Chhattisgarh Police",
+   "posts": 1838,
+   "q": [
+    "10"
+   ],
+   "s": [
+    "police",
+    "state"
+   ],
+   "state": "Chhattisgarh",
+   "loc": "Chhattisgarh",
+   "start": "",
+   "last": "2026-12-12",
+   "url": "https://www.freejobalert.com/police-defence-jobs/",
+   "note": "Bijapur, Sukma, Narayanpur, Bilaspur, Dantewada, Kondagaon, Bastar.",
+   "src": 1
+  },
+  {
+   "t": "DSSSB Multi Tasking Staff",
+   "org": "Delhi SSB",
+   "posts": 1075,
+   "q": [
+    "10"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Delhi",
+   "loc": "Delhi",
+   "start": "",
+   "last": "2026-12-11",
+   "url": "https://dsssb.delhi.gov.in/"
+  },
+  {
+   "t": "DSSSB Junior Engineer",
+   "org": "Delhi SSB",
+   "posts": 185,
+   "q": [
+    "diploma",
+    "engg"
+   ],
+   "s": [
+    "state",
+    "psu"
+   ],
+   "state": "Delhi",
+   "loc": "Delhi",
+   "start": "",
+   "last": "2026-12-11",
+   "url": "https://dsssb.delhi.gov.in/"
+  },
+  {
+   "t": "Goa Police Constable",
+   "org": "Goa Police",
+   "posts": 52,
+   "q": [
+    "10"
+   ],
+   "s": [
+    "police",
+    "state"
+   ],
+   "state": "Goa",
+   "loc": "Goa",
+   "start": "",
+   "last": "2026-11-23",
+   "url": "https://citizen.goapolice.gov.in/"
+  },
+  {
+   "t": "Goa Home Guard Volunteer & Marine Home Guard",
+   "org": "Goa Home Guards & Civil Defence",
+   "posts": 176,
+   "q": [
+    "10"
+   ],
+   "s": [
+    "police",
+    "state"
+   ],
+   "state": "Goa",
+   "loc": "Goa",
+   "start": "",
+   "last": "2026-12-31",
+   "url": "https://www.freejobalert.com/police-defence-jobs/",
+   "src": 1
+  },
+  {
+   "t": "Goa Collectorate LDC, UDC & other posts",
+   "org": "North & South Goa Collectorate",
+   "posts": 94,
+   "q": [
+    "12",
+    "iti",
+    "grad"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Goa",
+   "loc": "Goa",
+   "start": "",
+   "last": "2026-11-27",
+   "url": "https://www.freejobalert.com/state-government-jobs/",
+   "src": 1
+  },
+  {
+   "t": "Gujarat Police Constable, MT Supervisor & others",
+   "org": "Gujarat Police Recruitment Board",
+   "posts": 3000,
+   "q": [
+    "12"
+   ],
+   "s": [
+    "police",
+    "state"
+   ],
+   "state": "Gujarat",
+   "loc": "Gujarat",
+   "start": "",
+   "last": "2026-12-16",
+   "url": "https://www.freejobalert.com/police-defence-jobs/",
+   "src": 1
+  },
+  {
+   "t": "GSSSB Sub Registrar, Asst. Tribal Development Officer & others",
+   "org": "Gujarat SSSB",
+   "posts": 1237,
+   "q": [
+    "grad"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Gujarat",
+   "loc": "Gujarat",
+   "start": "",
+   "last": "2026-11-30",
+   "url": "https://gsssb.gujarat.gov.in/"
+  },
+  {
+   "t": "Haryana Fisheries Department Clerk",
+   "org": "Haryana Fisheries Department",
+   "posts": 20,
+   "q": [
+    "10",
+    "12"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Haryana",
+   "loc": "Haryana",
+   "start": "",
+   "last": "2026-12-21",
+   "url": "https://www.freejobalert.com/state-government-jobs/",
+   "src": 1
+  },
+  {
+   "t": "HPRCA Teacher (various subjects)",
+   "org": "HP Rajya Chayan Aayog",
+   "posts": 2423,
+   "q": [
+    "bed",
+    "grad"
+   ],
+   "s": [
+    "teaching",
+    "state"
+   ],
+   "state": "Himachal Pradesh",
+   "loc": "Himachal Pradesh",
+   "start": "",
+   "last": "2026-12-05",
+   "url": "https://hprca.hp.gov.in/"
+  },
+  {
+   "t": "HPRCA Radiographer",
+   "org": "HP Rajya Chayan Aayog",
+   "posts": 43,
+   "q": [
+    "grad"
+   ],
+   "s": [
+    "medical",
+    "state"
+   ],
+   "state": "Himachal Pradesh",
+   "loc": "Himachal Pradesh",
+   "start": "",
+   "last": "2026-12-07",
+   "url": "https://hprca.hp.gov.in/"
+  },
+  {
+   "t": "HPPSC Agriculture Development Officer",
+   "org": "HP Public Service Commission",
+   "posts": 23,
+   "q": [
+    "grad",
+    "pg"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Himachal Pradesh",
+   "loc": "Himachal Pradesh",
+   "start": "",
+   "last": "2026-11-30",
+   "url": "https://www.hppsc.hp.gov.in/"
+  },
+  {
+   "t": "JKSSB Multi Tasking Staff & Sanitation Worker",
+   "org": "J&K Services Selection Board",
+   "posts": 2863,
+   "q": [
+    "10"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Jammu & Kashmir",
+   "loc": "Jammu & Kashmir",
+   "start": "",
+   "last": "2026-11-27",
+   "url": "https://jkssb.nic.in/"
+  },
+  {
+   "t": "JKSSB Junior Engineer (Civil)",
+   "org": "J&K Services Selection Board",
+   "posts": 458,
+   "q": [
+    "diploma",
+    "engg"
+   ],
+   "s": [
+    "state",
+    "psu"
+   ],
+   "state": "Jammu & Kashmir",
+   "loc": "Jammu & Kashmir",
+   "start": "",
+   "last": "2026-12-29",
+   "url": "https://jkssb.nic.in/"
+  },
+  {
+   "t": "JKSSB Junior Engineer (Mechanical)",
+   "org": "J&K Services Selection Board",
+   "posts": 127,
+   "q": [
+    "diploma",
+    "engg"
+   ],
+   "s": [
+    "state",
+    "psu"
+   ],
+   "state": "Jammu & Kashmir",
+   "loc": "Jammu & Kashmir",
+   "start": "",
+   "last": "2026-12-22",
+   "url": "https://jkssb.nic.in/"
+  },
+  {
+   "t": "J&K High Court District Judge (Entry Level)",
+   "org": "High Court of J&K and Ladakh",
+   "posts": 16,
+   "q": [
+    "grad"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Jammu & Kashmir",
+   "loc": "Jammu & Kashmir",
+   "start": "",
+   "last": "2026-11-28",
+   "url": "https://jkhighcourt.nic.in/",
+   "exp": "exp",
+   "note": "Advocates with 7 years' practice."
+  },
+  {
+   "t": "Ladakh LAHDC Driver, Technician, Junior Assistant & others",
+   "org": "LAHDC Leh & Kargil",
+   "posts": 397,
+   "q": [
+    "10",
+    "12",
+    "grad",
+    "diploma",
+    "iti"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Ladakh",
+   "loc": "Ladakh",
+   "start": "",
+   "last": "2026-11-27",
+   "url": "https://www.freejobalert.com/state-government-jobs/",
+   "note": "Two notices (Leh 216, Kargil 181).",
+   "src": 1
+  },
+  {
+   "t": "Jharkhand Community Health Officer",
+   "org": "Jharkhand Rural Health Mission",
+   "posts": 1038,
+   "q": [
+    "medical"
+   ],
+   "s": [
+    "medical",
+    "state"
+   ],
+   "state": "Jharkhand",
+   "loc": "Jharkhand",
+   "start": "",
+   "last": "2026-12-15",
+   "url": "https://www.freejobalert.com/state-government-jobs/",
+   "note": "B.Sc Nursing/CHO qualification.",
+   "src": 1
+  },
+  {
+   "t": "Jharkhand Specialist Medical Officer",
+   "org": "Jharkhand Rural Health Mission",
+   "posts": 306,
+   "q": [
+    "medical",
+    "pg"
+   ],
+   "s": [
+    "medical",
+    "state"
+   ],
+   "state": "Jharkhand",
+   "loc": "Jharkhand",
+   "start": "",
+   "last": "2026-11-30",
+   "url": "https://www.freejobalert.com/state-government-jobs/",
+   "src": 1
+  },
+  {
+   "t": "JSHPS Assistant, Block Assistant & others",
+   "org": "Jharkhand State Health Society",
+   "posts": 637,
+   "q": [
+    "grad",
+    "pg"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Jharkhand",
+   "loc": "Jharkhand",
+   "start": "",
+   "last": "2026-12-04",
+   "url": "https://www.freejobalert.com/state-government-jobs/",
+   "exp": "mixed",
+   "src": 1
+  },
+  {
+   "t": "Jharkhand Home Guard (Latehar & state)",
+   "org": "Jharkhand Home Guard",
+   "posts": 656,
+   "q": [
+    "10"
+   ],
+   "s": [
+    "police",
+    "state"
+   ],
+   "state": "Jharkhand",
+   "loc": "Jharkhand",
+   "start": "",
+   "last": "2026-12-11",
+   "url": "https://www.freejobalert.com/police-defence-jobs/",
+   "note": "Latehar closes 1 Dec; other notice 11 Dec.",
+   "src": 1
+  },
+  {
+   "t": "KEA Second & First Division Assistant (SDA/FDA)",
+   "org": "Karnataka Examinations Authority",
+   "posts": 5431,
+   "q": [
+    "12",
+    "grad"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Karnataka",
+   "loc": "Karnataka",
+   "start": "",
+   "last": "2026-11-25",
+   "url": "https://cetonline.karnataka.gov.in/kea/"
+  },
+  {
+   "t": "KEA Asst. Public Prosecutor-cum-Asst. Govt Pleader",
+   "org": "Karnataka Examinations Authority",
+   "posts": 320,
+   "q": [
+    "grad"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Karnataka",
+   "loc": "Karnataka",
+   "start": "",
+   "last": "2026-12-15",
+   "url": "https://cetonline.karnataka.gov.in/kea/",
+   "note": "LLB required."
+  },
+  {
+   "t": "KEA Assistant Town Planner, JE & Draftsman",
+   "org": "Karnataka Examinations Authority",
+   "posts": 218,
+   "q": [
+    "diploma"
+   ],
+   "s": [
+    "state",
+    "psu"
+   ],
+   "state": "Karnataka",
+   "loc": "Karnataka",
+   "start": "",
+   "last": "2026-11-26",
+   "url": "https://cetonline.karnataka.gov.in/kea/"
+  },
+  {
+   "t": "KEA Female Supervisor",
+   "org": "Karnataka Examinations Authority",
+   "posts": 171,
+   "q": [
+    "grad"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Karnataka",
+   "loc": "Karnataka",
+   "start": "",
+   "last": "2026-11-28",
+   "url": "https://cetonline.karnataka.gov.in/kea/"
+  },
+  {
+   "t": "Karnataka Fire & Emergency Services Fire Fighter",
+   "org": "Karnataka State Fire & Emergency Services",
+   "posts": 460,
+   "q": [
+    "10"
+   ],
+   "s": [
+    "police",
+    "state"
+   ],
+   "state": "Karnataka",
+   "loc": "Karnataka",
+   "start": "",
+   "last": "2026-12-22",
+   "url": "https://www.freejobalert.com/state-government-jobs/",
+   "src": 1
+  },
+  {
+   "t": "Karnataka Forest Guard / Beat Forester",
+   "org": "Karnataka Forest Department",
+   "posts": 450,
+   "q": [
+    "12"
+   ],
+   "s": [
+    "police",
+    "state"
+   ],
+   "state": "Karnataka",
+   "loc": "Karnataka",
+   "start": "",
+   "last": "2026-12-22",
+   "url": "https://aranya.gov.in/"
+  },
+  {
+   "t": "Karnataka Anganwadi Worker & Helper (Bidar, Chamarajanagar)",
+   "org": "Karnataka WCD Department",
+   "posts": 831,
+   "q": [
+    "10",
+    "12"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Karnataka",
+   "loc": "Karnataka",
+   "start": "",
+   "last": "2026-12-11",
+   "url": "https://www.freejobalert.com/state-government-jobs/",
+   "note": "Local women applicants.",
+   "src": 1
+  },
+  {
+   "t": "Kerala High Court System Assistant",
+   "org": "High Court of Kerala",
+   "posts": 90,
+   "q": [
+    "diploma",
+    "grad"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Kerala",
+   "loc": "Kerala",
+   "start": "",
+   "last": "2026-12-14",
+   "url": "https://hckrecruitment.keralacourts.in/"
+  },
+  {
+   "t": "Kerala High Court Civil Judge",
+   "org": "High Court of Kerala",
+   "posts": 27,
+   "q": [
+    "grad"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Kerala",
+   "loc": "Kerala",
+   "start": "",
+   "last": "2026-12-16",
+   "url": "https://hckrecruitment.keralacourts.in/",
+   "note": "LLB required."
+  },
+  {
+   "t": "Kerala STDD Tribal Paramedics Trainee",
+   "org": "Kerala Scheduled Tribes Development Dept",
+   "posts": 250,
+   "q": [
+    "12"
+   ],
+   "s": [
+    "medical",
+    "state"
+   ],
+   "state": "Kerala",
+   "loc": "Kerala",
+   "start": "",
+   "last": "2026-12-05",
+   "url": "https://www.freejobalert.com/sarkari-naukri/",
+   "src": 1
+  },
+  {
+   "t": "Kerala PSC Police Constable, Attender & other posts",
+   "org": "Kerala PSC",
+   "posts": 16,
+   "q": [
+    "10",
+    "12",
+    "grad"
+   ],
+   "s": [
+    "police",
+    "state"
+   ],
+   "state": "Kerala",
+   "loc": "Kerala",
+   "start": "",
+   "last": "2026-12-02",
+   "url": "https://www.keralapsc.gov.in/"
+  },
+  {
+   "t": "NHM MP Staff Nurse",
+   "org": "National Health Mission, Madhya Pradesh",
+   "posts": 301,
+   "q": [
+    "medical"
+   ],
+   "s": [
+    "medical",
+    "state"
+   ],
+   "state": "Madhya Pradesh",
+   "loc": "Madhya Pradesh",
+   "start": "",
+   "last": "2026-12-05",
+   "url": "https://www.nhmmp.gov.in/"
+  },
+  {
+   "t": "MPSC Clerk-Typist, Staff Nurse & other Group B/C posts",
+   "org": "Maharashtra PSC",
+   "posts": 16797,
+   "q": [
+    "10",
+    "diploma",
+    "grad"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Maharashtra",
+   "loc": "Maharashtra",
+   "start": "",
+   "last": "2026-11-27",
+   "url": "https://mpsc.gov.in/"
+  },
+  {
+   "t": "GMC Akola Peon, Watchman & other posts",
+   "org": "Government Medical College Akola",
+   "posts": 101,
+   "q": [
+    "10"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Maharashtra",
+   "loc": "Maharashtra",
+   "start": "",
+   "last": "2026-12-18",
+   "url": "https://www.freejobalert.com/sarkari-naukri/",
+   "src": 1
+  },
+  {
+   "t": "AEES PGT, TGT, PRT & other teachers",
+   "org": "Atomic Energy Education Society",
+   "posts": 254,
+   "q": [
+    "bed",
+    "pg"
+   ],
+   "s": [
+    "teaching"
+   ],
+   "state": "All India",
+   "loc": "All India",
+   "start": "",
+   "last": "2026-11-29",
+   "url": "https://aees.gov.in/",
+   "note": "Date extended."
+  },
+  {
+   "t": "Manipur Police Constable, SI & other posts",
+   "org": "Manipur Police",
+   "posts": 2698,
+   "q": [
+    "10"
+   ],
+   "s": [
+    "police",
+    "state"
+   ],
+   "state": "Manipur",
+   "loc": "Manipur",
+   "start": "",
+   "last": "2026-12-10",
+   "url": "https://www.freejobalert.com/police-defence-jobs/",
+   "src": 1
+  },
+  {
+   "t": "Manipur Agriculture Block & Assistant Technology Manager",
+   "org": "Manipur Agriculture Department",
+   "posts": 138,
+   "q": [
+    "grad",
+    "pg"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Manipur",
+   "loc": "Manipur",
+   "start": "",
+   "last": "2026-11-26",
+   "url": "https://www.freejobalert.com/state-government-jobs/",
+   "src": 1
+  },
+  {
+   "t": "Nagaland Police Constable",
+   "org": "Nagaland Police",
+   "posts": 1137,
+   "q": [
+    "10"
+   ],
+   "s": [
+    "police",
+    "state"
+   ],
+   "state": "Nagaland",
+   "loc": "Nagaland",
+   "start": "",
+   "last": "2026-11-30",
+   "url": "https://www.freejobalert.com/police-defence-jobs/",
+   "note": "Min. qualification Class 8 for some posts.",
+   "src": 1
+  },
+  {
+   "t": "OSSC Technical Assistant, Weaving Supervisor & others",
+   "org": "Odisha SSC",
+   "posts": 132,
+   "q": [
+    "10",
+    "12",
+    "diploma"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Odisha",
+   "loc": "Odisha",
+   "start": "",
+   "last": "2026-12-28",
+   "url": "https://www.ossc.gov.in/"
+  },
+  {
+   "t": "OPSC Assistant Section Officer",
+   "org": "Odisha PSC",
+   "posts": 340,
+   "q": [
+    "grad"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Odisha",
+   "loc": "Odisha",
+   "start": "",
+   "last": "2026-11-30",
+   "url": "https://www.opsc.gov.in/"
+  },
+  {
+   "t": "OPSC Scientific Officer",
+   "org": "Odisha PSC",
+   "posts": 89,
+   "q": [
+    "pg"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Odisha",
+   "loc": "Odisha",
+   "start": "",
+   "last": "2026-11-26",
+   "url": "https://www.opsc.gov.in/"
+  },
+  {
+   "t": "OSSSC Medical Laboratory Technician",
+   "org": "Odisha SSSC",
+   "posts": 380,
+   "q": [
+    "medical",
+    "diploma"
+   ],
+   "s": [
+    "medical",
+    "state"
+   ],
+   "state": "Odisha",
+   "loc": "Odisha",
+   "start": "",
+   "last": "2026-12-17",
+   "url": "https://osssc.gov.in/",
+   "note": "DMLT/BMLT."
+  },
+  {
+   "t": "OSSSC Ophthalmic Officer",
+   "org": "Odisha SSSC",
+   "posts": 238,
+   "q": [
+    "12"
+   ],
+   "s": [
+    "medical",
+    "state"
+   ],
+   "state": "Odisha",
+   "loc": "Odisha",
+   "start": "",
+   "last": "2026-12-05",
+   "url": "https://osssc.gov.in/"
+  },
+  {
+   "t": "Odisha Livelihoods Mission Block Accountant, Block Manager & others",
+   "org": "Odisha Livelihoods Mission",
+   "posts": 1115,
+   "q": [
+    "grad",
+    "pg"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Odisha",
+   "loc": "Odisha",
+   "start": "",
+   "last": "2026-12-05",
+   "url": "https://www.freejobalert.com/state-government-jobs/",
+   "exp": "mixed",
+   "src": 1
+  },
+  {
+   "t": "Orissa High Court Junior Stenographer & Typist/DEO",
+   "org": "Orissa High Court",
+   "posts": 64,
+   "q": [
+    "grad"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Odisha",
+   "loc": "Odisha",
+   "start": "",
+   "last": "2026-12-07",
+   "url": "https://www.orissahighcourt.nic.in/"
+  },
+  {
+   "t": "Orissa High Court District Judge & Civil Judge (Sr. Div.)",
+   "org": "Orissa High Court",
+   "posts": 114,
+   "q": [
+    "grad"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Odisha",
+   "loc": "Odisha",
+   "start": "",
+   "last": "2026-11-25",
+   "url": "https://www.orissahighcourt.nic.in/",
+   "exp": "exp",
+   "note": "For advocates/judicial officers."
+  },
+  {
+   "t": "MBSPSU Clerk, Office Superintendent & others",
+   "org": "Maharaja Bhupinder Singh Punjab Sports University",
+   "posts": 123,
+   "q": [
+    "12",
+    "grad",
+    "pg"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Punjab",
+   "loc": "Punjab",
+   "start": "",
+   "last": "2026-12-04",
+   "url": "https://www.freejobalert.com/state-government-jobs/",
+   "src": 1
+  },
+  {
+   "t": "RSSB Junior Engineer",
+   "org": "Rajasthan Staff Selection Board",
+   "posts": 1909,
+   "q": [
+    "diploma",
+    "engg"
+   ],
+   "s": [
+    "state",
+    "psu"
+   ],
+   "state": "Rajasthan",
+   "loc": "Rajasthan",
+   "start": "",
+   "last": "2026-12-17",
+   "url": "https://rssb.rajasthan.gov.in/"
+  },
+  {
+   "t": "Tamil Nadu NHM Staff Nurse (state + districts)",
+   "org": "National Health Mission, Tamil Nadu",
+   "posts": 1695,
+   "q": [
+    "medical"
+   ],
+   "s": [
+    "medical",
+    "state"
+   ],
+   "state": "Tamil Nadu",
+   "loc": "Tamil Nadu",
+   "start": "",
+   "last": "2026-12-04",
+   "url": "https://nhm.tn.gov.in/",
+   "note": "District Health Societies have separate notices too."
+  },
+  {
+   "t": "TGPSC Mandal Planning & Asst. Statistical Officer",
+   "org": "Telangana PSC",
+   "posts": 102,
+   "q": [
+    "grad"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Telangana",
+   "loc": "Telangana",
+   "start": "",
+   "last": "2026-11-27",
+   "url": "https://www.tspsc.gov.in/"
+  },
+  {
+   "t": "DEPwD Hyderabad Junior Assistant & other posts",
+   "org": "DEPwD, Hyderabad",
+   "posts": 83,
+   "q": [
+    "12",
+    "grad",
+    "diploma",
+    "iti"
+   ],
+   "s": [
+    "ssc"
+   ],
+   "state": "Telangana",
+   "loc": "Telangana",
+   "start": "",
+   "last": "2026-12-02",
+   "url": "https://www.freejobalert.com/sarkari-naukri/",
+   "src": 1
+  },
+  {
+   "t": "Tripura Industries Field Assistant, Extension Officer & others",
+   "org": "Tripura Directorate of Industries & Commerce",
+   "posts": 48,
+   "q": [
+    "10",
+    "grad"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Tripura",
+   "loc": "Tripura",
+   "start": "",
+   "last": "2026-12-04",
+   "url": "https://www.freejobalert.com/state-government-jobs/",
+   "src": 1
+  },
+  {
+   "t": "UPESSC TGT (Assistant Teacher, aided schools)",
+   "org": "UP Education Service Selection Commission",
+   "posts": 17735,
+   "q": [
+    "bed"
+   ],
+   "s": [
+    "teaching",
+    "state"
+   ],
+   "state": "Uttar Pradesh",
+   "loc": "Uttar Pradesh",
+   "start": "",
+   "last": "2026-11-28",
+   "url": "https://upessc.up.gov.in/",
+   "note": "Last date extended to 28 Nov."
+  },
+  {
    "t": "UPSSSC Inter (12th) Level posts",
-   "org": "UP Subordinate Services Selection Commission",
+   "org": "UP SSSC",
    "posts": 1784,
    "q": [
     "12"
@@ -271,74 +2557,205 @@
    "s": [
     "state"
    ],
+   "state": "Uttar Pradesh",
    "loc": "Uttar Pradesh",
-   "start": "2026-11-10",
+   "start": "",
    "last": "2026-12-01",
    "url": "https://upsssc.gov.in/"
   },
   {
-   "t": "Central Railway Apprentice",
-   "org": "RRC Central Railway",
-   "posts": 2861,
+   "t": "UPSSSC Junior Engineer (Mechanical) & Technical Assistant",
+   "org": "UP SSSC",
+   "posts": 1156,
+   "q": [
+    "diploma"
+   ],
+   "s": [
+    "state",
+    "psu"
+   ],
+   "state": "Uttar Pradesh",
+   "loc": "Uttar Pradesh",
+   "start": "",
+   "last": "2026-11-25",
+   "url": "https://upsssc.gov.in/"
+  },
+  {
+   "t": "UPSSSC Junior Engineer (Electrical) & others",
+   "org": "UP SSSC",
+   "posts": 380,
+   "q": [
+    "diploma"
+   ],
+   "s": [
+    "state",
+    "psu"
+   ],
+   "state": "Uttar Pradesh",
+   "loc": "Uttar Pradesh",
+   "start": "",
+   "last": "2026-11-27",
+   "url": "https://upsssc.gov.in/"
+  },
+  {
+   "t": "UPPSC RO / ARO (Samiksha Adhikari)",
+   "org": "UP Public Service Commission",
+   "posts": 501,
+   "q": [
+    "grad"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Uttar Pradesh",
+   "loc": "Uttar Pradesh",
+   "start": "",
+   "last": "2026-11-26",
+   "url": "https://uppsc.up.nic.in/",
+   "note": "Correction till 3 Dec."
+  },
+  {
+   "t": "UPPSC Asst. Architect Planner, Sports Officer & others",
+   "org": "UP Public Service Commission",
+   "posts": 25,
+   "q": [
+    "engg",
+    "pg"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Uttar Pradesh",
+   "loc": "Uttar Pradesh",
+   "start": "",
+   "last": "2026-12-04",
+   "url": "https://uppsc.up.nic.in/"
+  },
+  {
+   "t": "UP Anganwadi Worker & Helper (district notices)",
+   "org": "UP ICDS",
+   "posts": 3335,
+   "q": [
+    "10",
+    "12"
+   ],
+   "s": [
+    "state"
+   ],
+   "state": "Uttar Pradesh",
+   "loc": "Uttar Pradesh",
+   "start": "",
+   "last": "2026-12-14",
+   "url": "https://www.freejobalert.com/state-government-jobs/",
+   "note": "Ballia, Ghazipur, Hardoi, Budaun, Lucknow, Pilibhit, Sant Kabir Nagar; dates vary 24 Nov – 14 Dec.",
+   "src": 1
+  },
+  {
+   "t": "UKSSSC Constable, Fireman & other posts",
+   "org": "Uttarakhand SSSC",
+   "posts": 1694,
+   "q": [
+    "12"
+   ],
+   "s": [
+    "police",
+    "state"
+   ],
+   "state": "Uttarakhand",
+   "loc": "Uttarakhand",
+   "start": "",
+   "last": "2026-12-25",
+   "url": "https://sssc.uk.gov.in/"
+  },
+  {
+   "t": "UKSSSC Technician",
+   "org": "Uttarakhand SSSC",
+   "posts": 78,
    "q": [
     "iti"
    ],
    "s": [
-    "railway"
+    "state"
    ],
-   "loc": "Central Railway units",
+   "state": "Uttarakhand",
+   "loc": "Uttarakhand",
    "start": "",
-   "last": "2026-12-02",
-   "url": "https://rrccr.com/"
+   "last": "2026-11-25",
+   "url": "https://sssc.uk.gov.in/"
   },
   {
-   "t": "GBPNIHE Nursing Assistant / Pharmacist (walk-in 4 Dec)",
-   "org": "G.B. Pant National Institute of Himalayan Environment",
-   "posts": 1,
+   "t": "UKPSC Nayab Tehsildar, Excise Inspector & others (Lower PCS)",
+   "org": "Uttarakhand PSC",
+   "posts": 54,
    "q": [
-    "medical"
+    "grad"
    ],
    "s": [
-    "medical"
+    "state"
    ],
-   "loc": "Almora, Uttarakhand",
+   "state": "Uttarakhand",
+   "loc": "Uttarakhand",
    "start": "",
-   "last": "2026-12-02",
-   "url": "https://gbpihed.gov.in/"
+   "last": "2026-11-26",
+   "url": "https://psc.uk.gov.in/"
   },
   {
-   "t": "UPSC Advt 13/2026: Dental Surgeon, Ayurveda & Homeopathic Physician, Scientist B",
-   "org": "Union Public Service Commission",
-   "posts": 13,
-   "q": [
-    "medical",
-    "pg"
-   ],
-   "s": [
-    "upsc",
-    "medical"
-   ],
-   "loc": "Central govt.",
-   "start": "2026-11-14",
-   "last": "2026-12-04",
-   "exp": "mixed",
-   "url": "https://upsconline.nic.in/"
-  },
-  {
-   "t": "RRB Ministerial & Isolated Categories (CEN 09/2026)",
-   "org": "Railway Recruitment Boards",
-   "posts": 191,
+   "t": "WBPSC Industrial Development Officer",
+   "org": "West Bengal PSC",
+   "posts": 247,
    "q": [
     "grad",
-    "pg"
+    "diploma"
    ],
    "s": [
-    "railway"
+    "state"
    ],
-   "loc": "All India",
+   "state": "West Bengal",
+   "loc": "West Bengal",
    "start": "",
-   "last": "2026-12-04",
-   "url": "https://www.rrbapply.gov.in/"
+   "last": "2026-11-26",
+   "url": "https://psc.wb.gov.in/"
+  },
+  {
+   "t": "WBPDCL Technician Apprentice",
+   "org": "WB Power Development Corp",
+   "posts": 60,
+   "q": [
+    "diploma",
+    "engg"
+   ],
+   "s": [
+    "state",
+    "psu"
+   ],
+   "state": "West Bengal",
+   "loc": "West Bengal",
+   "start": "",
+   "last": "2026-12-10",
+   "url": "https://www.freejobalert.com/state-government-jobs/",
+   "src": 1
+  },
+  {
+   "t": "West Bengal District Health (Birbhum, Purulia, Purba Medinipur) Nurse, Pharmacist & others",
+   "org": "WB District Health & FW Samitis",
+   "posts": 274,
+   "q": [
+    "10",
+    "12",
+    "grad",
+    "medical"
+   ],
+   "s": [
+    "medical",
+    "state"
+   ],
+   "state": "West Bengal",
+   "loc": "West Bengal",
+   "start": "",
+   "last": "2026-12-05",
+   "url": "https://www.freejobalert.com/state-government-jobs/",
+   "note": "Several district notices; dates 26 Nov – 5 Dec.",
+   "src": 1
   },
   {
    "t": "Chandigarh Veterinary Inspector",
@@ -352,158 +2769,11 @@
    "s": [
     "state"
    ],
+   "state": "Chandigarh",
    "loc": "Chandigarh",
    "start": "",
    "last": "2026-12-04",
    "url": "https://chandigarh.gov.in/"
-  },
-  {
-   "t": "DSSSB Multi Tasking Staff",
-   "org": "Delhi Subordinate Services Selection Board",
-   "posts": 1075,
-   "q": [
-    "10"
-   ],
-   "s": [
-    "state"
-   ],
-   "loc": "Delhi",
-   "start": "2026-11-12",
-   "last": "2026-12-11",
-   "url": "https://dsssb.delhi.gov.in/"
-  },
-  {
-   "t": "DSSSB Junior Engineer",
-   "org": "Delhi Subordinate Services Selection Board",
-   "posts": 185,
-   "q": [
-    "diploma",
-    "engg"
-   ],
-   "s": [
-    "state",
-    "psu"
-   ],
-   "loc": "Delhi",
-   "start": "2026-11-12",
-   "last": "2026-12-11",
-   "url": "https://dsssb.delhi.gov.in/"
-  },
-  {
-   "t": "SIDBI Grade A & B Officers",
-   "org": "Small Industries Development Bank of India",
-   "posts": 68,
-   "q": [
-    "grad",
-    "pg"
-   ],
-   "s": [
-    "bank"
-   ],
-   "loc": "All India",
-   "start": "2026-11-21",
-   "last": "2026-12-11",
-   "exp": "mixed",
-   "url": "https://www.sidbi.in/en/careers",
-   "note": "Phase I & II exam tentatively 27 Dec 2026."
-  },
-  {
-   "t": "EXIM Bank Management Trainee & Manager",
-   "org": "Export-Import Bank of India",
-   "posts": 120,
-   "q": [
-    "grad",
-    "pg"
-   ],
-   "s": [
-    "bank"
-   ],
-   "loc": "All India",
-   "start": "2026-11-27",
-   "last": "2026-12-11",
-   "exp": "mixed",
-   "url": "https://www.eximbankindia.in/careers",
-   "note": "Written exam planned for December 2026."
-  },
-  {
-   "t": "ICAR Technical Assistant T-3 & T-4",
-   "org": "ASRB, Indian Council of Agricultural Research",
-   "posts": 1393,
-   "q": [
-    "grad",
-    "diploma"
-   ],
-   "s": [
-    "psu"
-   ],
-   "loc": "ICAR institutes, All India",
-   "start": "2026-11-18",
-   "last": "2026-12-17",
-   "url": "https://www.asrb.org.in/"
-  },
-  {
-   "t": "BSF LDCE Sub-Inspector (departmental)",
-   "org": "Border Security Force",
-   "posts": 1167,
-   "q": [
-    "serving"
-   ],
-   "s": [
-    "police"
-   ],
-   "loc": "BSF units",
-   "start": "2026-11-12",
-   "last": "2026-12-31",
-   "exp": "exp",
-   "url": "https://rectt.bsf.gov.in/",
-   "note": "Only for serving BSF personnel."
-  },
-  {
-   "t": "APPSC Assistant Executive Engineer",
-   "org": "Andhra Pradesh PSC",
-   "posts": 503,
-   "q": [
-    "engg"
-   ],
-   "s": [
-    "state",
-    "psu"
-   ],
-   "loc": "Andhra Pradesh",
-   "start": "",
-   "last": "2026-11-22",
-   "url": "https://psc.ap.gov.in/"
-  },
-  {
-   "t": "UPESSC Principal & Headmaster (aided schools)",
-   "org": "UP Education Service Selection Commission",
-   "posts": 2647,
-   "q": [
-    "bed"
-   ],
-   "s": [
-    "teaching",
-    "state"
-   ],
-   "loc": "Uttar Pradesh",
-   "start": "",
-   "last": "2026-11-22",
-   "url": "https://upessc.up.gov.in/"
-  },
-  {
-   "t": "Punjab & Haryana High Court Chowkidar",
-   "org": "Punjab & Haryana High Court",
-   "posts": 22,
-   "q": [
-    "10"
-   ],
-   "s": [
-    "state"
-   ],
-   "loc": "Chandigarh",
-   "start": "",
-   "last": "2026-11-21",
-   "url": "https://highcourtchd.gov.in/"
   }
  ],
  "results": [
@@ -1351,6 +3621,18 @@
    "url": "https://sbi.bank.in/web/careers"
   },
   {
+   "t": "RPSC RAS/RTS Prelims 2026",
+   "type": "exam",
+   "start": "2026-11-29",
+   "s": [
+    "state"
+   ],
+   "q": [
+    "grad"
+   ],
+   "url": "https://rpsc.rajasthan.gov.in/"
+  },
+  {
    "t": "UIIC AO Mains",
    "type": "exam",
    "start": "2026-11-30",
@@ -1362,6 +3644,19 @@
     "pg"
    ],
    "url": "https://uiic.co.in/recruitment/details"
+  },
+  {
+   "t": "RSSB CET (Graduate Level)",
+   "type": "exam",
+   "start": "2026-12-01",
+   "end": "2026-12-03",
+   "s": [
+    "state"
+   ],
+   "q": [
+    "grad"
+   ],
+   "url": "https://rssb.rajasthan.gov.in/"
   },
   {
    "t": "IBPS RRB Office Assistant Prelims",

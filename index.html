@@ -17,20 +17,20 @@
 :root{
   --ink:#1b2340; --paper:#f6f6f3; --card:#ffffff; --line:#dcdfe6; --muted:#5d6478;
   --accent:#c2410c; --accent-soft:#fff1e8;
-  --ok:#15803d; --ok-bg:#e8f6ec; --warn:#b45309; --warn-bg:#fff6e0; --bad:#b91c1c; --bad-bg:#fdecec; --info:#1d4ed8; --info-bg:#e9f0ff;
+  --ok:#15803d; --ok-bg:#e8f6ec; --warn:#b45309; --warn-bg:#fff6e0; --bad:#b91c1c; --bad-bg:#fdecec; --info:#1d4ed8; --info-bg:#e9f0ff; --last:#0f766e; --last-bg:#e3f4f1;
   --display:"Archivo", "Segoe UI", system-ui, sans-serif; --body:"Hind", "Segoe UI", system-ui, sans-serif;
   color-scheme:light;
 }
 @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
   --ink:#e8eaf2; --paper:#12151f; --card:#1a1f2d; --line:#2c3346; --muted:#9aa2b8;
   --accent:#fb923c; --accent-soft:#2c1e14;
-  --ok:#4ade80; --ok-bg:#132a1c; --warn:#fbbf24; --warn-bg:#2b2412; --bad:#f87171; --bad-bg:#2e1616; --info:#93b4ff; --info-bg:#172040;
+  --ok:#4ade80; --ok-bg:#132a1c; --warn:#fbbf24; --warn-bg:#2b2412; --bad:#f87171; --bad-bg:#2e1616; --info:#93b4ff; --info-bg:#172040; --last:#2dd4bf; --last-bg:#10302c;
   color-scheme:dark;
 }}
 :root[data-theme="dark"]{
   --ink:#e8eaf2; --paper:#12151f; --card:#1a1f2d; --line:#2c3346; --muted:#9aa2b8;
   --accent:#fb923c; --accent-soft:#2c1e14;
-  --ok:#4ade80; --ok-bg:#132a1c; --warn:#fbbf24; --warn-bg:#2b2412; --bad:#f87171; --bad-bg:#2e1616; --info:#93b4ff; --info-bg:#172040;
+  --ok:#4ade80; --ok-bg:#132a1c; --warn:#fbbf24; --warn-bg:#2b2412; --bad:#f87171; --bad-bg:#2e1616; --info:#93b4ff; --info-bg:#172040; --last:#2dd4bf; --last-bg:#10302c;
   color-scheme:dark;
 }
 *{box-sizing:border-box}
@@ -74,6 +74,7 @@ button,input,select{font:inherit;color:inherit}
 .tab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
 .toolbar{display:flex;gap:8px;margin:12px 0;flex-wrap:wrap}
 .toolbar input{flex:1;min-width:180px;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--card)}
+.state-sel{padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--card);font-size:1rem;max-width:360px}
 .toolbar select{padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card)}
 
 /* Rows */
@@ -127,9 +128,9 @@ body{overscroll-behavior-y:contain}
 .day:hover{border-color:var(--line)}
 .dots{display:flex;gap:3px;flex-wrap:wrap;justify-content:center}
 .dot{width:7px;height:7px;border-radius:50%}
-.c-exam{background:var(--accent)} .c-admit{background:var(--info)} .c-last{background:var(--warn)}
+.c-exam{background:var(--accent)} .c-admit{background:var(--info)} .c-last{background:var(--last)}
 .ev-type{font-size:.75rem;font-weight:600;padding:2px 8px;border-radius:999px}
-.t-exam{background:var(--accent-soft);color:var(--accent)} .t-admit{background:var(--info-bg);color:var(--info)} .t-last{background:var(--warn-bg);color:var(--warn)}
+.t-exam{background:var(--accent-soft);color:var(--accent)} .t-admit{background:var(--info-bg);color:var(--info)} .t-last{background:var(--last-bg);color:var(--last)}
 .sec-title{font-family:var(--display);font-size:1rem;margin:16px 0 8px}
 @media (max-width:480px){.day{min-height:44px;font-size:.82rem}.cal{padding:8px}}
 .xp{font-weight:600}
@@ -154,23 +155,29 @@ footer{margin:22px 0 8px;font-size:.82rem;color:var(--muted);display:grid;gap:6p
   <!-- Step 1: ask the candidate -->
   <section class="panel" id="onboard" aria-labelledby="ob-title">
     <div>
-      <div class="step-label">Step 1 of 3</div>
+      <div class="step-label">Step 1 of 4</div>
       <h2 id="ob-title">What is your qualification?</h2>
       <p class="hint">Pick everything you hold. Higher degrees automatically include jobs open to lower ones (a graduate also sees 10th and 12th pass jobs).</p>
     </div>
     <div class="chips" id="qualChips" role="group" aria-label="Qualifications"></div>
     <div>
-      <div class="step-label">Step 2 of 3</div>
+      <div class="step-label">Step 2 of 4</div>
       <h2>What kind of job do you want?</h2>
       <p class="hint">Optional. Leave blank to see every sector.</p>
     </div>
     <div class="chips" id="sectorChips" role="group" aria-label="Job sectors"></div>
     <div>
-      <div class="step-label">Step 3 of 3</div>
+      <div class="step-label">Step 3 of 4</div>
       <h2>Are you a fresher or experienced?</h2>
       <p class="hint">Freshers see only posts that need no work experience. Experienced candidates see both.</p>
     </div>
     <div class="chips" id="expChips" role="radiogroup" aria-label="Experience"></div>
+    <div>
+      <div class="step-label">Step 4 of 4</div>
+      <h2><label for="stateSel">Which state or UT are you from?</label></h2>
+      <p class="hint">You'll see that state's jobs plus all central / all-India jobs. Choose "All states" to see everything.</p>
+    </div>
+    <select id="stateSel" class="state-sel"></select>
     <button class="btn" id="saveBtn" disabled>Show my job openings</button>
   </section>
 
@@ -198,6 +205,8 @@ footer{margin:22px 0 8px;font-size:.82rem;color:var(--muted);display:grid;gap:6p
       <label for="q" class="hidden">Search</label>
       <input id="q" type="search" placeholder="Search by post, organisation or state">
       <label for="scope" class="hidden">Show</label>
+      <label for="stateFilter" class="hidden">State</label>
+      <select id="stateFilter"></select>
       <select id="scope">
         <option value="mine">Matching my profile</option>
         <option value="all">All listings</option>
@@ -274,6 +283,17 @@ function jobStatus(j){
 let profile = null;
 try{ profile = JSON.parse(localStorage.getItem("sjt-profile")||"null"); }catch(e){}
 const sel = {q:new Set(profile?.q||[]), s:new Set(profile?.s||[]), e:profile?.e||""};
+const ALL_STATES=["Andaman & Nicobar","Andhra Pradesh","Arunachal Pradesh","Assam","Bihar","Chandigarh","Chhattisgarh","Dadra & Nagar Haveli and Daman & Diu","Delhi","Goa","Gujarat","Haryana","Himachal Pradesh","Jammu & Kashmir","Jharkhand","Karnataka","Kerala","Ladakh","Lakshadweep","Madhya Pradesh","Maharashtra","Manipur","Meghalaya","Mizoram","Nagaland","Odisha","Puducherry","Punjab","Rajasthan","Sikkim","Tamil Nadu","Telangana","Tripura","Uttar Pradesh","Uttarakhand","West Bengal"];
+function fillStates(){
+  const opts=ALL_STATES.map(x=>`<option value="${x}">${x}</option>`).join("");
+  $("#stateSel").innerHTML=`<option value="">All states (show everything)</option>`+opts;
+  $("#stateSel").value=profile?.st||"";
+  $("#stateFilter").innerHTML=`<option value="mine">My state + all-India</option><option value="">All states</option>`+opts;
+  $("#stateFilter").value="mine";
+}
+// which state to filter by right now ("" = no state filter)
+function activeState(){ const v=$("#stateFilter").value; return v==="mine" ? (profile?.st||"") : v; }
+function stateOk(item){ const st=activeState(); return !st || !item.state || item.state==="All India" || item.state===st; }
 function canSave(){ return sel.q.size>0 && !!sel.e; }
 
 function renderChips(){
@@ -296,7 +316,7 @@ document.addEventListener("click",e=>{
   $("#saveBtn").disabled = !canSave();
 });
 $("#saveBtn").addEventListener("click",()=>{
-  profile={q:[...sel.q], s:[...sel.s], e:sel.e};
+  profile={q:[...sel.q], s:[...sel.s], e:sel.e, st:$("#stateSel").value};
   try{ localStorage.setItem("sjt-profile",JSON.stringify(profile)); }catch(e){}
   showMain();
 });
@@ -321,14 +341,15 @@ document.querySelectorAll(".tab").forEach(b=>b.addEventListener("click",()=>{
   $("#list").classList.toggle("list",tab!=="calendar");
   render();
 }));
-["#q","#scope","#showClosed"].forEach(id=>$(id).addEventListener("input",render));
+["#q","#scope","#showClosed","#stateFilter"].forEach(id=>$(id).addEventListener("input",render));
 
 function showMain(){
   $("#onboard").classList.add("hidden"); $("#main").classList.remove("hidden");
   const qs=profile.q.map(id=>QUALS.find(x=>x.id===id).label).join(", ");
   const ss=profile.s.length?profile.s.map(id=>SECTORS.find(x=>x.id===id).label).join(", "):"All sectors";
   const es=EXPS.find(x=>x.id===profile.e)?.label||"";
-  $("#profileText").innerHTML=`<b>Qualification:</b> ${esc(qs)}<br><b>Interested in:</b> ${esc(ss)}<br><b>Experience:</b> ${esc(es)}`;
+  const sts=profile.st?profile.st+" + all-India jobs":"All states";
+  $("#profileText").innerHTML=`<b>Qualification:</b> ${esc(qs)}<br><b>Interested in:</b> ${esc(ss)}<br><b>Experience:</b> ${esc(es)}<br><b>State:</b> ${esc(sts)}`;
   render();
 }
 
@@ -336,9 +357,9 @@ function textHit(item){ const s=$("#q").value.trim().toLowerCase(); if(!s) retur
 
 function render(){
   const mine=$("#scope").value==="mine";
-  const pool = arr => arr.filter(x=>(!mine||matches(x)) && textHit(x));
+  const pool = arr => arr.filter(x=>(!mine||matches(x)) && stateOk(x) && textHit(x));
   // summary tiles always reflect the profile
-  const myJobs=JOBS.filter(matches);
+  const myJobs=JOBS.filter(j=>matches(j)&&stateOk(j));
   const live=myJobs.filter(j=>jobStatus(j).k!=="closed");
   $("#nOpen").textContent=live.length;
   $("#nSoon").textContent=live.filter(j=>["soon","today"].includes(jobStatus(j).k)).length;
@@ -356,7 +377,7 @@ function render(){
         <span class="stamp st-${st.k}">${st.label}</span>
         <div class="foot">
           <div class="meta"><span>Posts: <b>${j.posts.toLocaleString("en-IN")}</b></span>${j.start?`<span>Opens: <b>${fmt(j.start)}</b></span>`:""}<span>Last date: <b>${fmt(j.last)}</b></span><span>Eligibility: <b>${j.q.map(id=>QUALS.find(x=>x.id===id).label).join(" / ")}</b></span><span class="xp xp-${j.exp||"fresher"}">${EXP_LABEL[j.exp||"fresher"]}</span></div>
-          <a href="${j.url}" target="_blank" rel="noopener">Official site ↗</a>
+          <a href="${j.url}" target="_blank" rel="noopener">${j.src?"Notice details ↗":"Official site ↗"}</a>
         </div>
         ${j.note?`<p class="note">${esc(j.note)}</p>`:""}
       </article>`).join("");
@@ -404,7 +425,7 @@ function calEvents(mine){
     if(!e.dates){ let d=parse(e.start); const end=parse(e.end||e.start); while(d<=end){ days.push(iso(d)); d=new Date(d.getFullYear(),d.getMonth(),d.getDate()+1); } }
     days.forEach(day=>out.push({day,t:e.t,type:e.type,url:e.url,tentative:e.tentative,span:days.length>1?`${fmt(days[0])} – ${fmt(days[days.length-1])}`:""}));
   });
-  JOBS.filter(ok).forEach(j=>out.push({day:j.last,t:j.t,type:"last",url:j.url,org:j.org}));
+  JOBS.filter(j=>ok(j)&&stateOk(j)).forEach(j=>out.push({day:j.last,t:j.t,type:"last",url:j.url,org:j.org}));
   return out;
 }
 function renderCalendar(mine){
@@ -542,6 +563,7 @@ $("#refreshBtn").addEventListener("click",()=>loadData(true));
 })();
 
 showUpdated();
+fillStates();
 renderChips();
 if(profile && profile.q && profile.q.length && profile.e) showMain();
 loadData(false, lastCheck() && Date.now()-lastCheck()>2*DAY ? "Auto-refreshed: it had been over 2 days since the last refresh." : undefined);
