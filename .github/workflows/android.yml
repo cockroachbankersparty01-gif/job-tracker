@@ -1,0 +1,49 @@
+name: Build Android APK
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'android/**'
+      - '.github/workflows/android.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
+
+      - name: Build APK
+        working-directory: android
+        run: gradle assembleDebug --no-daemon
+
+      - name: Rename APK
+        run: cp android/app/build/outputs/apk/debug/app-debug.apk SarkariJobTracker.apk
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: SarkariJobTracker-apk
+          path: SarkariJobTracker.apk
+
+      - name: Publish to the "apk-latest" release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete apk-latest -y --cleanup-tag || true
+          gh release create apk-latest SarkariJobTracker.apk \
+            --target "${{ github.sha }}" \
+            --title "Sarkari Job Tracker for Android" \
+            --notes "Download SarkariJobTracker.apk below and open it on your Android phone. Allow 'Install unknown apps' for your browser or file manager when asked. Job listings update daily inside the app; you don't need to reinstall."
