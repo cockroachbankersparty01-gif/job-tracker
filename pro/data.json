@@ -3903,6 +3903,188 @@
    "batch": "",
    "note": "",
    "auto": 1
+  },
+  {
+   "t": "Lidar Production Analyst",
+   "co": "Woolpert",
+   "loc": "Bengaluru",
+   "q": [
+    "civil",
+    "com",
+    "core",
+    "ece",
+    "mba",
+    "mech"
+   ],
+   "s": [
+    "consult",
+    "core"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://job-boards.greenhouse.io/woolpert/jobs/4467027009",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Junior Application Analyst",
+   "co": "Kotak Education Foundation",
+   "loc": "Mumbai",
+   "q": [
+    "com",
+    "mba"
+   ],
+   "s": [
+    "consult"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://kef.keka.com/careers/jobdetails/96545",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Product Analyst Intern",
+   "co": "Voy (formerly EarlyFit)",
+   "loc": "Delhi",
+   "q": [
+    "com",
+    "mba"
+   ],
+   "s": [
+    "consult"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://www.joinvoy.com/vacancies/product-analyst-intern",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Apprentice – Accounts Payable",
+   "co": "Textron",
+   "loc": "Bengaluru",
+   "q": [
+    "com",
+    "mba"
+   ],
+   "s": [
+    "finance"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "apprentice",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://textron.taleo.net/careersection/private/jobdetail.ftl?job=345983&lang=en",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "HR Apprentice",
+   "co": "Estée Lauder Companies",
+   "loc": "Mumbai",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "apprentice",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://careers.elcompanies.com/careers/job/1168276791015",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Procurement Apprentice",
+   "co": "Estée Lauder Companies",
+   "loc": "Mumbai",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "apprentice",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://careers.elcompanies.com/careers/job/1168276790447",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Finance Apprentice",
+   "co": "Estée Lauder Companies",
+   "loc": "Mumbai",
+   "q": [
+    "com",
+    "mba"
+   ],
+   "s": [
+    "finance"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "apprentice",
+   "posted": "2026-11-24",
+   "last": "",
+   "url": "https://careers.elcompanies.com/careers/job/1168276790549",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
   }
  ],
  "calendar": [
