@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "jobs": [
   {
    "t": "Software Development Engineer I",
@@ -4080,6 +4080,351 @@
    "posted": "2026-11-24",
    "last": "",
    "url": "https://careers.elcompanies.com/careers/job/1168276790549",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Associate Engineer – Electronics Category",
+   "co": "Eaton",
+   "loc": "Pune",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    3
+   ],
+   "kind": "job",
+   "posted": "2026-11-25",
+   "last": "",
+   "url": "https://eaton.eightfold.ai/careers/job/687240317321",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Analyst – Data Science",
+   "co": "American Express",
+   "loc": "Gurugram",
+   "q": [
+    "com",
+    "cse",
+    "ece",
+    "mba",
+    "mca"
+   ],
+   "s": [
+    "consult",
+    "data"
+   ],
+   "exp": [
+    0,
+    2
+   ],
+   "kind": "job",
+   "posted": "2026-11-25",
+   "last": "",
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26016185",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Associate Product Analyst",
+   "co": "PTC",
+   "loc": "Pune",
+   "q": [
+    "com",
+    "mba"
+   ],
+   "s": [
+    "consult"
+   ],
+   "exp": [
+    0,
+    2
+   ],
+   "kind": "job",
+   "posted": "2026-11-25",
+   "last": "",
+   "url": "https://ptc.wd1.myworkdayjobs.com/PTC/job/Pune-India/Associate-Product-Analyst_JR113079-2",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Software Engineer – Computer Vision",
+   "co": "Stryker",
+   "loc": "Bengaluru",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-25",
+   "last": "",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Bengaluru-India/Software-Engineer-Computer-Vision_R578634",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Junior Database Administrator",
+   "co": "Datavail",
+   "loc": "Hyderabad",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "data",
+    "it"
+   ],
+   "exp": [
+    0,
+    2
+   ],
+   "kind": "job",
+   "posted": "2026-11-25",
+   "last": "",
+   "url": "https://eifn.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/2015",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Young Graduate Trainee (SVT Engineer)",
+   "co": "Infineon Technologies",
+   "loc": "Bengaluru",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-25",
+   "last": "",
+   "url": "https://jobs.infineon.com/careers/job/563808972414358",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Production Analyst",
+   "co": "Vertiv",
+   "loc": "Pune",
+   "q": [
+    "civil",
+    "com",
+    "core",
+    "ece",
+    "mba",
+    "mech"
+   ],
+   "s": [
+    "consult",
+    "core"
+   ],
+   "exp": [
+    0,
+    3
+   ],
+   "kind": "job",
+   "posted": "2026-11-25",
+   "last": "",
+   "url": "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20285401",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "ESG Analyst",
+   "co": "GIST Impact",
+   "loc": "Mumbai",
+   "q": [
+    "com",
+    "mba"
+   ],
+   "s": [
+    "consult"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-25",
+   "last": "",
+   "url": "https://gistimpact.zohorecruit.in/jobs/Careers/162989000002542166",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Finance Trainee (1-year internship)",
+   "co": "CloudThat",
+   "loc": "Bengaluru",
+   "q": [
+    "com",
+    "cse",
+    "ece",
+    "mba",
+    "mca"
+   ],
+   "s": [
+    "finance",
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-25",
+   "last": "",
+   "url": "https://cloudthat.keka.com/careers/jobdetails/122452",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Apprentice – Front Office",
+   "co": "Accor",
+   "loc": "Bengaluru",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "support"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "apprentice",
+   "posted": "2026-11-25",
+   "last": "",
+   "url": "https://jobs.smartrecruiters.com/AccorHotel/744000163396859-apprentice-front-office-",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Associate, Fraud Analysis",
+   "co": "Fiserv",
+   "loc": "Pune",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    2
+   ],
+   "kind": "job",
+   "posted": "2026-11-25",
+   "last": "",
+   "url": "https://fiserv.wd5.myworkdayjobs.com/EXT/job/Pune---Trion-Business-Park-India/Associate--Fraud-Analysis_R-10402002",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Relationship Officer – Kotak 811 Digital Sales",
+   "co": "Kotak Mahindra Bank",
+   "loc": "Pune",
+   "q": [
+    "any",
+    "com",
+    "mba"
+   ],
+   "s": [
+    "finance",
+    "sales"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-25",
+   "last": "",
+   "url": "https://hcbt.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/cx/job/276664",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Gold Loan Officer",
+   "co": "CSB Bank",
+   "loc": "Bhavnagar (Gujarat)",
+   "q": [
+    "com",
+    "mba"
+   ],
+   "s": [
+    "finance"
+   ],
+   "exp": [
+    0,
+    5
+   ],
+   "kind": "job",
+   "posted": "2026-11-25",
+   "last": "",
+   "url": "https://iaamcp.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CSB/job/1137448",
    "src": 0,
    "sal": "",
    "batch": "",
