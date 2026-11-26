@@ -4430,6 +4430,604 @@
    "batch": "",
    "note": "",
    "auto": 1
+  },
+  {
+   "t": "Associate Software Engineer",
+   "co": "Aon",
+   "loc": "Gurugram",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-26",
+   "last": "",
+   "url": "https://jobs.aon.com/jobs/113134",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Driver Development Engineer",
+   "co": "Coherent",
+   "loc": "Hyderabad",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-26",
+   "last": "",
+   "url": "https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_8001/job/2015235",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Software Engineer",
+   "co": "NOV",
+   "loc": "Kochi",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-26",
+   "last": "",
+   "url": "https://egay.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4001/job/45301",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Backend Golang Developer",
+   "co": "Proofpoint",
+   "loc": "Bengaluru",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-26",
+   "last": "",
+   "url": "https://proofpoint.wd5.myworkdayjobs.com/ProofpointCareers/job/Bengaluru-India---Remote/Backend-Golang-Developer_R14189",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Intern",
+   "co": "Micron Technology",
+   "loc": "Hyderabad",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-26",
+   "last": "",
+   "url": "https://careers.micron.com/careers/job/43751444",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "VAPT & Application Security Intern",
+   "co": "Infra360 Solutions",
+   "loc": "Gurugram",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-26",
+   "last": "",
+   "url": "https://infra360.keka.com/careers/jobdetails/148211",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Benefits Administration Services Associate I",
+   "co": "Conduent",
+   "loc": "Kochi",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-26",
+   "last": "",
+   "url": "https://egua.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27357",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Transaction Processing Associate I",
+   "co": "Conduent",
+   "loc": "Kochi",
+   "q": [
+    "com",
+    "mba"
+   ],
+   "s": [
+    "consult"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-26",
+   "last": "",
+   "url": "https://egua.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27495",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Customer Support Associate",
+   "co": "Digitide",
+   "loc": "Noida",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "support"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-26",
+   "last": "",
+   "url": "https://iaceiz.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/272879",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Analyst – Health",
+   "co": "KPMG Global Services",
+   "loc": "Bengaluru",
+   "q": [
+    "com",
+    "mba",
+    "pharm",
+    "sci"
+   ],
+   "s": [
+    "consult",
+    "health"
+   ],
+   "exp": [
+    0,
+    1
+   ],
+   "kind": "job",
+   "posted": "2026-11-26",
+   "last": "",
+   "url": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/30052271",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Customer Service Analyst 1 – Support",
+   "co": "Oracle",
+   "loc": "Bengaluru",
+   "q": [
+    "any",
+    "com",
+    "mba"
+   ],
+   "s": [
+    "consult",
+    "support"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-26",
+   "last": "",
+   "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/337863",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Young Graduate Trainee (IoT Radio Validation)",
+   "co": "Infineon Technologies",
+   "loc": "Bengaluru",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-26",
+   "last": "",
+   "url": "https://jobs.infineon.com/careers/job/563808972414357",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Production Analyst",
+   "co": "Vertiv",
+   "loc": "Ambernath",
+   "q": [
+    "civil",
+    "com",
+    "core",
+    "ece",
+    "mba",
+    "mech"
+   ],
+   "s": [
+    "consult",
+    "core"
+   ],
+   "exp": [
+    0,
+    3
+   ],
+   "kind": "job",
+   "posted": "2026-11-26",
+   "last": "",
+   "url": "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20285400",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Trainee – Pilot Plant",
+   "co": "Piramal Pharma",
+   "loc": "Chennai",
+   "q": [
+    "civil",
+    "core",
+    "ece",
+    "mech",
+    "pharm",
+    "sci"
+   ],
+   "s": [
+    "core",
+    "health"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-26",
+   "last": "",
+   "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Ennore-TN/Trainee---Pilot-Plant_R00004268",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Trainee – R&D",
+   "co": "Piramal Pharma",
+   "loc": "Mumbai",
+   "q": [
+    "pharm",
+    "sci"
+   ],
+   "s": [
+    "health"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-26",
+   "last": "",
+   "url": "https://piramalpharma.wd102.myworkdayjobs.com/PIRAMAL_EXTERNAL_CAREERS/job/Rabale-MH/Trainee---R-D_R00005249",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Software Developer Intern",
+   "co": "21K School",
+   "loc": "Bengaluru",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-26",
+   "last": "",
+   "url": "https://21kschool.keka.com/careers/jobdetails/96794",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Software QA Intern",
+   "co": "21K School",
+   "loc": "Bengaluru",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-26",
+   "last": "",
+   "url": "https://21kschool.keka.com/careers/jobdetails/96792",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Business Analyst Intern",
+   "co": "21K School",
+   "loc": "Bengaluru",
+   "q": [
+    "com",
+    "mba"
+   ],
+   "s": [
+    "consult"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-26",
+   "last": "",
+   "url": "https://21kschool.keka.com/careers/jobdetails/96795",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Marketing Trainee – BTL (Off Campus)",
+   "co": "Sid's Farm",
+   "loc": "Pune",
+   "q": [
+    "any",
+    "mba"
+   ],
+   "s": [
+    "sales"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-26",
+   "last": "",
+   "url": "https://sidsfarm.keka.com/careers/jobdetails/83356",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Sales Development Representative Intern",
+   "co": "Xoxoday",
+   "loc": "Bengaluru",
+   "q": [
+    "any",
+    "mba"
+   ],
+   "s": [
+    "sales"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-26",
+   "last": "",
+   "url": "https://nreach.keka.com/careers/jobdetails/148223",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "SDR (US) Intern",
+   "co": "ClickPost",
+   "loc": "Bengaluru",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-26",
+   "last": "",
+   "url": "https://clickpost.keka.com/careers/jobdetails/126214",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Learning Experience Design Intern",
+   "co": "Paytm",
+   "loc": "Noida",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "design"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-26",
+   "last": "",
+   "url": "https://jobs.lever.co/paytm/c8886602-f1b7-4c08-b181-f4d36b2d0e80",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Customer Care Representative – Freshers (US/UK Voice)",
+   "co": "HCLTech",
+   "loc": "Noida",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "support"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-26",
+   "last": "",
+   "url": "https://www.linkedin.com/jobs/view/4494644456",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
   }
  ],
  "calendar": [
