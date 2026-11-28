@@ -5028,6 +5028,724 @@
    "batch": "",
    "note": "",
    "auto": 1
+  },
+  {
+   "t": "Support Engineer Trainee",
+   "co": "Michelin",
+   "loc": "Pune",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "support"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-28",
+   "last": "",
+   "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/Pune/Support-engineer-Trainee_R-2026040810",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Associate Engineer – Maintenance Systems (CMMS)",
+   "co": "Shell",
+   "loc": "Chennai",
+   "q": [
+    "civil",
+    "core",
+    "ece",
+    "mech"
+   ],
+   "s": [
+    "core"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-28",
+   "last": "",
+   "url": "https://shell.wd3.myworkdayjobs.com/shellcareers/job/SHELL-CENTRE--CHENNAI/Associate-Engineer--Computerized-Maintenance-Management-System-_R215745",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Angular Developer (Fresher)",
+   "co": "Quantela",
+   "loc": "Hyderabad",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-28",
+   "last": "",
+   "url": "https://quantela-team.freshteam.com/jobs/Cns1ioUkggb3",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Associate Technical Support Engineer",
+   "co": "ChargePoint",
+   "loc": "Bengaluru",
+   "q": [
+    "any",
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it",
+    "support"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-28",
+   "last": "",
+   "url": "https://job-boards.greenhouse.io/chargepoint/jobs/6567903002",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Young Graduate Trainee",
+   "co": "Infineon Technologies",
+   "loc": "Bengaluru",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-28",
+   "last": "",
+   "url": "https://infineon.eightfold.ai/careers/job/563808972429077?domain=infineon.com",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "IT Apprentice – Development Program",
+   "co": "Eaton",
+   "loc": "Pune",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "apprentice",
+   "posted": "2026-11-28",
+   "last": "",
+   "url": "https://eaton.eightfold.ai/careers/job/687240496341?domain=eaton.com",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Backend Engineering Intern",
+   "co": "FamPay",
+   "loc": "Bengaluru",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-28",
+   "last": "",
+   "url": "https://jobs.lever.co/fampay/cf014ef0-218a-4041-a238-ff91c7b9a5bc",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Software Engineer (UI) – Winter Intern",
+   "co": "Rubrik",
+   "loc": "Bengaluru",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "design",
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-28",
+   "last": "",
+   "url": "https://job-boards.greenhouse.io/rubrik/jobs/8413157",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "SDE Intern – Backend (Remote)",
+   "co": "Interview Kickstart",
+   "loc": "Remote",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-28",
+   "last": "",
+   "url": "https://jobs.ashbyhq.com/interview-kickstart/bf2a4802-4180-440b-b5bf-5f8058e69846",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "IT Intern",
+   "co": "Johnson Controls",
+   "loc": "Bengaluru",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-28",
+   "last": "",
+   "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Bengaluru-Karnataka-India/IT-Intern_WD30286319",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Intern – Community & Documentation",
+   "co": "FourKites",
+   "loc": "Chennai",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-28",
+   "last": "",
+   "url": "https://job-boards.greenhouse.io/fourkites/jobs/8370603",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Analog Design Intern",
+   "co": "Analog Devices",
+   "loc": "Bengaluru",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "design"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-28",
+   "last": "",
+   "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/India-Bangalore-Nova/Analog-Design-Intern_R267604",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Apprentice – Procurement Operations (GBSS)",
+   "co": "Piramal Pharma",
+   "loc": "Mumbai",
+   "q": [
+    "pharm",
+    "sci"
+   ],
+   "s": [
+    "health"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "apprentice",
+   "posted": "2026-11-28",
+   "last": "",
+   "url": "https://piramalpharma.wd102.myworkdayjobs.com/piramal_external_careers/job/Mumbai-MH/GBSS---Apprentice-Procurement-Operations_R00005217-1",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Junior Accountant – Cash Application",
+   "co": "DNV",
+   "loc": "Pune",
+   "q": [
+    "com",
+    "mba"
+   ],
+   "s": [
+    "finance"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-28",
+   "last": "",
+   "url": "https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8142",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Services Business Analyst",
+   "co": "Gartner",
+   "loc": "Gurugram",
+   "q": [
+    "com",
+    "mba"
+   ],
+   "s": [
+    "consult"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-28",
+   "last": "",
+   "url": "https://gartner.wd5.myworkdayjobs.com/EXT/job/Gurgaon/Svcs-Business-Analyst_115688",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Customer Support Analyst",
+   "co": "Danaher",
+   "loc": "Bengaluru",
+   "q": [
+    "any",
+    "com",
+    "mba"
+   ],
+   "s": [
+    "consult",
+    "support"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-28",
+   "last": "",
+   "url": "https://danaher.wd1.myworkdayjobs.com/danaherjobs/job/Bangalore-Karnataka-India/Customer-Support-Analyst_R1323049",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Blade Analyst",
+   "co": "SkySpecs",
+   "loc": "Hyderabad",
+   "q": [
+    "com",
+    "mba"
+   ],
+   "s": [
+    "consult"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-28",
+   "last": "",
+   "url": "https://skyspecs.breezy.hr/p/76c6fb3a007c",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Product Support & Customer Success Executive",
+   "co": "Beyond Key",
+   "loc": "Indore",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "support"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-28",
+   "last": "",
+   "url": "https://beyondkey.keka.com/careers/jobdetails/148377",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Associate Recruiter",
+   "co": "MongoDB",
+   "loc": "Gurugram",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "job",
+   "posted": "2026-11-28",
+   "last": "",
+   "url": "https://job-boards.greenhouse.io/mongodb/jobs/7217699",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Customer Care Apprentice",
+   "co": "Digitide",
+   "loc": "Indore",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "support"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "apprentice",
+   "posted": "2026-11-28",
+   "last": "",
+   "url": "https://iaceiz.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/273008",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Supply Chain Apprentice (1 year)",
+   "co": "Estée Lauder Companies",
+   "loc": "Mumbai",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "apprentice",
+   "posted": "2026-11-28",
+   "last": "",
+   "url": "https://careers.elcompanies.com/careers/job/1168276834818?domain=elcompanies.com",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Retail Projects Apprentice (6 months)",
+   "co": "Estée Lauder Companies",
+   "loc": "Mumbai",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "apprentice",
+   "posted": "2026-11-28",
+   "last": "",
+   "url": "https://careers.elcompanies.com/careers/job/1168276834892?domain=elcompanies.com",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Finance Intern – Collections",
+   "co": "DNV",
+   "loc": "Pune",
+   "q": [
+    "com",
+    "mba"
+   ],
+   "s": [
+    "finance"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-28",
+   "last": "",
+   "url": "https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8143",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "HR Intern",
+   "co": "66degrees",
+   "loc": "Pune",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-28",
+   "last": "",
+   "url": "https://job-boards.greenhouse.io/66degrees/jobs/6260964004",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Talent Acquisition Intern",
+   "co": "Atica",
+   "loc": "Pune",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-28",
+   "last": "",
+   "url": "https://atica.keka.com/careers/jobdetails/109388",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Talent Acquisition Intern – Product Hiring",
+   "co": "Paytm",
+   "loc": "Noida",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-28",
+   "last": "",
+   "url": "https://jobs.lever.co/paytm/088a2cf3-101d-4ce8-91a7-880551d9cfd1",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Social Media Intern",
+   "co": "Flix",
+   "loc": "Gurugram",
+   "q": [
+    "cse",
+    "ece",
+    "mca"
+   ],
+   "s": [
+    "it"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-28",
+   "last": "",
+   "url": "https://job-boards.greenhouse.io/flix/jobs/8921231002",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
+  },
+  {
+   "t": "Product Design Intern",
+   "co": "Toddle",
+   "loc": "Bengaluru",
+   "q": [
+    "any"
+   ],
+   "s": [
+    "design"
+   ],
+   "exp": [
+    0,
+    0
+   ],
+   "kind": "intern",
+   "posted": "2026-11-28",
+   "last": "",
+   "url": "https://toddle.keka.com/careers/jobdetails/36030",
+   "src": 0,
+   "sal": "",
+   "batch": "",
+   "note": "",
+   "auto": 1
   }
  ],
  "calendar": [
